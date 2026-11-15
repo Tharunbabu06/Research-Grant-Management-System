@@ -1,0 +1,842 @@
+[
+  {
+    "original": "Research-Grant-Management-System/.gitignore",
+    "relocated": ".gitignore",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab01.py",
+    "relocated": "Assignments/lab01.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab02.py",
+    "relocated": "Assignments/lab02.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab03.py",
+    "relocated": "Assignments/lab03.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab04.py",
+    "relocated": "Assignments/lab04.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab05.py",
+    "relocated": "Assignments/lab05.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab06.py",
+    "relocated": "Assignments/lab06.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab07.py",
+    "relocated": "Assignments/lab07.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab08.py",
+    "relocated": "Assignments/lab08.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab09.py",
+    "relocated": "Assignments/lab09.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab10.py",
+    "relocated": "Assignments/lab10.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab11.py",
+    "relocated": "Assignments/lab11.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab12.py",
+    "relocated": "Assignments/lab12.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab13.py",
+    "relocated": "Assignments/lab13.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Assignments/lab14.py",
+    "relocated": "Assignments/lab14.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Documentation/Build_Book.md",
+    "relocated": "Course-Project/Problem_Statement/Build_Book.md",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Documentation/Final_Report.md",
+    "relocated": "Course-Project/Final_Report/Final_Report.md",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Documentation/Final_Report.pdf",
+    "relocated": "Course-Project/Final_Report/Final_Report.pdf",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Documentation/Problem_Statement.md",
+    "relocated": "Course-Project/Problem_Statement/Problem_Statement.md",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Documentation/Verification.md",
+    "relocated": "Course-Project/docs/evidence/Historical_Verification.md",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/.dockerignore",
+    "relocated": "Course-Project/code/GrantOffice/.dockerignore",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/.gitignore",
+    "relocated": "Course-Project/code/GrantOffice/.gitignore",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/Dockerfile",
+    "relocated": "Course-Project/code/GrantOffice/Dockerfile",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/MANIFEST_SHA256.json",
+    "relocated": "Course-Project/docs/evidence/historical-app-manifest.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/README.md",
+    "relocated": "Course-Project/code/GrantOffice/README.md",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/START_HERE.html",
+    "relocated": "Course-Project/code/GrantOffice/START_HERE.html",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/app/__init__.py",
+    "relocated": "Course-Project/code/GrantOffice/app/__init__.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/app/auth.py",
+    "relocated": "Course-Project/code/GrantOffice/app/auth.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/app/connector.py",
+    "relocated": "Course-Project/code/GrantOffice/app/connector.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/app/literature.py",
+    "relocated": "Course-Project/code/GrantOffice/app/literature.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/app/llm.py",
+    "relocated": "Course-Project/code/GrantOffice/app/llm.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/app/main.py",
+    "relocated": "Course-Project/code/GrantOffice/app/main.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/app/models.py",
+    "relocated": "Course-Project/code/GrantOffice/app/models.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/app/review.py",
+    "relocated": "Course-Project/code/GrantOffice/app/review.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/app/skills.py",
+    "relocated": "Course-Project/code/GrantOffice/app/skills.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/app/store.py",
+    "relocated": "Course-Project/code/GrantOffice/app/store.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/app/workflow.py",
+    "relocated": "Course-Project/code/GrantOffice/app/workflow.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/check_llm.bat",
+    "relocated": "Course-Project/code/GrantOffice/check_llm.bat",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/compose.yaml",
+    "relocated": "Course-Project/code/GrantOffice/compose.yaml",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/catalog.json",
+    "relocated": "Course-Project/code/GrantOffice/data/catalog.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/legacy_grants_extracted.txt",
+    "relocated": "Course-Project/code/GrantOffice/data/legacy_grants_extracted.txt",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/mock/budget_personnel_mock.json",
+    "relocated": "Course-Project/code/GrantOffice/data/mock/budget_personnel_mock.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/mock/funding_call_candidates_mock.json",
+    "relocated": "Course-Project/code/GrantOffice/data/mock/funding_call_candidates_mock.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/mock/funding_call_guidelines_mock.json",
+    "relocated": "Course-Project/code/GrantOffice/data/mock/funding_call_guidelines_mock.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/mock/funding_call_schema.json",
+    "relocated": "Course-Project/code/GrantOffice/data/mock/funding_call_schema.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/mock/funding_calls_mock.json",
+    "relocated": "Course-Project/code/GrantOffice/data/mock/funding_calls_mock.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/mock/funding_source_registry_template.json",
+    "relocated": "Course-Project/code/GrantOffice/data/mock/funding_source_registry_template.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/mock/institution_policy_mock.json",
+    "relocated": "Course-Project/code/GrantOffice/data/mock/institution_policy_mock.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/originals/2022-23 Aug 22- July 2023 (1).xlsx",
+    "relocated": "Course-Project/code/GrantOffice/data/originals/2022-23 Aug 22- July 2023 (1).xlsx",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/originals/2023-24 Aug 2023- July 2024 Correct.xlsx",
+    "relocated": "Course-Project/code/GrantOffice/data/originals/2023-24 Aug 2023- July 2024 Correct.xlsx",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/originals/2024-25 Aug 2024- July 2025.xlsx",
+    "relocated": "Course-Project/code/GrantOffice/data/originals/2024-25 Aug 2024- July 2025.xlsx",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/originals/2025-26 Aug 2025  - July 2026.xlsx",
+    "relocated": "Course-Project/code/GrantOffice/data/originals/2025-26 Aug 2025  - July 2026.xlsx",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/originals/Agentic_AI_15_Worklets_14Lab_Build_Book(1).md",
+    "relocated": "Course-Project/code/GrantOffice/data/originals/Agentic_AI_15_Worklets_14Lab_Build_Book(1).md",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/originals/Applied_Sanctioned_Grants_2025-26-Format.xlsx",
+    "relocated": "Course-Project/code/GrantOffice/data/originals/Applied_Sanctioned_Grants_2025-26-Format.xlsx",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/originals/External_Funded_Project_List.xlsx",
+    "relocated": "Course-Project/code/GrantOffice/data/originals/External_Funded_Project_List.xlsx",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/originals/Grant_Agent_Dataset_Audit_and_Mock_Data.zip",
+    "relocated": "Course-Project/code/GrantOffice/data/originals/Grant_Agent_Dataset_Audit_and_Mock_Data.zip",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/originals/Sanctioned_External Funded Projects 2013-2024 updated.doc",
+    "relocated": "Course-Project/code/GrantOffice/data/originals/Sanctioned_External Funded Projects 2013-2024 updated.doc",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2022-23 Aug 22- July 2023 (1)-Faculty Papers.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2022-23 Aug 22- July 2023 (1)-Faculty Papers.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2022-23 Aug 22- July 2023 (1)-M.Tech.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2022-23 Aug 22- July 2023 (1)-M.Tech.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2022-23 Aug 22- July 2023 (1)-Master Copy.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2022-23 Aug 22- July 2023 (1)-Master Copy.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2022-23 Aug 22- July 2023 (1)-NBA students Papers.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2022-23 Aug 22- July 2023 (1)-NBA students Papers.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2022-23 Aug 22- July 2023 (1)-Total Publication( Sudha T).csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2022-23 Aug 22- July 2023 (1)-Total Publication( Sudha T).csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2023-24 Aug 2023- July 2024 Correct-Faculty Papers.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2023-24 Aug 2023- July 2024 Correct-Faculty Papers.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2023-24 Aug 2023- July 2024 Correct-M.Tech.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2023-24 Aug 2023- July 2024 Correct-M.Tech.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2023-24 Aug 2023- July 2024 Correct-MASTER.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2023-24 Aug 2023- July 2024 Correct-MASTER.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2023-24 Aug 2023- July 2024 Correct-NBA Student Papers.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2023-24 Aug 2023- July 2024 Correct-NBA Student Papers.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2023-24 Aug 2023- July 2024 Correct-NBA.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2023-24 Aug 2023- July 2024 Correct-NBA.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2024-25 Aug 2024- July 2025-Faculty.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2024-25 Aug 2024- July 2025-Faculty.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2024-25 Aug 2024- July 2025-M.Tech.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2024-25 Aug 2024- July 2025-M.Tech.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2024-25 Aug 2024- July 2025-Master Data.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2024-25 Aug 2024- July 2025-Master Data.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2024-25 Aug 2024- July 2025-NBA Student Papers.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2024-25 Aug 2024- July 2025-NBA Student Papers.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2024-25 Aug 2024- July 2025-Total Publication UG.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2024-25 Aug 2024- July 2025-Total Publication UG.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2025-26 Aug 2025  - July 2026-Master Copy as it is Reserg.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2025-26 Aug 2025  - July 2026-Master Copy as it is Reserg.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/2025-26 Aug 2025  - July 2026-NBA Students.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/2025-26 Aug 2025  - July 2026-NBA Students.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/data/supplement/Sanctioned_External_Funded_Projects_2013_2024_Details.csv",
+    "relocated": "Course-Project/code/GrantOffice/data/supplement/Sanctioned_External_Funded_Projects_2013_2024_Details.csv",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/docs/ARCHITECTURE.md",
+    "relocated": "Course-Project/docs/ARCHITECTURE.md",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/docs/DATA_AUDIT.md",
+    "relocated": "Course-Project/docs/DATA_AUDIT.md",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/docs/LAB_MAPPING.md",
+    "relocated": "Course-Project/docs/LAB_MAPPING.md",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/docs/OLLAMA.md",
+    "relocated": "Course-Project/docs/OLLAMA.md",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/docs/OPERATIONS.md",
+    "relocated": "Course-Project/docs/OPERATIONS.md",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/docs/TEST_REPORT.md",
+    "relocated": "Course-Project/docs/evidence/Historical_Test_Report.md",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/docs/UPGRADE.md",
+    "relocated": "Course-Project/docs/UPGRADE.md",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/docs/USAGE_GUIDE.md",
+    "relocated": "Course-Project/docs/USAGE_GUIDE.md",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/docs/WINDOWS_SETUP.md",
+    "relocated": "Course-Project/docs/WINDOWS_SETUP.md",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/docs/acceptance-results.xml",
+    "relocated": "Course-Project/docs/evidence/historical-acceptance-results.xml",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/docs/lab_verification.json",
+    "relocated": "Course-Project/docs/evidence/historical-lab-verification.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/import_previous_data.bat",
+    "relocated": "Course-Project/code/GrantOffice/import_previous_data.bat",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/notebooks/Lab01_Planner.ipynb",
+    "relocated": "Course-Project/code/GrantOffice/notebooks/Lab01_Planner.ipynb",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/requirements-lock.txt",
+    "relocated": "Course-Project/code/GrantOffice/requirements-lock.txt",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/requirements.txt",
+    "relocated": "Course-Project/code/GrantOffice/requirements.txt",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/reset_account_password.bat",
+    "relocated": "Course-Project/code/GrantOffice/reset_account_password.bat",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/reset_faculty_password.bat",
+    "relocated": "Course-Project/code/GrantOffice/reset_faculty_password.bat",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/scripts/backup.py",
+    "relocated": "Course-Project/code/GrantOffice/scripts/backup.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/scripts/benchmark.py",
+    "relocated": "Course-Project/code/GrantOffice/scripts/benchmark.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/scripts/check_llm.py",
+    "relocated": "Course-Project/code/GrantOffice/scripts/check_llm.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/scripts/doctor.py",
+    "relocated": "Course-Project/code/GrantOffice/scripts/doctor.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/scripts/example_workflow.py",
+    "relocated": "Course-Project/code/GrantOffice/scripts/example_workflow.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/scripts/import_data.py",
+    "relocated": "Course-Project/code/GrantOffice/scripts/import_data.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/scripts/merge_supplement.py",
+    "relocated": "Course-Project/code/GrantOffice/scripts/merge_supplement.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/scripts/migrate_runtime.py",
+    "relocated": "Course-Project/code/GrantOffice/scripts/migrate_runtime.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/scripts/reset_password.py",
+    "relocated": "Course-Project/code/GrantOffice/scripts/reset_password.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/scripts/serve.py",
+    "relocated": "Course-Project/code/GrantOffice/scripts/serve.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/scripts/setup_users.py",
+    "relocated": "Course-Project/code/GrantOffice/scripts/setup_users.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/scripts/ui_smoke.py",
+    "relocated": "Course-Project/code/GrantOffice/scripts/ui_smoke.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/scripts/verify_labs.py",
+    "relocated": "Course-Project/code/GrantOffice/scripts/verify_labs.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/setup.bat",
+    "relocated": "Course-Project/code/GrantOffice/setup.bat",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/setup_llm.bat",
+    "relocated": "Course-Project/code/GrantOffice/setup_llm.bat",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/start.bat",
+    "relocated": "Course-Project/code/GrantOffice/start.bat",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/start.sh",
+    "relocated": "Course-Project/code/GrantOffice/start.sh",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/start_ollama.bat",
+    "relocated": "Course-Project/code/GrantOffice/start_ollama.bat",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/static/app.js",
+    "relocated": "Course-Project/code/GrantOffice/static/app.js",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/static/index.html",
+    "relocated": "Course-Project/code/GrantOffice/static/index.html",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/static/style.css",
+    "relocated": "Course-Project/code/GrantOffice/static/style.css",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/test.bat",
+    "relocated": "Course-Project/code/GrantOffice/test.bat",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/tests/conftest.py",
+    "relocated": "Course-Project/code/GrantOffice/tests/conftest.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/tests/test_acceptance.py",
+    "relocated": "Course-Project/code/GrantOffice/tests/test_acceptance.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/tests/test_v2.py",
+    "relocated": "Course-Project/code/GrantOffice/tests/test_v2.py",
+    "content_unchanged": false
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/GrantOffice/verify_14_labs.bat",
+    "relocated": "Course-Project/code/GrantOffice/verify_14_labs.bat",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/agents/budget_planning.py",
+    "relocated": "Course-Project/code/Lab_Support/agents/budget_planning.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/agents/compliance_checking.py",
+    "relocated": "Course-Project/code/Lab_Support/agents/compliance_checking.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/agents/funding_discovery.py",
+    "relocated": "Course-Project/code/Lab_Support/agents/funding_discovery.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/agents/literature_review.py",
+    "relocated": "Course-Project/code/Lab_Support/agents/literature_review.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/agents/proposal_drafting.py",
+    "relocated": "Course-Project/code/Lab_Support/agents/proposal_drafting.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/agents/submission.py",
+    "relocated": "Course-Project/code/Lab_Support/agents/submission.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/connector/__init__.py",
+    "relocated": "Course-Project/code/Lab_Support/connector/__init__.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/connector/client.py",
+    "relocated": "Course-Project/code/Lab_Support/connector/client.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/connector/grant_connector.py",
+    "relocated": "Course-Project/code/Lab_Support/connector/grant_connector.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/data/budget_data.json",
+    "relocated": "Course-Project/code/Lab_Support/data/budget_data.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/data/compliance_rules.json",
+    "relocated": "Course-Project/code/Lab_Support/data/compliance_rules.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/data/funding_call_candidates.json",
+    "relocated": "Course-Project/code/Lab_Support/data/funding_call_candidates.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/data/funding_calls.json",
+    "relocated": "Course-Project/code/Lab_Support/data/funding_calls.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/data/institutional/institutional_research_profile.json",
+    "relocated": "Course-Project/code/Lab_Support/data/institutional/institutional_research_profile.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/data/mock/budget_personnel_mock.json",
+    "relocated": "Course-Project/code/Lab_Support/data/mock/budget_personnel_mock.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/data/mock/funding_call_candidates_mock.json",
+    "relocated": "Course-Project/code/Lab_Support/data/mock/funding_call_candidates_mock.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/data/mock/funding_call_guidelines_mock.json",
+    "relocated": "Course-Project/code/Lab_Support/data/mock/funding_call_guidelines_mock.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/data/mock/funding_call_schema.json",
+    "relocated": "Course-Project/code/Lab_Support/data/mock/funding_call_schema.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/data/mock/funding_calls_mock.json",
+    "relocated": "Course-Project/code/Lab_Support/data/mock/funding_calls_mock.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/data/mock/funding_source_registry_template.json",
+    "relocated": "Course-Project/code/Lab_Support/data/mock/funding_source_registry_template.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/data/mock/institution_policy_mock.json",
+    "relocated": "Course-Project/code/Lab_Support/data/mock/institution_policy_mock.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/data/proposal_history.json",
+    "relocated": "Course-Project/code/Lab_Support/data/proposal_history.json",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/graph/__init__.py",
+    "relocated": "Course-Project/code/Lab_Support/graph/__init__.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/graph/evidence.py",
+    "relocated": "Course-Project/code/Lab_Support/graph/evidence.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/graph/grant_graph.py",
+    "relocated": "Course-Project/code/Lab_Support/graph/grant_graph.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/graph/lab10_resilience.py",
+    "relocated": "Course-Project/code/Lab_Support/graph/lab10_resilience.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/graph/lab11_acceptance.py",
+    "relocated": "Course-Project/code/Lab_Support/graph/lab11_acceptance.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/graph/lab12_governance.py",
+    "relocated": "Course-Project/code/Lab_Support/graph/lab12_governance.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/graph/lab13_specialists.py",
+    "relocated": "Course-Project/code/Lab_Support/graph/lab13_specialists.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/graph/lab14_capstone.py",
+    "relocated": "Course-Project/code/Lab_Support/graph/lab14_capstone.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/graph/langgraph_grant.py",
+    "relocated": "Course-Project/code/Lab_Support/graph/langgraph_grant.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/graph/langgraph_swarm.py",
+    "relocated": "Course-Project/code/Lab_Support/graph/langgraph_swarm.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/memory/retrieval.py",
+    "relocated": "Course-Project/code/Lab_Support/memory/retrieval.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/memory/session_state.py",
+    "relocated": "Course-Project/code/Lab_Support/memory/session_state.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/requirements.txt",
+    "relocated": "Course-Project/code/Lab_Support/requirements.txt",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/runtime/__init__.py",
+    "relocated": "Course-Project/code/Lab_Support/runtime/__init__.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/runtime/runtime_controller.py",
+    "relocated": "Course-Project/code/Lab_Support/runtime/runtime_controller.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/skills/formatting_skill.py",
+    "relocated": "Course-Project/code/Lab_Support/skills/formatting_skill.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/skills/planning_skill.py",
+    "relocated": "Course-Project/code/Lab_Support/skills/planning_skill.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/swarm/__init__.py",
+    "relocated": "Course-Project/code/Lab_Support/swarm/__init__.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/swarm/parallel_workers.py",
+    "relocated": "Course-Project/code/Lab_Support/swarm/parallel_workers.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/tests/test_lab10_resilience.py",
+    "relocated": "Course-Project/code/Lab_Support/tests/test_lab10_resilience.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/tests/test_lab11_acceptance.py",
+    "relocated": "Course-Project/code/Lab_Support/tests/test_lab11_acceptance.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/tests/test_lab12_governance.py",
+    "relocated": "Course-Project/code/Lab_Support/tests/test_lab12_governance.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/tests/test_lab13_specialists.py",
+    "relocated": "Course-Project/code/Lab_Support/tests/test_lab13_specialists.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/tests/test_lab14_capstone.py",
+    "relocated": "Course-Project/code/Lab_Support/tests/test_lab14_capstone.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/tests/test_lab9_evidence.py",
+    "relocated": "Course-Project/code/Lab_Support/tests/test_lab9_evidence.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/tests/test_lab9_literature_relevance.py",
+    "relocated": "Course-Project/code/Lab_Support/tests/test_lab9_literature_relevance.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/Course_Project/Lab_Support/tools/grant_tools.py",
+    "relocated": "Course-Project/code/Lab_Support/tools/grant_tools.py",
+    "content_unchanged": true
+  },
+  {
+    "original": "Research-Grant-Management-System/README.md",
+    "relocated": "README.md",
+    "content_unchanged": false
+  }
+]

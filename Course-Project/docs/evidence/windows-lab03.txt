@@ -1,0 +1,134 @@
+
+======================================================================
+RESEARCH GRANT MANAGEMENT SYSTEM
+LAB 3 - REUSABLE SKILLS
+======================================================================
+
+Testing Skill Reusability...
+
+======================================================================
+CASE 1
+======================================================================
+
+======================================================================
+PLANNING SKILL
+======================================================================
+
+Creating plan using reusable skill...
+
+Plan created and locked.
+
+======================================================================
+LOCKED PLAN
+======================================================================
+
+Research Area: AI-based cardiovascular monitoring
+Funding Type: Government research grant
+Plan Status: locked
+
+Proposal Outline:
+1. Define the research problem
+2. Prepare research objectives
+3. Prepare methodology
+4. Prepare project timeline
+5. Prepare expected outcomes
+
+Compliance Outline:
+1. Identify applicable proposal requirements
+2. Prepare required supporting information
+3. Review the proposal against the requirements
+
+======================================================================
+FORMATTING SKILL
+======================================================================
+
+Grant document shell created.
+
+======================================================================
+FORMATTED GRANT DOCUMENT
+======================================================================
+
+Title: Grant Proposal and Compliance Package
+Status: draft
+
+Sections:
+1. Research Area
+   Content: AI-based cardiovascular monitoring
+2. Funding Type
+   Content: Government research grant
+3. Abstract
+4. Objectives
+5. Methodology
+6. Timeline
+7. Expected Outcomes
+8. Budget
+9. Compliance
+
+======================================================================
+CASE 2
+======================================================================
+
+======================================================================
+PLANNING SKILL
+======================================================================
+
+Creating plan using reusable skill...
+
+Plan created and locked.
+
+======================================================================
+LOCKED PLAN
+======================================================================
+
+Research Area: AI-based agricultural disease detection
+Funding Type: Government research grant
+Plan Status: locked
+
+Proposal Outline:
+1. Define the research problem
+2. Prepare research objectives
+3. Prepare methodology
+4. Prepare project timeline
+5. Prepare expected outcomes
+
+Compliance Outline:
+1. Identify applicable proposal requirements
+2. Prepare required supporting information
+3. Review the proposal against the requirements
+
+======================================================================
+FORMATTING SKILL
+======================================================================
+
+Grant document shell created.
+
+======================================================================
+FORMATTED GRANT DOCUMENT
+======================================================================
+
+Title: Grant Proposal and Compliance Package
+Status: draft
+
+Sections:
+1. Research Area
+   Content: AI-based agricultural disease detection
+2. Funding Type
+   Content: Government research grant
+3. Abstract
+4. Objectives
+5. Methodology
+6. Timeline
+7. Expected Outcomes
+8. Budget
+9. Compliance
+
+======================================================================
+LAB 3 COMPLETED
+======================================================================
+
+Two different cases were processed
+using the same planning skill.
+Two different cases were formatted
+using the same formatting skill.
+
+Skill reuse test completed successfully.

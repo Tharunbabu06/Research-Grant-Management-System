@@ -1,0 +1,20 @@
+{
+  "environment": "Windows, Python 3.13.7",
+  "startup": "scripts/serve.py with browser opening suppressed",
+  "storage": "TemporaryDirectory; cleaned after check",
+  "health": {
+    "status": "ok",
+    "engine": "LangGraph",
+    "external_submission": "disabled; manual agency portal submission only"
+  },
+  "http_status": {
+    "/api/health": 200,
+    "/": 200,
+    "/static/app.js": 200,
+    "/static/style.css": 200,
+    "/api/labs (authenticated; 14 capability mappings)": 200
+  },
+  "live_ollama": false,
+  "live_scholarly_services": false,
+  "preserved_runtime_unchanged": true
+}

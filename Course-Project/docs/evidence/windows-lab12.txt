@@ -1,0 +1,25 @@
+
+======================================================================
+LANGGRAPH NODE: LAB 12 SAFETY & GOVERNANCE
+======================================================================
+No explicit reviewer decision supplied; no release was published.
+Governance status: pending_human_approval
+test_acceptance_failure_blocks_release (test_lab12_governance.TestLab12Governance.test_acceptance_failure_blocks_release) ... ok
+test_approval_identity_must_match_reviewer (test_lab12_governance.TestLab12Governance.test_approval_identity_must_match_reviewer) ... ok
+test_approved_validated_artifact_creates_versioned_release_and_audit (test_lab12_governance.TestLab12Governance.test_approved_validated_artifact_creates_versioned_release_and_audit) ... ok
+test_cross_department_confidential_access_is_denied (test_lab12_governance.TestLab12Governance.test_cross_department_confidential_access_is_denied) ... ok
+test_metrics_are_reported_without_changing_state (test_lab12_governance.TestLab12Governance.test_metrics_are_reported_without_changing_state) ... ok
+test_missing_explicit_human_approval_blocks_release (test_lab12_governance.TestLab12Governance.test_missing_explicit_human_approval_blocks_release) ... ok
+test_owner_can_read_owned_resource (test_lab12_governance.TestLab12Governance.test_owner_can_read_owned_resource) ... ok
+test_pending_review_does_not_publish (test_lab12_governance.TestLab12Governance.test_pending_review_does_not_publish) ... ok
+test_rollback_creates_new_version_and_preserves_old_releases (test_lab12_governance.TestLab12Governance.test_rollback_creates_new_version_and_preserves_old_releases) ... ok
+test_rollback_requires_explicit_permission (test_lab12_governance.TestLab12Governance.test_rollback_requires_explicit_permission) ... ok
+test_unauthorized_role_cannot_publish (test_lab12_governance.TestLab12Governance.test_unauthorized_role_cannot_publish) ... ok
+test_validation_failure_blocks_release (test_lab12_governance.TestLab12Governance.test_validation_failure_blocks_release) ... ok
+test_governance_node_leaves_unapproved_package_unpublished (test_lab12_governance.TestLab12GraphIntegration.test_governance_node_leaves_unapproved_package_unpublished) ... ok
+test_graph_compiles_with_governance_node (test_lab12_governance.TestLab12GraphIntegration.test_graph_compiles_with_governance_node) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.077s
+
+OK

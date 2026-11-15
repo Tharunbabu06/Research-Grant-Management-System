@@ -1,0 +1,20 @@
+test_langgraph_compiles_when_dependency_is_available (test_lab13_specialists.TestLab13GraphWiring.test_langgraph_compiles_when_dependency_is_available) ... ok
+test_specialist_node_is_registered_and_wired_between_drafting_and_budget (test_lab13_specialists.TestLab13GraphWiring.test_specialist_node_is_registered_and_wired_between_drafting_and_budget) ... ok
+test_explicit_supported_profile_overrides_inference (test_lab13_specialists.TestLab13Specialists.test_explicit_supported_profile_overrides_inference) ... ok
+test_government_profile_inferred_from_current_plan (test_lab13_specialists.TestLab13Specialists.test_government_profile_inferred_from_current_plan) ... ok
+test_industry_profile_inferred_from_industry_call (test_lab13_specialists.TestLab13Specialists.test_industry_profile_inferred_from_industry_call) ... ok
+test_international_profile_has_priority_for_cross_border_call (test_lab13_specialists.TestLab13Specialists.test_international_profile_has_priority_for_cross_border_call) ... ok
+test_missing_required_proposal_field_fails_contract (test_lab13_specialists.TestLab13Specialists.test_missing_required_proposal_field_fails_contract) ... ok
+test_original_proposal_is_not_mutated (test_lab13_specialists.TestLab13Specialists.test_original_proposal_is_not_mutated) ... ok
+test_profile_lookup_returns_defensive_copy (test_lab13_specialists.TestLab13Specialists.test_profile_lookup_returns_defensive_copy) ... ok
+test_specialist_output_is_checkable_and_does_not_claim_compliance (test_lab13_specialists.TestLab13Specialists.test_specialist_output_is_checkable_and_does_not_claim_compliance) ... ok
+test_three_profiles_are_registered (test_lab13_specialists.TestLab13Specialists.test_three_profiles_are_registered) ... ok
+test_unknown_profile_inference_fails_closed (test_lab13_specialists.TestLab13Specialists.test_unknown_profile_inference_fails_closed) ... ok
+test_unsupported_profile_does_not_apply_a_specialist (test_lab13_specialists.TestLab13Specialists.test_unsupported_profile_does_not_apply_a_specialist) ... ok
+test_unverified_call_does_not_become_source_ready (test_lab13_specialists.TestLab13Specialists.test_unverified_call_does_not_become_source_ready) ... ok
+test_verified_source_is_referenced_but_compliance_stays_pending (test_lab13_specialists.TestLab13Specialists.test_verified_source_is_referenced_but_compliance_stays_pending) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.146s
+
+OK

@@ -1,0 +1,80 @@
+
+======================================================================
+RESEARCH GRANT MANAGEMENT SYSTEM
+LAB 8 - LANGGRAPH PARALLEL SWARM
+======================================================================
+
+LangGraph swarm compiled successfully.
+
+======================================================================
+LANGGRAPH NODE: LOCKED PLAN
+======================================================================
+
+Research Area: AI-based cardiovascular monitoring
+Funding Type: Government research grant
+Plan Status: locked
+
+======================================================================
+LANGGRAPH NODE: CREATE WORK ITEMS
+======================================================================
+
+Work items created: 3
+W001: AI-based cardiovascular monitoring
+W002: Medical artificial intelligence
+W003: AI-based biomedical sensing
+
+======================================================================
+LANGGRAPH FAN-OUT
+======================================================================
+
+Created 3 parallel worker tasks.
+
+Worker W001 started.
+
+Worker W002 started.
+
+Worker W003 started.
+Worker W001 completed. Alignment = 2
+Worker W002 completed. Alignment = 1
+Worker W003 completed. Alignment = 1
+
+======================================================================
+LANGGRAPH NODE: MERGE / SELECTOR
+======================================================================
+
+Parallel results received: 3
+
+Ranked results:
+1. W001 - Alignment: 2
+2. W002 - Alignment: 1
+3. W003 - Alignment: 1
+
+Selected: W001
+Selected title: Research Proposal on AI-based cardiovascular monitoring
+Selection reason: Selected the result with the highest alignment to the locked plan.
+
+======================================================================
+LAB 8 RESULT
+======================================================================
+
+Total work items: 3
+Parallel worker results: 3
+Selected result: W001
+Selected research area: AI-based cardiovascular monitoring
+Selected alignment score: 2
+Parallel execution time: 1.01 seconds
+
+Selection method:
+Selected the result with the highest alignment to the locked plan.
+
+======================================================================
+LAB 8 ACCEPTANCE CHECKS
+======================================================================
+Three work items: PASS
+All workers returned results: PASS
+Merge selected a result: PASS
+Selection uses highest plan alignment: PASS
+
+======================================================================
+LAB 8 COMPLETED USING LANGGRAPH
+======================================================================

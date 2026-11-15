@@ -1,0 +1,29 @@
+
+ROUTER: Validation FAIL -> Targeted Regenerate
+Repairable checks: budget_totals_reconcile
+
+ROUTER: No safe automated repair exists -> Human Review
+- eligibility_and_compliance_met: Eligibility and compliance are not both confirmed. Check the selected call's explicit eligibility status and the compliance checklist against the call's guidelines.
+- compliance_passed: Compliance has not passed. Inspect the individual failed rules and their evidence. Never change the status to pass without resolving and rechecking those rules.
+
+ROUTER: Retry budget exhausted (3/3) -> Human Review
+
+ROUTER: No safe automated repair exists -> Human Review
+- no_submission_without_approval: The package appears submitted without recorded PI / Research Office approval. Stop external actions and escalate for human review.
+
+ROUTER: No safe automated repair exists -> Human Review
+- deadline_tracked: At least one selected funding call has no parseable deadline. Verify the deadline from its source.
+test_budget_total_fault_is_detected_repaired_and_revalidated_within_retry_budget (test_lab10_resilience.TestLab10LangGraphFailureInjection.test_budget_total_fault_is_detected_repaired_and_revalidated_within_retry_budget) ... ok
+test_compliance_failure_routes_to_human_review (test_lab10_resilience.TestLab10LangGraphFailureInjection.test_compliance_failure_routes_to_human_review) ... ok
+test_retry_limit_routes_to_human_review (test_lab10_resilience.TestLab10LangGraphFailureInjection.test_retry_limit_routes_to_human_review) ... ok
+test_submitted_package_without_pi_approval_routes_to_human_review (test_lab10_resilience.TestLab10LangGraphFailureInjection.test_submitted_package_without_pi_approval_routes_to_human_review) ... ok
+test_untracked_deadline_routes_to_human_review (test_lab10_resilience.TestLab10LangGraphFailureInjection.test_untracked_deadline_routes_to_human_review) ... ok
+test_budget_ceiling_without_explicit_adjustment_policy_is_not_repairable (test_lab10_resilience.TestLab10RepairHelpers.test_budget_ceiling_without_explicit_adjustment_policy_is_not_repairable) ... ok
+test_compliance_failure_is_not_automatically_cleared (test_lab10_resilience.TestLab10RepairHelpers.test_compliance_failure_is_not_automatically_cleared) ... ok
+test_injected_budget_total_fault_is_repaired_without_changing_items (test_lab10_resilience.TestLab10RepairHelpers.test_injected_budget_total_fault_is_repaired_without_changing_items) ... ok
+test_injected_ceiling_fault_changes_only_explicitly_adjustable_items (test_lab10_resilience.TestLab10RepairHelpers.test_injected_ceiling_fault_changes_only_explicitly_adjustable_items) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK

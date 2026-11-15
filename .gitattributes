@@ -1,0 +1,10 @@
+# Preserve supplied reports and college source artifacts byte for byte on Windows.
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xlsx binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.sh text eol=lf

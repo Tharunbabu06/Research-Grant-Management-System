@@ -1,0 +1,18 @@
+test_funding_source_fields_are_mapped (test_lab9_evidence.TestEvidenceValidation.test_funding_source_fields_are_mapped) ... ok
+test_irrelevant_evidence_is_rejected (test_lab9_evidence.TestEvidenceValidation.test_irrelevant_evidence_is_rejected) ... ok
+test_missing_excerpt_is_rejected (test_lab9_evidence.TestEvidenceValidation.test_missing_excerpt_is_rejected) ... ok
+test_unverified_funding_call_is_rejected (test_lab9_evidence.TestEvidenceValidation.test_unverified_funding_call_is_rejected) ... ok
+test_unverified_source_is_rejected (test_lab9_evidence.TestEvidenceValidation.test_unverified_source_is_rejected) ... ok
+test_valid_evidence_is_accepted (test_lab9_evidence.TestEvidenceValidation.test_valid_evidence_is_accepted) ... ok
+test_ai_cardiac_tissue_paper_without_relevant_task_is_rejected (test_lab9_literature_relevance.TestLab9LiteratureRelevance.test_ai_cardiac_tissue_paper_without_relevant_task_is_rejected) ... ok
+test_cardiometabolic_medication_review_without_ai_method_is_rejected (test_lab9_literature_relevance.TestLab9LiteratureRelevance.test_cardiometabolic_medication_review_without_ai_method_is_rejected) ... ok
+test_cardiovascular_paper_without_ai_method_is_rejected (test_lab9_literature_relevance.TestLab9LiteratureRelevance.test_cardiovascular_paper_without_ai_method_is_rejected) ... ok
+test_endourology_idiom_at_the_heart_is_not_cardiovascular_evidence (test_lab9_literature_relevance.TestLab9LiteratureRelevance.test_endourology_idiom_at_the_heart_is_not_cardiovascular_evidence) ... ok
+test_general_ai_healthcare_paper_without_cardiovascular_terms_is_rejected (test_lab9_literature_relevance.TestLab9LiteratureRelevance.test_general_ai_healthcare_paper_without_cardiovascular_terms_is_rejected) ... ok
+test_myocardial_injury_prediction_is_topically_relevant (test_lab9_literature_relevance.TestLab9LiteratureRelevance.test_myocardial_injury_prediction_is_topically_relevant) ... ok
+test_relevant_cardiovascular_ai_prediction_paper_passes_topical_screen (test_lab9_literature_relevance.TestLab9LiteratureRelevance.test_relevant_cardiovascular_ai_prediction_paper_passes_topical_screen) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.000s
+
+OK

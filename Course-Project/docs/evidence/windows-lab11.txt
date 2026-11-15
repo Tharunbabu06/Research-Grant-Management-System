@@ -1,0 +1,17 @@
+test_budget_mismatch_fails_acceptance (test_lab11_acceptance.TestLab11AcceptanceSuite.test_budget_mismatch_fails_acceptance) ... ok
+test_complete_artifact_passes_every_acceptance_check (test_lab11_acceptance.TestLab11AcceptanceSuite.test_complete_artifact_passes_every_acceptance_check) ... ok
+test_compliance_cannot_be_assumed_passed (test_lab11_acceptance.TestLab11AcceptanceSuite.test_compliance_cannot_be_assumed_passed) ... ok
+test_missing_grounding_fails_acceptance (test_lab11_acceptance.TestLab11AcceptanceSuite.test_missing_grounding_fails_acceptance) ... ok
+test_package_plan_mismatch_fails_acceptance (test_lab11_acceptance.TestLab11AcceptanceSuite.test_package_plan_mismatch_fails_acceptance) ... ok
+test_pending_eligibility_fails_acceptance (test_lab11_acceptance.TestLab11AcceptanceSuite.test_pending_eligibility_fails_acceptance) ... ok
+test_submission_without_pi_approval_fails_acceptance (test_lab11_acceptance.TestLab11AcceptanceSuite.test_submission_without_pi_approval_fails_acceptance) ... ok
+test_unverified_funding_source_fails_acceptance (test_lab11_acceptance.TestLab11AcceptanceSuite.test_unverified_funding_source_fails_acceptance) ... ok
+test_failed_acceptance_does_not_route_to_human_review (test_lab11_acceptance.TestLab11GateIntegration.test_failed_acceptance_does_not_route_to_human_review) ... ok
+test_graph_compiles_with_acceptance_gate (test_lab11_acceptance.TestLab11GateIntegration.test_graph_compiles_with_acceptance_gate) ... ok
+test_human_review_gate_allows_only_a_validated_accepted_artifact (test_lab11_acceptance.TestLab11GateIntegration.test_human_review_gate_allows_only_a_validated_accepted_artifact) ... ok
+test_human_review_gate_blocks_when_acceptance_was_not_recorded (test_lab11_acceptance.TestLab11GateIntegration.test_human_review_gate_blocks_when_acceptance_was_not_recorded) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.019s
+
+OK

@@ -1,0 +1,8 @@
+# Shared entry point, Python 3.11-3.13 (3.12 recommended).
+# From repository root: python -m pip install -r requirements.txt
+# Reuse the supplied application lock and compatible app/lab ranges.
+# Current verification: Course-Project/docs/Verification.md.
+# Ollama and Qwen weights are installed separately.
+-c Course-Project/code/GrantOffice/requirements-lock.txt
+-r Course-Project/code/GrantOffice/requirements.txt
+-r Course-Project/code/Lab_Support/requirements.txt

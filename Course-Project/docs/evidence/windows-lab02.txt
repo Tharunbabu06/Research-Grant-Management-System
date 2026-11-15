@@ -1,0 +1,59 @@
+
+======================================================================
+RESEARCH GRANT MANAGEMENT SYSTEM
+LAB 2 - TOOL-USING AGENT
+======================================================================
+
+======================================================================
+TOOL 1 - READING FUNDING CALLS
+======================================================================
+
+Funding calls found: 2
+
+Agency: SERB
+Call: AI for Healthcare Research
+Deadline: 2027-01-15
+Funding Type: Government
+Budget Ceiling: 2500000
+
+Agency: DBT
+Call: Biomedical AI Research
+Deadline: 2027-03-20
+Funding Type: Government
+Budget Ceiling: 2000000
+
+======================================================================
+TOOL 2 - READING BUDGET DATA
+======================================================================
+equipment: ₹800,000.00
+personnel: ₹900,000.00
+software: ₹150,000.00
+travel: ₹100,000.00
+contingency: ₹50,000.00
+
+======================================================================
+TOOL 3 - COMPUTING BUDGET
+======================================================================
+
+Calculated Total: ₹2,000,000.00
+
+======================================================================
+TOOL 4 - VALIDATING BUDGET
+======================================================================
+
+Budget Total: ₹2,000,000.00
+Budget Ceiling: ₹2,500,000.00
+
+STATUS: VALID
+Budget is within the allowed ceiling.
+
+======================================================================
+LAB 2 RESULT
+======================================================================
+
+Funding calls successfully retrieved using tool.
+Budget data successfully retrieved using tool.
+Budget successfully calculated using tool.
+Budget successfully validated using tool.
+
+Lab 2 tool execution completed.

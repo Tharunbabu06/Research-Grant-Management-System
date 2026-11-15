@@ -1,0 +1,113 @@
+
+======================================================================
+RESEARCH GRANT MANAGEMENT SYSTEM
+LAB 4 - MEMORY & RETRIEVAL
+======================================================================
+
+======================================================================
+SHORT-TERM SESSION STATE
+======================================================================
+
+Current Request:
+Prepare a government research grant proposal for AI-based cardiovascular monitoring.
+
+Current Plan:
+{'research_area': 'AI-based cardiovascular monitoring', 'funding_type': 'Government research grant', 'duration': '24 months'}
+
+Current Draft:
+This research proposes an AI-based cardiovascular monitoring system for early identification of cardiovascular abnormalities using physiological and health-related data.
+
+======================================================================
+LONG-TERM MEMORY - TAG RETRIEVAL
+======================================================================
+
+Search Tags:
+  - AI
+  - healthcare
+  - cardiovascular
+
+Matching records: 5
+
+ID: P001
+Title: AI-Based Cardiac Risk Prediction
+Research Area: AI-based cardiovascular monitoring
+Tags: AI, healthcare, cardiovascular, medical, government
+
+ID: P002
+Title: Deep Learning for Medical Image Analysis
+Research Area: Medical artificial intelligence
+Tags: AI, healthcare, medical, deep-learning, government
+
+ID: P003
+Title: AI-Based Crop Disease Detection
+Research Area: AI-based agricultural disease detection
+Tags: AI, agriculture, computer-vision, government
+
+ID: P004
+Title: Biomedical Sensor Monitoring
+Research Area: Biomedical sensing and monitoring
+Tags: biomedical, sensors, healthcare, monitoring, government
+
+ID: P005
+Title: AI for Hospital Decision Support
+Research Area: Healthcare AI decision support
+Tags: AI, healthcare, decision-support, medical, government
+
+======================================================================
+LONG-TERM MEMORY - SIMILARITY RETRIEVAL
+======================================================================
+
+Current Draft Used for Similarity:
+This research proposes an AI-based cardiovascular monitoring system for early identification of cardiovascular abnormalities using physiological and health-related data.
+
+Similar Historical Proposals:
+
+1. AI-Based Cardiac Risk Prediction
+   Similarity: 0.5808
+   Research Area: AI-based cardiovascular monitoring
+
+2. Biomedical Sensor Monitoring
+   Similarity: 0.2861
+   Research Area: Biomedical sensing and monitoring
+
+3. AI-Based Crop Disease Detection
+   Similarity: 0.1903
+   Research Area: AI-based agricultural disease detection
+
+4. AI for Hospital Decision Support
+   Similarity: 0.1815
+   Research Area: Healthcare AI decision support
+
+5. Deep Learning for Medical Image Analysis
+   Similarity: 0.1106
+   Research Area: Medical artificial intelligence
+
+======================================================================
+MEMORY SEPARATION
+======================================================================
+
+SHORT-TERM SESSION STATE
+-----------------------
+Current request:
+Prepare a government research grant proposal for AI-based cardiovascular monitoring.
+
+Current draft:
+This research proposes an AI-based cardiovascular monitoring system for early identification of cardiovascular abnormalities using physiological and health-related data.
+
+LONG-TERM MEMORY
+----------------
+Historical records stored: 5
+
+Previous proposals are stored separately from the current draft.
+
+======================================================================
+LAB 4 COMPLETED
+======================================================================
+
+The system demonstrated:
+1. Short-term session state
+2. Long-term stored history
+3. Tag-based retrieval
+4. Similarity-based retrieval
+
+Current draft and historical records are kept separate.

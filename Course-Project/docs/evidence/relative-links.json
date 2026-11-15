@@ -1,0 +1,407 @@
+[
+  {
+    "file": "README.md",
+    "target": "Assignments/",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/code/GrantOffice/",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/code/Lab_Support/",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/Problem_Statement/Problem_Statement.md",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/Problem_Statement/Build_Book.md",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/Final_Report/Final_Report.pdf",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/Final_Report/Final_Report.md",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/docs/",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/docs/Verification.md",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/docs/evidence/",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab01.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab02.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab03.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab04.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab05.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab06.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab07.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab08.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab09.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab10.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab11.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab12.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab13.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Assignments/lab14.py",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/docs/ARCHITECTURE.md",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/docs/Verification.md",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/docs/evidence/README.md",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/docs/WINDOWS_SETUP.md",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/docs/USAGE_GUIDE.md",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/docs/OLLAMA.md",
+    "exists": true
+  },
+  {
+    "file": "README.md",
+    "target": "Course-Project/docs/UPGRADE.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/code/GrantOffice/README.md",
+    "target": "../../../README.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/code/GrantOffice/README.md",
+    "target": "../../docs/WINDOWS_SETUP.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/code/GrantOffice/README.md",
+    "target": "../../docs/ARCHITECTURE.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/code/GrantOffice/README.md",
+    "target": "../../docs/USAGE_GUIDE.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/code/GrantOffice/README.md",
+    "target": "../../docs/OLLAMA.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/code/GrantOffice/README.md",
+    "target": "../../docs/UPGRADE.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/code/GrantOffice/README.md",
+    "target": "../../docs/DATA_AUDIT.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/code/GrantOffice/README.md",
+    "target": "../../docs/Verification.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/code/GrantOffice/README.md",
+    "target": "../../docs/evidence/Historical_Test_Report.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/LAB_MAPPING.md",
+    "target": "evidence/Historical_Test_Report.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/README.md",
+    "target": "../../README.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/README.md",
+    "target": "ARCHITECTURE.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/README.md",
+    "target": "WINDOWS_SETUP.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/README.md",
+    "target": "USAGE_GUIDE.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/README.md",
+    "target": "OPERATIONS.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/README.md",
+    "target": "OLLAMA.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/README.md",
+    "target": "UPGRADE.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/README.md",
+    "target": "DATA_AUDIT.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/README.md",
+    "target": "LAB_MAPPING.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/README.md",
+    "target": "Verification.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/README.md",
+    "target": "evidence/README.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/README.md",
+    "target": "../Final_Report/",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/README.md",
+    "target": "../Problem_Statement/",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/windows-install.txt",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/windows-labs.xml",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/windows-labs.txt",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/acceptance-results.xml",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/windows-application.txt",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/lab_verification.json",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/windows-assignment-imports.json",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/windows-startup.json",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/windows-startup-server.txt",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/windows-startup.json",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/relocation-audit.json",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/relative-links.json",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/readme-render.json",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "../../README.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/historical-app-manifest.json",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "evidence/README.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/Verification.md",
+    "target": "../../README.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/evidence/README.md",
+    "target": "Historical_Verification.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/evidence/README.md",
+    "target": "Historical_Test_Report.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/evidence/README.md",
+    "target": "historical-lab-verification.json",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/evidence/README.md",
+    "target": "historical-acceptance-results.xml",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/evidence/README.md",
+    "target": "../Verification.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/evidence/README.md",
+    "target": "historical-app-manifest.json",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/docs/evidence/README.md",
+    "target": "../Verification.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/Final_Report/Final_Report.md",
+    "target": "../docs/Verification.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/Final_Report/Final_Report.md",
+    "target": "../Problem_Statement/Build_Book.md",
+    "exists": true
+  },
+  {
+    "file": "Course-Project/Problem_Statement/Problem_Statement.md",
+    "target": "Build_Book.md",
+    "exists": true
+  }
+]

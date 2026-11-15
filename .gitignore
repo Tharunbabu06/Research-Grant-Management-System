@@ -1,0 +1,39 @@
+# Environments and caches
+.venv/
+.lab-venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+.reorg-tools/
+# Credentials and local recovery files
+.env
+.env.*
+!.env.example
+*password*.txt
+*password*.json
+*credentials*.json
+FIRST_LOGIN.txt
+*.key
+*.pem
+# Generated state (preserve locally)
+Course-Project/code/GrantOffice/runtime/
+Course-Project/code/Lab_Support/outputs/
+*.sqlite*
+*.db
+*.db-*
+backups/
+# Downloaded models
+.ollama/
+models/
+*.gguf
+*.ggml
+*.safetensors
+*.pt
+*.pth
+*.onnx

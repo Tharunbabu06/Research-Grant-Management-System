@@ -1,0 +1,114 @@
+
+======================================================================
+RESEARCH GRANT MANAGEMENT SYSTEM
+LAB 1 - AGENT VS CHATBOT
+======================================================================
+
+Enter your grant-related request.
+Example:
+I want to prepare a research grant proposal for healthcare AI.
+
+User Request:
+>
+======================================================================
+COORDINATOR - CLARIFYING REQUEST
+======================================================================
+
+Initial request:
+Research grant for healthcare AI
+
+The request does not contain all the information needed to create the grant plan.
+
+Clarifying Question 1:
+What research area should the grant proposal focus on?
+>
+Clarifying Question 2:
+What type of funding opportunity are you targeting?
+Example: Government / Industry / International
+>
+Clarifying Question 3:
+Do you consent to using your profile/publication history for grant matching? (yes/no)
+>
+Request clarification completed.
+
+======================================================================
+PROPOSED GRANT PLAN
+======================================================================
+
+Original Request:
+Research grant for healthcare AI
+
+Research Area:
+Healthcare AI
+
+Funding Type:
+Government
+
+Publication History Consent:
+Yes
+
+Grant Proposal Outline:
+  1. Define the research problem
+  2. Prepare research objectives
+  3. Prepare methodology
+  4. Prepare project timeline
+  5. Prepare expected outcomes
+
+Compliance Package Outline:
+  1. Identify applicable proposal requirements
+  2. Prepare required supporting information
+  3. Review the proposal against the requirements
+
+Final Planned Output:
+Grant proposal and compliance package
+======================================================================
+
+======================================================================
+PLAN REVISION
+======================================================================
+
+Would you like to revise the plan? (yes/no)
+>
+No further changes requested.
+
+======================================================================
+FINAL EDITABLE GRANT PLAN
+======================================================================
+
+======================================================================
+FINAL PLAN
+======================================================================
+
+Original Request:
+Research grant for healthcare AI
+
+Research Area:
+Healthcare AI
+
+Funding Type:
+Government
+
+Publication History Consent:
+Yes
+
+Grant Proposal Outline:
+  1. Define the research problem
+  2. Prepare research objectives
+  3. Prepare methodology
+  4. Prepare project timeline
+  5. Prepare expected outcomes
+
+Compliance Package Outline:
+  1. Identify applicable proposal requirements
+  2. Prepare required supporting information
+  3. Review the proposal against the requirements
+
+Final Planned Output:
+Grant proposal and compliance package
+======================================================================
+
+Lab 1 completed successfully.
+The Coordinator completed:
+  1. Clarification
+  2. Planning
+  3. Revision

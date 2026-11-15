@@ -1,0 +1,9 @@
+{
+  "renderer": "markdown-it-py 4.3.0, CommonMark plus tables, entirely local",
+  "tables": 3,
+  "assignment_links": 14,
+  "relative_links": 31,
+  "missing_relative_targets": [],
+  "code_fences_balanced": true,
+  "visual_browser_inspection": false
+}
