@@ -13,8 +13,8 @@
 | --- | --- | --- |
 | Soujanya Tikare | 01FE23BCI064 | Confirmation required |
 | K. Tharun Babu | 01FE23BCI078 | Confirmation required |
-| NT Basavaraj | 01FE23BCI031 | Confirmation required |
-| K Rohith | 01FE23BCI113 | Confirmation required |
+| NT Basavaraj | 01FE23BCI113 | Confirmation required |
+| K Rohith | 01FE23BCI031 | Confirmation required |
 
 Names and USNs preserve the supplied submission details. The division and original team evaluation sheet require confirmation.
 
