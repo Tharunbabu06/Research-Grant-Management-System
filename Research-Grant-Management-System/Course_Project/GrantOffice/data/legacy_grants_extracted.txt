@@ -1,0 +1,104 @@
+                  Consolidated  list of projects  from 2013 to  2024 |  |  |  | 2013 to 2016 | 2016-17 | 2017-18 | 2018-19 | 2019-20 | 2020-21 | 2021-22 | 2022-23 | 2023-24 | 2024-25 |  | Name of School/
+Dept | # of projects | Amount in Lakhs | # of projects | Amount in Lakhs | # of projects | Amount in Lakhs | # of projects | Amount in Lakhs | # of projects | Amount in Lakhs | # of projects | Amount in Lakhs | # of projects | Amount in Lakhs | # of projects | Amount in Lakhs | # of projects | Amount in Lakhs | # of projects | Amount in Lakhs |  | Civil | 1 | 20.00 | -- | -- | Previous project 
+second term sanction (2013) 10 L is already considered | -- | -- | 1 | 7.80 | -- | -- | -- | -- |  |  |  |  | 1 | 2.0 |  | CSE /MCA | 1 | 5.75 | 1 | 22.50 | 1 | 10.00 | -- | -- | -- | -- | 2 | 103.84 | -- | -- | 1 | 15.88 |  |  |  |  |  | ECE | 9 | 75.91 | 1 | 8.76 | 1 | 6.50 | 3 | 159.00 | 2 | 8.76 | 5 | 54.1 | 3 | 49.83 | 3 | 518.69 | 1 | 63.89 | 1 | 1.0 |  | MECH | 6 | 87.8 | 1 | 25.0 | -- | -- | -- | -- | 3 | 98.1 | -- | -- | 3 | 42.05 | 1 | 5.52 |  |  |  |  |  | BT | -- | -- | 1 | 162.50 | -- | -- | -- | -- | 1 | 15.00 | 1 | 3 | 1 | 6.00 |  |  |  |  | 2 | 6.0 |  | A&R | -- | -- | -- | -- | -- | -- | -- | -- | 2 | 17.00 | -- | -- | 1 | 3.80 | 2 | 18.20 | 1 | 0.50 |  |  |  | Chemistry | -- | -- | -- | -- | 1 | 40.00 | 1 | 6.00 | 1 | 2.5 | -- | -- | -- | -- |  |  |  |  |  |  |  | Physics |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 1 | 30.00 |  |  |  | EEE |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 2 | 5.5 |  | SAS | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | 1 | -- | 3 | 77.70 |  |  |  |  |  | Total | 17 | 189.46 | 4 | 218.76 | 3 | 66.50 | 4 | 165.00 | 10 | 149.16 | 8 | 160.94 | 9 | 101.68 | 10 | 635.99 | 3 | 94.39 | 6 | 14.5 |  | Annexure 3: External Grant Sanctioned
+SUMMARY OF EXTERNAL RECEIVED GRANTS
+
+
+
+
+
+
+
+
+List of External Grants Received
+Funding agencies: DST, NRB, AICTE, VTU, VGST, UASD, DRDO, Continental, KFIST, KBITS, Samsung Research Institute Bangalore (SRIB), La Fondation Dassault Systemes, MeitY
+SN | Dept | Project Title | PI | Funding agency (Time period) | Amount in Lakhs | Project Completion Details |  | 2024-25 |  | 1 | EEE
+ | National Symposia on Emerging Trends in sustainable Mobility and Transportation 2025
+ | Vinod S Patil 
+ | ANRF
+ | 2.0 | not yet recevied 
+ |  | 2 | BT
+ | Development of an enzyme formulation for sustainable biofilm removal
+ | B S Hungund, Chaya_Patil
+ | Meity-KLE-CTIE(EiR)
+ | 2.0 |  |  | 3 | BT
+ | Integrated machine learning models and network pharmacology for detection and development of lead anticancer compounds from lcacinaceae species
+ | Uday Muddapur,Aparna Shenvi
+ | Meity-KLE-CTIE
+ | 4.0 |  |  | 4 | Civil | Concrete nano composite sensor for real time structural health monitoring application 
+ | Roopa A K,AM Hunshyal
+ | Meity-KLE-CTIE(EiR)
+ | 2.0 |  |  | 5 | EEE | Emerging Trends, recent advancements and key challenges in EV and its application
+ | Dr. Rajeev R Pathak, Dr. Kiran Patil
+ | AICTE/ATAL
+ | 3.5 |  |  | 6 | ECE | CoPercept-AMR: A Cooperative Perception-Based Localization Framework for Autonomous Mobile Robots in 5G-Enabled Smart Environments
+ | Ramakrishna S 
+ | Department of Telecommunication
+ | 1.0 |  |  |                                                                                                                                                                       ToTal :        14.5 |  | 2023-24 |  | 1. | SoECE | Digital Creation to Enable Gamification Based on Indian Ethos | Dr. Uma Mudenagudi,
+Dr. Meena S M,
+Dr. Sujatha C | SERB-INAE | 63.89 | In Progress |  | 2. | Physics | Study of optical and transport properties of Metal Nano particles doped lithium bismuth borate glasses for the optpelectronic device and biomaterial applications | Dr.Sangeeta B Kolavekar | VGST | 30.00 | In Progress |  | 3. | A&R | Development of 3D Digital Twin of PCB /maker | Girish Karikatti | La Fondation Dassault Systemes | 0.50 | Completed |  |  |  | Total | 94.39 |  |  | 2022-23 |  |  | SoECE | e Krushi Precision Agriculture | Dr. Suneeta V Budihal
+Co-PI-Dr. Saroja V Siddamal | SERB Power | 15.68 | In Progress |  |  | A&R | Development of Cobots integrated with Autonomous Mobile Robots (AMRs) for automation of warehousing logistics and delivery planning | Sachin Karadgi | La Fondation Dassault Systemes | 7.20 | In Progress |  |  | SAS | Bio-chemically synthesized nanomaterials for the detection and degradation of pesticides | Nagaraj Shetty | SERB | 28.69 | In Progress |  |  | SME | Project Development of a Design Framework to Practice Nature Inspired Design for Product Innovation | Gururaj Fattepur
+Co-PI: Dr. Arun Y Patil | La Fondation Dassault Systemes | 5.52 | In Progress |  |  | SAS | Microbial Electrosynthesis based production of ethylene from the valorization of food and processing waste | Mohanakrishna Gunda
+Dr. Nagaraj P. Shetti | SERB
+ | 46.01 | In Progress |  |  | A&R | Design and development of multi mobile robot path planning and navigation system Framework | Shridhar Dodamani | La Fondation Dassault Systemes | 11.00 | Completed  (UC Pending)
+Called 25-10-24 |  |  | SoECE | MATOMAC :Development of LPWAN ASIC/SoC | Saroja Siddamal
+Co-PI: Dr. Suneeta V Budihal | MeitY | 500.00 | In Progress |  |  | SAS | Green synthesis of nanoparticles in developing electronalytical sensors for pharmaceutical and biomedical applications | Dr. Shweta J Malode
+Co-PI- Nagaraj Shetty | VGST | 3.00 | In Progress |  |  | SoECE | Research changes and Application in Visual Intelligence | Dr. Ujwala Patil | AICTE | 3.00 | Completed |  |  | SoCSE | Meity-Qcal-QSDL-Diabetic Retinopathy | Dr. Satyadhyan
+Chickerur | Meity | 15.88 | Completed  (UC Pending)
+Called 25-10-24 they will not give UC  |  | 6 |  | Total | 635.99 |  |  | 2021-22 |  |  | ECE | Speech Database resources for speaker recognition | Dr S R Nirmala, Satish Chikkamath | MEITY | 22.23 | In Progress |  |  | E&E | Intelligent Machines | Dr. Kiran R Patil | (TiH) Technology Innovation Hub –IoT Chanakya Intern 2022 | 4.80 | Completed |  |  | ECE | E – Krushi : Precision agriculture | Dr Suneeta Budihal | Science & Engineering Research Board (SERB) | 22.80 | In Progress |  |  | SME | Synthesis of Novel Bio nano material for tribological applications | Dr N R Banapurmath, 
+Dr Arun Patil | AICTE RPS | 14.75 | In Progress |  |  | SME | Real time testing of sheep horn as impact resistive material for accident prone regions in consumer vehicles | Dr Arun Patil | Dassault Systems Foundation | 12.30 | In Progress |  |  | SME | Amrita Startups  | Dr Arun Patil | Karnataka Start up cell (Elevate) | 15.00 | In Progress |  |  | BT | Development of herbal formulation/active metabolites from plant source as anticancer agent. | Dr B S Hungund, Namrata Hegde | Institutions Innovation Council AICTE | 6.00 | Completed |  |  | ARE | Design & development of a learning kit on FPGA/SoC
+based hardware accelerator for boosting the performance of AI based application in autonomous Robot | Dr Jyoti Bali | Dassault Systems Foundation | 3.80 | Completed |  |  | SAS | Identification of potential metabolic biomarker for early diagnosis of oral squamous cell carcinoma in human saliva | Dr S V Hiremath
+Dr Zabin Bagewadi | Multi-Disciplinary Research Unit (KIMS Hubli) | Consumables, Chemicals, & other materials are provided by MRU only. | (PI left University the project was cancelled ) |  |  |  | Total | 101.68 |  |  | 2020-21 |  |  | CSE | Automatic Grading of Diabetic Retinopathy at Primary Health Care Centers using Distributed Deep Learning Framework | Dr Satyadhyan Chickerur
+Dr Shantala Giraddi
+Mr Mahesh Patil | IISC Bangalore | 19.886 | Completed |  |  | CSE | SEED Lab | Dr. Uma Mudengudi | SAMSUMG | 83.96 | In Progress |  |  | ECE | V-vaidya: Visual Intelligence based analysis of histopathology data towards the detection of oral cancer | Dr. Ujwala Patil | VGST K-FIST L2 | 20.00 | In Progress |  |  | ECE | Atal FDP - DL for Audio and Speech Processing | Dr. Nirmala S R | AICTE | 0.93 | Completed |  |  | ECE | Atal FDP - FPGS based DL in signal Processing | Dr. R B Shettar | AICTE | 0.93 | Completed |  |  | ECE | Atal FDP - Digital forensics & Investigation | Mr. Shivaraj Hublikar | AICTE | 0.93 | Completed |  |  | ECE | SEED Lab | Dr. Uma Mudengudi | SAMSUMG | 31.31 | In Progress |  |  | BT | Exploring the interactions of envelope and NSS proteins of Kyasanur forest disease virus with existing and novel drugs using molecular modelling approach | Mr. Sharanappa Achappa
+ | VGST: Research Grant for scientist / faculty (RGS/F)
+ | 3.00 | In Progress |  |  | Total | 160.94 |  |  | 2019-20 |  |  | BT | Nutritional Profile and Metagenomics Insights of Microbial Diversity of Nuchhu Ambli- a millet-based traditional Fermented Food of North Karnataka. | Dr. S.V. Desai
+Dr. V.S. Hombalimath | VGST- K-FIST L1 | 15.00 | In Progress |  |  | Civil | Retrofitting of RCC structures using new generation fibres | Dr. Manojkumar Chitawadagi | AICTE- RPS-2019-20 | 7.80 | Completed |  |  | ECE | Shape Representation, Reconstruction and Rendering of 3D Models | Dr. Uma Mudengudi | AICTE- RPS-2019-20 | 5.64 | Completed |  |  | ECE | Enabling wireless technology: Software defined Radio (SDR) applications | Dr. Suneeta Budihal | AICTE-STTP-2019-20 | 3.12 | Completed |  |  | ME | MODROB in Fluid Mechanics Laboratory | Dr.P G Tewari | AICTE-MODROB-2019-20 | 11.21 | Completed |  |  | ME |  Establishment & setting up of MSME -IPFC | Dr Ravi Guttal, Mr Vinay Tigadi  | MSME Three Years
+(in Phase) | 76.89 | In Progress |  |  | ME | Enhancing learning through virtual reality – an exciting and emerging technology | Dr B B Kotturshettar, 
+Mr Vinay Tigadi  | Dassault Systems  (One Time ) | 10.00 | Completed but uc not yet received |  |  | A&R | Design and development of automated storage and retrieval system as an educational kit as 3 DEXPERIENCE Twin | Dr. Sachin Karadgi | Dassault Systems Foundation | 8.5 | Completed |  |  | A&R | Development of Humanoid Robot and its digital twin using 3D Experience Platform to enhance interdisciplinary teaching and learning. | Prof. A C Giriyapur | Dassault Systems Foundation | 8.5 | Completed |  |  | Chem | Evaluation of Nano bacterial cellulose based packaging on shelf life of Tomato | Dr. Ashok Sajjan | UAS Dharwad
+ | 2.5 | Completed |  |  | Total | 149.16 |  |  | 2018-19 |  |  | EC | Crowd sourcing Framework for digital Archiving &presentation of cultural heritage | Dr Uma M,  Dr Meena S M & Dr Shankar G | DST/ICPS-IHDS-2018(General) 13.03.2019
+ | 56.34 | In Progress |  |  | EC | Digital Poompuhar: Underwater IP and 3D Reconstruction  | Dr Uma M
+Dr Shankar G | DST/ICPS/Digital Poompuhar2017 (General)14.03.2019 | 62.66 | In Progress |  |  | EC | To Develop Smart Water Management System using IoT that regulates water in the campus | Dr Saroja V S | VGST
+2017-2019 | 40.00 | Completed |  |  | Chem | Development of Membranes for Ethanol Purification | Dr Ashok M. Sajjan
+Dr N. R. Banapurmath | UAS Dharwad
+2018-19 | 6 .00 | In Progress(MOU Projects so no funding) |  |  |  | Total | 165.00 |  |  | 2017-18 |  |  | Chem | Development of Novel Nano-composite hybrid polymer membranes for prevaporation separation of water from industrial waste organic solvents | Dr Ashok M Sajjan | VGST
+2017-18 | 40.00 | Completed
+ |  |  | EC | 3D reconstruction using Drone images (Consultancy) | Dr Uma M | SRIB (2017-19) | 6.50 | Completed
+ |  |  | CS/
+MCA | Smart system for early detection of Plant diseases and PEST infestation | Dr Prakash Patil | GoK-UASD 
+(2017-18) | 10.00 | Completed |  |  |  | Total | 56.50 |  |  | 2016-17 |  |  | EC | Restoration of motion blur and image super-resolution  for  ADAS (Consultancy) | Dr Uma M | Continental 
+(2016-2017) | 8.76 | Completed |  |  | ME | Economical Production of Eco – Friendly Bioplastic material for packaging segment | Dr Jayachandra S Y | BBC ( K-BITS)
+(2016-17) | 25.00 | Completed |  |  | BT | BiSEP Project
+ | B V Bhoomaraddi college of Engineering & Technology | 2016-17 | 162.50 | Completed |  |  | CS/MCA | Prototype Arial sprayer  | Prakash Patil | UASD (2016-17) | 22.50 | Completed |  |  |  | Total | 218.76 |  |  | 2009-2019 |  |  | CS | Image super resolution | Dr Uma M, Dr Meena M | AICTE(2009-13) | 5.75 | Completed |  |  | EC | Enhancement and retargeting of videos (Collaboration with IITD, IIITH: 25L) | Dr Uma M | NRB(2009-13) | 8.70 | Completed |  |  | EC | System solution prototyping for biometric security system on programmable | Dr Nalini C and Dr Meena M | VTU(2010-13) | 7.5 | Completed |  |  | EC | Data Acquisition, analysis  and rendering of heritage sites (Collaboration with IITD: 60L) | Dr Uma M | DST(2010-15) | 8.00 | Completed |  |  | ME | Development of Simulation Package and Test Facilities to Evaluate performance of Solar Photovoltaic Thermal Hybrid Systems | Dr P G Tewari
+Dr M B Gorvar | VTU
+(2010-13) | 6.25 | Completed |  |  | ME | Hydrogen and CNG Injection in a biodiesel operated dual fuel engine and their feasibility studies | Dr N R Banapurmath | VTU
+(2010-13) | 13.00 | Completed |  |  | Civil | K-FIST Programme “Establishing the facility for  - nano technology for structural and energy engineering applications” | Dr S S Quadri | VGST (2012-17) | 20.00 | Completed |  |  | EC | Gesture based virtual walkthrough of digital heritage sites – Hampi: DST | Dr Uma M | DST(2012-16) | 14.56 | Completed |  |  | IT | Modernization of transducer and control system Lab | Dr Nalini C | AICTE (2013-14) | 9.50 | Completed |  |  | IT | Modernization of automation in process control lab | Dr Nalini C | AICTE (2013-14) | 7.90 | Completed |  |  | ME | Synthesis and Characterization of group III- nitride nanostructure based FET for bio- chemical sensing applications | Dr N R Banapurmath | VGST
+(2013-2017) | 40.00 | Completed |  |  | ME | Synthesis of Ag and Au – coated III- Nitride nanostructures for biochemical sensing applications | Mr Kishore Upadhya (CMS) | VGST
+(2014-15) | 4.00 | Completed |  |  | EC | Robust Horizon detection: DRDO  (Consultancy) | Dr Uma M | DRDO (2014-16) | 9.75 | Completed |  |  | IT | Automated Drip Irrigation | Dr Nalini C | UAS D(2014-16) | 5.00 | Completed |  |  | IT | Computer Aided mobile enabled farm advisory services for increased farm productivity. | Mrs Tanuja  J | UASD(2014-16) | 5.00 | Completed |  |  | ME | Development of membrane  filter technology for increasing heat efficiency of biogas for power generation | Dr N R Banapurmath
+Dr A M Sajjan | UASD-P1      
+  (2015-16) | 14.55 | In Progress |  |  | ME | Development of membrane  filter technology for increasing heat efficiency of biogas for power generation | Dr N R Banapurmath
+Dr A M Sajjan | UASD – P2     
+(2015-16) | 10.00 | In Progress |  |  |  | Total | 189.46 |  |  | 
+
+
+
+
+
+
+
+
+
+
+Research and Development
+
+
+B. V. Bhoomaraddi College Campus, Vidyanagar, Hubballi 580031. Karnataka (India)
+Tel. : +91 - 836 - 2378132  Fax : +91 - 836 - 2374985. www.kletech.ac.in
+
+
+
+Earlier known as
+B. V. B. College of Engineering & Technology
+
+
+

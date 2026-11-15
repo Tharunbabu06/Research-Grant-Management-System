@@ -1,0 +1,12 @@
+.venv/
+.lab-venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+Course_Project/GrantOffice/runtime/
+Course_Project/Lab_Support/outputs/
+*.sqlite*
+FIRST_LOGIN.txt
+backups/

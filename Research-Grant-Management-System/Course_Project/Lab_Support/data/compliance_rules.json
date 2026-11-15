@@ -1,0 +1,34 @@
+{
+    "rules": [
+        {
+            "id": "CR001",
+            "rule": "PI approval is required before submission",
+            "type": "approval",
+            "mandatory": true
+        },
+        {
+            "id": "CR002",
+            "rule": "All mandatory proposal sections must be present",
+            "type": "format",
+            "mandatory": true
+        },
+        {
+            "id": "CR003",
+            "rule": "Budget must remain within the approved funding ceiling",
+            "type": "budget",
+            "mandatory": true
+        },
+        {
+            "id": "CR004",
+            "rule": "Faculty proposal drafts must remain confidential",
+            "type": "confidentiality",
+            "mandatory": true
+        },
+        {
+            "id": "CR005",
+            "rule": "Changes after approval require re-review",
+            "type": "change-control",
+            "mandatory": true
+        }
+    ]
+}

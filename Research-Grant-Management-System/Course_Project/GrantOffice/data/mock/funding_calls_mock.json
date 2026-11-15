@@ -1,0 +1,128 @@
+{
+  "dataset_type": "MOCK_TEST_DATA_ONLY",
+  "generated_at": "2026-10-27",
+  "safety_notice": "Every record in this file is synthetic. No agency or call described here is real. Source URLs use example.invalid. Do not copy into production data/funding_calls.json.",
+  "records": [
+    {
+      "mock_record": true,
+      "mock_id": "MOCK-CALL-001",
+      "mock_scenario": "topical_active_call_but_unverified_source",
+      "expected_outcome": "reject_unverified_source",
+      "agency": "MOCK Government Health Research Agency (NOT REAL)",
+      "call_title": "SYNTHETIC TEST ONLY: AI-Based Cardiovascular Monitoring Research Grant",
+      "deadline": "2027-06-30",
+      "budget_ceiling": 5000000,
+      "currency": "INR",
+      "funding_type": "Government research grant",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Cardiovascular Monitoring",
+        "Medical AI",
+        "Digital Health"
+      ],
+      "duration_months": 24,
+      "eligibility_status": "pending_human_review",
+      "novelty_status": "pending_human_review",
+      "source": {
+        "source_type": "mock_fixture",
+        "source_title": "MOCK ONLY — synthetic funding-call fixture, not an official announcement",
+        "source_url": "https://example.invalid/mock-funding/call-001",
+        "source_locator": "Synthetic fixture MOCK-CALL-001",
+        "supporting_excerpt": "Synthetic test text: applicants may propose research on AI-assisted cardiovascular monitoring. This text is invented for software testing and is not a real funder guideline.",
+        "retrieved_at": "MOCK_NOT_RETRIEVED",
+        "verified": false,
+        "is_mock": true
+      }
+    },
+    {
+      "mock_record": true,
+      "mock_id": "MOCK-CALL-002",
+      "mock_scenario": "expired_call",
+      "expected_outcome": "reject_or_exclude_expired_call",
+      "agency": "MOCK Government Health Research Agency (NOT REAL)",
+      "call_title": "SYNTHETIC TEST ONLY: Expired Cardiac Signal Analysis Call",
+      "deadline": "2026-02-28",
+      "budget_ceiling": 3000000,
+      "currency": "INR",
+      "funding_type": "Government research grant",
+      "research_areas": [
+        "Cardiac Signals",
+        "Machine Learning",
+        "Clinical Prediction"
+      ],
+      "duration_months": 18,
+      "eligibility_status": "pending_human_review",
+      "novelty_status": "pending_human_review",
+      "source": {
+        "source_type": "mock_fixture",
+        "source_title": "MOCK ONLY — synthetic expired-call fixture",
+        "source_url": "https://example.invalid/mock-funding/call-002",
+        "source_locator": "Synthetic fixture MOCK-CALL-002",
+        "supporting_excerpt": "Synthetic expired-call test content. Not an official funding announcement.",
+        "retrieved_at": "MOCK_NOT_RETRIEVED",
+        "verified": false,
+        "is_mock": true
+      }
+    },
+    {
+      "mock_record": true,
+      "mock_id": "MOCK-CALL-003",
+      "mock_scenario": "active_but_research_area_mismatch",
+      "expected_outcome": "reject_out_of_scope",
+      "agency": "MOCK Technology Innovation Foundation (NOT REAL)",
+      "call_title": "SYNTHETIC TEST ONLY: AI for Sustainable Transport Systems",
+      "deadline": "2027-03-31",
+      "budget_ceiling": 2500000,
+      "currency": "INR",
+      "funding_type": "Government research grant",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Transport",
+        "Sustainable Mobility"
+      ],
+      "duration_months": 12,
+      "eligibility_status": "pending_human_review",
+      "novelty_status": "pending_human_review",
+      "source": {
+        "source_type": "mock_fixture",
+        "source_title": "MOCK ONLY — synthetic unrelated-call fixture",
+        "source_url": "https://example.invalid/mock-funding/call-003",
+        "source_locator": "Synthetic fixture MOCK-CALL-003",
+        "supporting_excerpt": "Synthetic test content for an unrelated transport-focused call.",
+        "retrieved_at": "MOCK_NOT_RETRIEVED",
+        "verified": false,
+        "is_mock": true
+      }
+    },
+    {
+      "mock_record": true,
+      "mock_id": "MOCK-CALL-004",
+      "mock_scenario": "missing_source_metadata",
+      "expected_outcome": "reject_missing_source_fields",
+      "agency": "MOCK Non-Government Health Innovation Fund (NOT REAL)",
+      "call_title": "SYNTHETIC TEST ONLY: Digital Health Proof-of-Concept Fund",
+      "deadline": "2027-09-30",
+      "budget_ceiling": 1500000,
+      "currency": "INR",
+      "funding_type": "Non-Government research grant",
+      "research_areas": [
+        "Digital Health",
+        "Medical AI",
+        "Clinical Decision Support"
+      ],
+      "duration_months": 12,
+      "eligibility_status": "pending_human_review",
+      "novelty_status": "pending_human_review",
+      "source": {
+        "source_type": "mock_fixture",
+        "source_title": "",
+        "source_url": "",
+        "source_locator": "",
+        "supporting_excerpt": "",
+        "retrieved_at": "",
+        "verified": false,
+        "is_mock": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+[
+    {
+        "id": "P001",
+        "title": "AI-Based Cardiac Risk Prediction",
+        "research_area": "AI-based cardiovascular monitoring",
+        "funding_type": "Government research grant",
+        "tags": [
+            "AI",
+            "healthcare",
+            "cardiovascular",
+            "medical",
+            "government"
+        ],
+        "summary": "Machine learning methods for early prediction of cardiovascular risk using patient and physiological data."
+    },
+    {
+        "id": "P002",
+        "title": "Deep Learning for Medical Image Analysis",
+        "research_area": "Medical artificial intelligence",
+        "funding_type": "Government research grant",
+        "tags": [
+            "AI",
+            "healthcare",
+            "medical",
+            "deep-learning",
+            "government"
+        ],
+        "summary": "Deep learning techniques for detecting disease-related patterns in medical images."
+    },
+    {
+        "id": "P003",
+        "title": "AI-Based Crop Disease Detection",
+        "research_area": "AI-based agricultural disease detection",
+        "funding_type": "Government research grant",
+        "tags": [
+            "AI",
+            "agriculture",
+            "computer-vision",
+            "government"
+        ],
+        "summary": "Computer vision methods for identifying plant diseases from agricultural images."
+    },
+    {
+        "id": "P004",
+        "title": "Biomedical Sensor Monitoring",
+        "research_area": "Biomedical sensing and monitoring",
+        "funding_type": "Government research grant",
+        "tags": [
+            "biomedical",
+            "sensors",
+            "healthcare",
+            "monitoring",
+            "government"
+        ],
+        "summary": "Sensor-based monitoring techniques for biomedical applications and health condition tracking."
+    },
+    {
+        "id": "P005",
+        "title": "AI for Hospital Decision Support",
+        "research_area": "Healthcare AI decision support",
+        "funding_type": "Government research grant",
+        "tags": [
+            "AI",
+            "healthcare",
+            "decision-support",
+            "medical",
+            "government"
+        ],
+        "summary": "Artificial intelligence methods for supporting clinical and hospital decision-making."
+    }
+]

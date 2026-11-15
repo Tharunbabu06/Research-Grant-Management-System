@@ -1,0 +1,46 @@
+{
+  "dataset_type": "MOCK_TEST_DATA_ONLY",
+  "generated_at": "2026-10-27",
+  "safety_notice": "All numbers below are invented software-test values. They are NOT KLE Technological University salary norms, approved budget rates, or funder-specific ceilings. Do not use for a real grant budget.",
+  "currency": "INR",
+  "verified": false,
+  "personnel_rates_monthly": [
+    {
+      "role": "MOCK Research Assistant",
+      "amount_inr_per_month": 25000,
+      "fixture_only": true
+    },
+    {
+      "role": "MOCK Project Associate",
+      "amount_inr_per_month": 37000,
+      "fixture_only": true
+    },
+    {
+      "role": "MOCK Data Analyst",
+      "amount_inr_per_month": 30000,
+      "fixture_only": true
+    }
+  ],
+  "expense_examples": [
+    {
+      "category": "MOCK Equipment",
+      "amount_inr": 75000,
+      "fixture_only": true
+    },
+    {
+      "category": "MOCK Cloud Compute",
+      "amount_inr": 25000,
+      "fixture_only": true
+    },
+    {
+      "category": "MOCK Travel",
+      "amount_inr": 15000,
+      "fixture_only": true
+    },
+    {
+      "category": "MOCK Consumables",
+      "amount_inr": 10000,
+      "fixture_only": true
+    }
+  ]
+}

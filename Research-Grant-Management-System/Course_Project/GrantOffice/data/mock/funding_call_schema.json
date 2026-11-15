@@ -1,0 +1,40 @@
+{
+  "schema_name": "grant_call_v1",
+  "status": "proposed integration schema; map carefully to existing project field names",
+  "required_fields": {
+    "agency": "string — funding body name",
+    "call_title": "string — official opportunity title",
+    "deadline": "YYYY-MM-DD — application deadline, not sanction date",
+    "funding_type": "string — government, non-government, industry, international, etc.",
+    "budget_ceiling": "number — numeric amount",
+    "currency": "string — e.g. INR",
+    "research_areas": "array[string]",
+    "source.source_type": "string",
+    "source.source_title": "string — official page/PDF title",
+    "source.source_url": "string — official HTTPS source",
+    "source.source_locator": "string — page/section/table/paragraph in that source",
+    "source.supporting_excerpt": "string — brief exact supporting excerpt",
+    "source.retrieved_at": "ISO 8601 timestamp of actual retrieval",
+    "source.verified": "boolean — true only after source is actually checked"
+  },
+  "recommended_additional_fields": {
+    "call_id": "official call identifier if available",
+    "published_at": "date the call was announced",
+    "call_status": "open, closing_soon, closed, cancelled, or unknown",
+    "eligibility_rules": "structured conditions extracted from official guidelines",
+    "required_documents": "array of required documents",
+    "allowable_costs": "structured cost categories and source locators",
+    "duration_months": "integer if provided",
+    "last_checked_at": "timestamp for status refresh",
+    "eligibility_status": "pending_human_review until explicitly confirmed",
+    "novelty_status": "pending_human_review until reviewed",
+    "mock_record": "true only for synthetic test data; mock records must never enter production calls"
+  },
+  "data_model_rules": [
+    "Keep application_date, sanction_date and application deadline as separate fields.",
+    "Keep awarded grants and open funding opportunities in separate datasets.",
+    "Do not infer active status from a past award.",
+    "A source URL alone does not establish eligibility, novelty, or compliance.",
+    "Treat missing fields as unknown; do not fabricate official values."
+  ]
+}

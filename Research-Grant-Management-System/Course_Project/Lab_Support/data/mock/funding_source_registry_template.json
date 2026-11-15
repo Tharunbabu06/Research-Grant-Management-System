@@ -1,0 +1,55 @@
+{
+  "registry_type": "configuration_template",
+  "generated_at": "2026-10-27",
+  "note": "Populate the official_url / API endpoint only after the source is verified. This template does not assert that the agency has a public API.",
+  "sources": [
+    {
+      "agency_or_source": "ICMR",
+      "official_url": null,
+      "api_endpoint": null,
+      "access_method": "to_be_verified",
+      "requires_api_key": "unknown",
+      "status": "needs_configuration"
+    },
+    {
+      "agency_or_source": "ANRF / SERB legacy calls",
+      "official_url": null,
+      "api_endpoint": null,
+      "access_method": "to_be_verified",
+      "requires_api_key": "unknown",
+      "status": "needs_configuration"
+    },
+    {
+      "agency_or_source": "MeitY",
+      "official_url": null,
+      "api_endpoint": null,
+      "access_method": "to_be_verified",
+      "requires_api_key": "unknown",
+      "status": "needs_configuration"
+    },
+    {
+      "agency_or_source": "AICTE",
+      "official_url": null,
+      "api_endpoint": null,
+      "access_method": "to_be_verified",
+      "requires_api_key": "unknown",
+      "status": "needs_configuration"
+    },
+    {
+      "agency_or_source": "VGST",
+      "official_url": null,
+      "api_endpoint": null,
+      "access_method": "to_be_verified",
+      "requires_api_key": "unknown",
+      "status": "needs_configuration"
+    },
+    {
+      "agency_or_source": "Department of Telecommunications",
+      "official_url": null,
+      "api_endpoint": null,
+      "access_method": "to_be_verified",
+      "requires_api_key": "unknown",
+      "status": "needs_configuration"
+    }
+  ]
+}

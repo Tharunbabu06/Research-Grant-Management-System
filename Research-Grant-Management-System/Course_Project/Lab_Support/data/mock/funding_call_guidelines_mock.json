@@ -1,0 +1,74 @@
+{
+  "dataset_type": "MOCK_TEST_DATA_ONLY",
+  "generated_at": "2026-10-27",
+  "safety_notice": "All rules and budgets are invented for software tests. They are not official agency or KLE Technological University policies.",
+  "records": [
+    {
+      "mock_record": true,
+      "fixture_id": "MOCK-GUIDE-001",
+      "name": "SYNTHETIC GUIDELINES — AI cardiovascular monitoring",
+      "agency": "MOCK Government Health Research Agency (NOT REAL)",
+      "call_id": "MOCK-CALL-001",
+      "call_purpose": "Invented test purpose: prototype or validate AI-based cardiovascular monitoring methods.",
+      "deadline": "2027-06-30",
+      "max_budget_inr": 5000000,
+      "duration_months_max": 24,
+      "eligibility_rules": [
+        "Synthetic rule: institution must be a research institution.",
+        "Synthetic rule: PI must have an institutional appointment.",
+        "Synthetic rule: an ethics approval plan is required for human clinical data."
+      ],
+      "required_documents": [
+        "project_narrative",
+        "itemized_budget",
+        "PI_CV",
+        "ethics_plan_if_applicable"
+      ],
+      "evaluation_criteria": [
+        "research relevance",
+        "methodological quality",
+        "feasibility",
+        "budget justification"
+      ],
+      "source": {
+        "source_url": "https://example.invalid/mock-guidelines/cardio-001.pdf",
+        "source_locator": "Synthetic sections 1-5",
+        "verified": false
+      },
+      "production_usable": false
+    },
+    {
+      "mock_record": true,
+      "fixture_id": "MOCK-GUIDE-002",
+      "name": "SYNTHETIC GUIDELINES — translational digital health",
+      "agency": "MOCK Industry Digital Health Fund (NOT REAL)",
+      "call_id": "MOCK-CAND-002",
+      "call_purpose": "Invented test purpose: demonstrate a translational digital-health proof of concept.",
+      "deadline": "2027-04-15",
+      "max_budget_inr": 2000000,
+      "duration_months_max": 12,
+      "eligibility_rules": [
+        "Synthetic rule: cross-functional research teams are encouraged.",
+        "Synthetic rule: commercialization claims must be supported with a validation plan."
+      ],
+      "required_documents": [
+        "concept_note",
+        "milestone_plan",
+        "itemized_budget",
+        "risk_register"
+      ],
+      "evaluation_criteria": [
+        "prototype feasibility",
+        "clinical relevance",
+        "implementation risk",
+        "cost realism"
+      ],
+      "source": {
+        "source_url": "https://example.invalid/mock-guidelines/clinical-ai-002.pdf",
+        "source_locator": "Synthetic sections 2-4",
+        "verified": false
+      },
+      "production_usable": false
+    }
+  ]
+}

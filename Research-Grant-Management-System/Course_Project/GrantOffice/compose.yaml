@@ -1,0 +1,10 @@
+services:
+  grant-office:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - grant-runtime:/app/runtime
+    restart: unless-stopped
+volumes:
+  grant-runtime:

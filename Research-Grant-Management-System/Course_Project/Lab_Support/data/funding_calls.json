@@ -1,0 +1,61 @@
+[
+    {
+        "agency": "SERB",
+        "call_title": "AI for Healthcare Research",
+        "deadline": "2027-01-15",
+        "funding_type": "Government",
+        "research_areas": [
+            "Artificial Intelligence",
+            "Healthcare",
+            "Biomedical Systems"
+        ],
+        "eligibility": "Faculty researchers from recognized institutions",
+        "budget_ceiling": 2500000,
+        "required_sections": [
+            "Abstract",
+            "Objectives",
+            "Methodology",
+            "Timeline",
+            "Budget",
+            "Expected Outcomes"
+        ],
+        "source": {
+            "source_type": "unverified_demo_record",
+            "source_title": "",
+            "source_url": "",
+            "source_locator": "",
+            "supporting_excerpt": "",
+            "retrieved_at": "",
+            "verified": false
+        }
+    },
+    {
+        "agency": "DBT",
+        "call_title": "Biomedical AI Research",
+        "deadline": "2027-03-20",
+        "funding_type": "Government",
+        "research_areas": [
+            "Artificial Intelligence",
+            "Biomedical Sciences",
+            "Healthcare"
+        ],
+        "eligibility": "Eligible researchers from recognized institutions",
+        "budget_ceiling": 2000000,
+        "required_sections": [
+            "Abstract",
+            "Objectives",
+            "Methodology",
+            "Budget",
+            "Expected Outcomes"
+        ],
+        "source": {
+            "source_type": "unverified_demo_record",
+            "source_title": "",
+            "source_url": "",
+            "source_locator": "",
+            "supporting_excerpt": "",
+            "retrieved_at": "",
+            "verified": false
+        }
+    }
+]

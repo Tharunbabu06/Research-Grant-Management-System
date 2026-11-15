@@ -1,0 +1,46 @@
+[
+  {
+    "agency": "ICMR",
+    "call_title": "First in the World Challenge Grants (2026)",
+    "deadline": "2026-11-30",
+    "funding_type": "Government",
+    "research_areas": [
+      "Biomedical innovation",
+      "Health technologies",
+      "Diagnostics",
+      "Therapeutics",
+      "Interventions"
+    ],
+    "eligibility": "Eligible scientists and faculty at specified research institutions, universities and other qualifying organizations; applicant eligibility must be checked against the official guidelines.",
+    "budget_ceiling": 10000000,
+    "funding_stage": "Proof of concept - test scenario only",
+    "required_sections": [
+      "Title",
+      "Summary",
+      "Problem Statement",
+      "Rationale of the Study",
+      "Study Objectives",
+      "Significance of the Project",
+      "Methodology",
+      "Implementation Strategy",
+      "Expected Outcomes and Deliverables",
+      "Future Plans for Technology Development",
+      "Conflict of Interest Declaration",
+      "Intellectual Property Status",
+      "Institutional Support and Facilities",
+      "Budget"
+    ],
+    "call_status": "open_as_of_2026-10-26",
+    "eligibility_status": "pending_human_review",
+    "novelty_status": "pending_human_review",
+    "source": {
+      "source_type": "official_funding_guideline",
+      "source_title": "Call for Investigator-Initiated Research Proposals for First in the World Challenge Grants (2026)",
+      "source_url": "https://www.icmr.gov.in/icmrobject/uploads/Call/1790846907_call_fiw_2026.pdf",
+      "source_locator": "PDF pages 1-2: Purpose, project types, Eligibility and Timelines",
+      "supporting_excerpt": "Develop breakthrough health technologies (vaccines, drugs/therapeutics, diagnostics, interventions etc.) that have never been thought of, tested or tried anywhere in the world to date.",
+      "retrieved_at": "2026-10-26",
+      "verified": true
+    }
+  }
+]

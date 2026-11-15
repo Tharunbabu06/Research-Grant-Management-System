@@ -1,0 +1,44 @@
+{
+  "dataset_type": "MOCK_TEST_DATA_ONLY",
+  "generated_at": "2026-10-27",
+  "policy_owner": "NOT ASSIGNED — synthetic fixture",
+  "safety_notice": "These are generic invented test rules, not official institutional policies. Replace only with approved policy documents before production.",
+  "verified": false,
+  "rules": [
+    {
+      "rule_id": "MOCK-POL-001",
+      "title": "Human approval required",
+      "rule": "Do not submit or publish any grant package without explicit PI/Research Office approval.",
+      "severity": "block",
+      "fixture_only": true
+    },
+    {
+      "rule_id": "MOCK-POL-002",
+      "title": "Provenance required",
+      "rule": "Each funding-call assertion must link to an official source URL, locator and supporting excerpt.",
+      "severity": "block",
+      "fixture_only": true
+    },
+    {
+      "rule_id": "MOCK-POL-003",
+      "title": "Budget ceiling",
+      "rule": "The itemized budget must not exceed the verified call ceiling; every cost category needs a source-backed rule.",
+      "severity": "block",
+      "fixture_only": true
+    },
+    {
+      "rule_id": "MOCK-POL-004",
+      "title": "Data protection",
+      "rule": "Keep draft proposals and personal data accessible only to authorized reviewers.",
+      "severity": "block",
+      "fixture_only": true
+    },
+    {
+      "rule_id": "MOCK-POL-005",
+      "title": "Human-subject research",
+      "rule": "If a proposed project uses human participant or clinical data, record ethics-review requirements and keep approval status pending until evidence is provided.",
+      "severity": "review",
+      "fixture_only": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "dataset_type": "MOCK_TEST_DATA_ONLY",
+  "generated_at": "2026-10-27",
+  "safety_notice": "Synthetic candidates only. Do not treat statuses as real eligibility/novelty decisions or load this file in production. No source is verified.",
+  "records": [
+    {
+      "mock_record": true,
+      "mock_id": "MOCK-CAND-001",
+      "mock_scenario": "needs_eligibility_and_novelty_review",
+      "expected_outcome": "keep_pending_human_review_and_do_not_publish",
+      "agency": "MOCK Government Health Research Agency (NOT REAL)",
+      "call_title": "SYNTHETIC TEST ONLY: AI-Based Cardiovascular Monitoring Research Grant",
+      "deadline": "2027-06-30",
+      "funding_type": "Government",
+      "research_areas": [
+        "Artificial Intelligence",
+        "Cardiovascular Monitoring",
+        "Medical AI"
+      ],
+      "budget_ceiling": 5000000,
+      "eligibility_status": "pending_human_review",
+      "novelty_status": "pending_human_review",
+      "source": {
+        "source_type": "mock_fixture",
+        "source_title": "MOCK ONLY — synthetic funding guideline",
+        "source_url": "https://example.invalid/mock-guidelines/cardio-001.pdf",
+        "source_locator": "Synthetic fixture pages 1-2",
+        "supporting_excerpt": "Synthetic excerpt for testing; not an actual call guideline.",
+        "retrieved_at": "MOCK_NOT_RETRIEVED",
+        "verified": false,
+        "is_mock": true
+      }
+    },
+    {
+      "mock_record": true,
+      "mock_id": "MOCK-CAND-002",
+      "mock_scenario": "source_fields_present_but_source_unverified",
+      "expected_outcome": "reject_unverified_source; never treat as cleared",
+      "agency": "MOCK Industry Digital Health Fund (NOT REAL)",
+      "call_title": "SYNTHETIC TEST ONLY: Clinical AI Translational Prototype Award",
+      "deadline": "2027-04-15",
+      "funding_type": "Non-Government",
+      "research_areas": [
+        "Digital Health",
+        "Cardiovascular AI",
+        "Clinical AI"
+      ],
+      "budget_ceiling": 2000000,
+      "eligibility_status": "eligible",
+      "novelty_status": "cleared",
+      "source": {
+        "source_type": "mock_fixture",
+        "source_title": "MOCK ONLY — synthetic funding guideline",
+        "source_url": "https://example.invalid/mock-guidelines/clinical-ai-002.pdf",
+        "source_locator": "Synthetic fixture sections 2-4",
+        "supporting_excerpt": "Synthetic excerpt; eligibility/novelty values are test inputs only and are not approvals.",
+        "retrieved_at": "MOCK_NOT_RETRIEVED",
+        "verified": false,
+        "is_mock": true
+      }
+    },
+    {
+      "mock_record": true,
+      "mock_id": "MOCK-CAND-003",
+      "mock_scenario": "no_deadline_or_guideline_evidence",
+      "expected_outcome": "reject_or_escalate_due_to_missing_evidence",
+      "agency": "MOCK Research Support Council (NOT REAL)",
+      "call_title": "SYNTHETIC TEST ONLY: Biomedical Systems Seed Grant",
+      "deadline": "",
+      "funding_type": "Government",
+      "research_areas": [
+        "Biomedical Systems",
+        "Medical AI"
+      ],
+      "budget_ceiling": null,
+      "eligibility_status": "pending_human_review",
+      "novelty_status": "pending_human_review",
+      "source": {
+        "source_type": "mock_fixture",
+        "source_title": "",
+        "source_url": "",
+        "source_locator": "",
+        "supporting_excerpt": "",
+        "retrieved_at": "",
+        "verified": false,
+        "is_mock": true
+      }
+    }
+  ]
+}
