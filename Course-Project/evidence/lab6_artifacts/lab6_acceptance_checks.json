@@ -1,0 +1,77 @@
+{
+  "lab": 6,
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 1552,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Budget skill runs two tools inside the runtime",
+      "pattern": "'total': 5175000",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "A third skill is registered after the runtime is built",
+      "pattern": "Post-Hoc Registered Third Skill",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Per-user session rate limit rejects the 4th task",
+      "pattern": "PASS: 4th task rejected as expected",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Two failures escalate to the human authority",
+      "pattern": "ESCALATED TO HUMAN AUTHORITY",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Memory is scoped per user",
+      "pattern": "Scoped Memory for User",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Checkpoints are captured after each skill",
+      "pattern": "CKPT-\\d{3} \\| after_",
+      "expected_min": 3,
+      "found": 6,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

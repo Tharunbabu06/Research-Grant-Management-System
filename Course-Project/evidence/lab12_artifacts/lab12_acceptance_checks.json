@@ -1,0 +1,84 @@
+{
+  "lab": 12,
+  "passed": 11,
+  "total": 11,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 2389,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Proposal without a rollback plan is rejected",
+      "pattern": "No rollback contingency plan defined",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Unscrubbed patient data is rejected",
+      "pattern": "unscrubbed patient data",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "PI cannot approve their own proposal",
+      "pattern": "does not hold 'review:approve' permission",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Dean R&D authorises publication",
+      "pattern": "Dean R&D Authorizes Publication",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "One-click rollback is demonstrated",
+      "pattern": "One-Click Rollback Demonstration",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Finance clearance gate enforced above the threshold",
+      "pattern": "Verification passed: Financial threshold control strictly enforced",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Periodic re-evaluation gate enforced",
+      "pattern": "Verification passed: Periodic re-evaluation successfully enforced",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

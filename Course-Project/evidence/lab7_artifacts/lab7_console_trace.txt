@@ -1,0 +1,76 @@
+======================================================================
+Lab 7: Agentic Node Graph -- The Full Grant Pipeline
+======================================================================
+
+=== 1. Graph Execution: Success Path ===
+  [NODE] intake (coordinator) -> Success: True
+  [NODE] plan (coordinator) -> Success: True
+  [NODE] discovery_and_literature (funding+literature_agents) -> Success: True
+  [NODE] drafting (proposal_drafting_agent) -> Success: True
+  [NODE] budget_and_compliance (budget+compliance_agents) -> Success: True
+  [NODE] packaging (submission_agent) -> Success: True
+  [NODE] dean_human_gate (dean_rd_human_authority) -> Success: True
+
+=== 2. Graph Execution: Failure Path with Bounded Recovery ===
+  [NODE] intake -> Success: True
+  [NODE] plan -> Success: True
+  [NODE] discovery_and_literature -> Success: True
+  [NODE] drafting -> Success: False
+  [RECOVERY] Bounded Retry (1/2) via retry_draft_with_specialist
+  [NODE] drafting -> Success: True
+  [NODE] budget_and_compliance -> Success: True
+  [NODE] packaging -> Success: True
+  [NODE] dean_human_gate -> Success: True
+
+=== LangGraph StateGraph Architecture Specification ===
+{
+  "nodes": [
+    "intake",
+    "plan",
+    "discovery_and_literature",
+    "drafting",
+    "budget_and_compliance",
+    "packaging",
+    "dean_human_gate"
+  ],
+  "edges": [
+    [
+      "intake",
+      "plan"
+    ],
+    [
+      "plan",
+      "discovery_and_literature"
+    ],
+    [
+      "discovery_and_literature",
+      "drafting"
+    ],
+    [
+      "drafting",
+      "budget_and_compliance"
+    ],
+    [
+      "budget_and_compliance",
+      "packaging"
+    ],
+    [
+      "packaging",
+      "dean_human_gate"
+    ]
+  ],
+  "conditional_edges": {
+    "budget_and_compliance": {
+      "pass": "packaging",
+      "fail": "drafting"
+    }
+  }
+}
+
+--- [Assignment 1] Add Ethics-Screening Node ---
+Graph halted at node 'ethics_screening' as expected: halt_pipeline_for_institutional_ethics_clearance
+
+--- [Assignment 2] Retry Limit on Budget Node ---
+Scenario (a): Fails once, retries, and recovers:
+Retry events captured: 1
+Final pipeline outcome: dean_human_gate -> awaiting_dean_review

@@ -1,0 +1,72 @@
+[
+  {
+    "lab": 1,
+    "passed": 10,
+    "total": 10
+  },
+  {
+    "lab": 2,
+    "passed": 10,
+    "total": 10
+  },
+  {
+    "lab": 3,
+    "passed": 11,
+    "total": 11
+  },
+  {
+    "lab": 4,
+    "passed": 8,
+    "total": 8
+  },
+  {
+    "lab": 5,
+    "passed": 10,
+    "total": 10
+  },
+  {
+    "lab": 6,
+    "passed": 10,
+    "total": 10
+  },
+  {
+    "lab": 7,
+    "passed": 10,
+    "total": 10
+  },
+  {
+    "lab": 8,
+    "passed": 10,
+    "total": 10
+  },
+  {
+    "lab": 9,
+    "passed": 10,
+    "total": 10
+  },
+  {
+    "lab": 10,
+    "passed": 11,
+    "total": 11
+  },
+  {
+    "lab": 11,
+    "passed": 9,
+    "total": 9
+  },
+  {
+    "lab": 12,
+    "passed": 11,
+    "total": 11
+  },
+  {
+    "lab": 13,
+    "passed": 8,
+    "total": 8
+  },
+  {
+    "lab": 14,
+    "passed": 12,
+    "total": 12
+  }
+]

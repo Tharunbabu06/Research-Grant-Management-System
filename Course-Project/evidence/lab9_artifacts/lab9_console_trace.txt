@@ -1,0 +1,24 @@
+======================================================================
+Lab 9: Deep Research Agent -- Evidence Grounding & Synthesis
+======================================================================
+=== 1. Grounding Evaluation of Proposal Claims ===
+Evidence Coverage: 66.7% (2/3 grounded)
+
+Evidence Table Records:
+  [C-001] -> Source: lit-001 (literature) | Status: IN-SCOPE
+  [C-002] -> Source: pol-ethics (policy) | Status: IN-SCOPE
+  [C-003] -> Source: lit-hallucinated-999 (literature) | Status: REJECTED (OUT-OF-SCOPE)
+
+Rejected Ungrounded Claims Count: 1
+  REJECTED CLAIM: 'The system achieves 100% diagnostic accuracy on all retinal disease stages.' (Source 'lit-hallucinated-999' not found in approved corpus)
+
+=== 2. Literature Synthesis & Traceable Briefing ===
+  Gap: [gap] Current literature does not evaluate deployment costs of non-mydriatic cameras in sub-district clinics.
+
+--- [Assignment 1] Add Directly Contradicting Source ---
+Synthesis with Contradiction:
+  Contradiction: [lit-001 vs lit-099] CONTRADICTION: S1 claims seamless decentralized training, whereas S4 proves significant communication delays under rural bandwidth constraints.
+
+--- [Assignment 2] Source Quality Tier Weighting ---
+Synthesis resolves toward S1 (peer_reviewed_journal, weight=1.0): '92% sensitivity achieved'
+Explicit disclosure: S2 (vendor_whitepaper, weight=0.4) was down-weighted.

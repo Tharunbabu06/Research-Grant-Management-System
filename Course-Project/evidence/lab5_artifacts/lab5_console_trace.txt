@@ -1,0 +1,32 @@
+======================================================================
+Lab 5: MCP-Style Connector -- Mini Integration Server
+======================================================================
+=== Capability Discovery from Manifest ===
+  [RESOURCE] funding.calls -> Lists verified funding calls filtered by funding type
+  [RESOURCE] hr.personnel -> Reads personnel register and monthly salaries
+  [RESOURCE] compliance.rules -> Reads compliance checklist rules for a given funding type
+  [TOOL] query_guidelines -> Queries specific guidelines for a call with section filter
+
+=== Call 1: Read Funding Calls ===
+Retrieved 4 government calls (Latency: 0.01 ms)
+
+=== Call 2: Read HR Personnel (Authorized caller 'budget_agent') ===
+Personnel records: [{'id': 'per-ra', 'name': 'Research Associate (to be appointed)', 'role': 'RA', 'title': 'Research Associate', 'department': 'Research Office', 'monthlyCost': 48000, 'defaultEffortPct': 100, 'careerStage': 'n/a'}]
+
+=== Call 3: Query Guidelines ===
+Budget Guidelines for SERB CRG: [{'id': 'call-serb-crg#g2', 'section': 'budget', 'text': 'The total request may not exceed INR 75,00,000 for a duration of up to 36 months.'}, {'id': 'call-serb-crg#g3', 'section': 'budget', 'text': 'Equipment may not exceed 40% of the total requested budget; requests above this ceiling require a written justification from the Head of Institution.'}, {'id': 'call-serb-crg#g4', 'section': 'budget', 'text': 'Overheads are payable at 15% of total direct costs.'}]
+
+--- [Assignment 1] Dynamic Discovery of New Capability ---
+Discovered Capabilities: ['funding.calls', 'hr.personnel', 'compliance.rules', 'query_guidelines', 'history.stats']
+Invoked 'history.stats' dynamically: {'total': 2, 'funded': 1, 'success_rate': 0.5}
+
+--- [Assignment 2] Security Boundary Enforcement ---
+Bad Token Test: {'error': 'Unauthorized: invalid agent token'}
+Unpermitted Caller Test: {'error': "Permission denied: caller 'guest_agent' cannot access HR personnel records"}
+Verification passed: Security boundaries strictly enforced.
+
+=== Server Audit Log Sample ===
+  2026-11-15T12:50:46Z | Caller: budget_agent | Endpoint: funding.calls | Status: ok
+  2026-11-15T12:50:46Z | Caller: budget_agent | Endpoint: hr.personnel | Status: ok
+  2026-11-15T12:50:46Z | Caller: budget_agent | Endpoint: query_guidelines | Status: ok
+  2026-11-15T12:50:46Z | Caller: coordinator | Endpoint: history.stats | Status: ok

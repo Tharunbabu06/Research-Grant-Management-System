@@ -1,0 +1,91 @@
+{
+  "lab": 14,
+  "passed": 12,
+  "total": 12,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 2139,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "End-to-end run stops at the Dean review gate",
+      "pattern": "Status after acceptance gate: awaiting_dean_review",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Package carries a SHA-256 integrity checksum",
+      "pattern": "Integrity Checksum: [0-9a-f]{64}",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Dean approval publishes version v1",
+      "pattern": "Status=published, Version=v1",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Sanctioned project portfolio (30 projects) is available",
+      "pattern": "Sample from 30 Total",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Second reusable skill runs on pipeline state",
+      "pattern": "Verification passed: Second skill executed cleanly",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Regression + adversarial cases all pass",
+      "pattern": "\\[PASS\\] Case '",
+      "expected_min": 3,
+      "found": 3,
+      "passed": true
+    },
+    {
+      "check": "PI self-approval is blocked",
+      "pattern": "\\[PASS\\] Blocked unauthorized approval as expected",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Limitations and roadmap are stated",
+      "pattern": "Stated Limitations & Next-Step Roadmap",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+======================================================================
+Lab 2: Tool-Using Agent -- Call Data & Compute
+======================================================================
+
+Q: What is the total budget for the proposed items?
+A: Computed Budget: Direct = INR 4,528,000.0, Overhead (15%) = INR 679,200, Contingency (5%) = INR 226,400, Grand Total = INR 5,433,600.0.
+
+Q: What are the guidelines for SERB CRG?
+A: Call 'SERB Core Research Grant 2026 -- Individual Investigator' has ceiling INR 7,500,000 and deadline 2026-12-15.
+
+Q: Check status of non-existent call call-fake-999
+A: Graceful failure reported: Tool 'read_funding_call' failed: Funding call 'call-fake-999' not found in verified registry
+
+--- [Assignment 1] Add Notification Tool with Justified Use ---
+Notification drafted successfully: {'draft_id': 'ALERT-001', 'to': 'suneeta.v.budihal@mist.edu.in', 'message': 'Equipment cost of INR 4,500,000.0 exceeds agency ceiling.', 'status': 'DRAFTED_NOT_SENT'}
+
+--- [Assignment 2] Three-Tool Chain Execution ---
+3-Tool Chain Result: Call = call-icmr-adhoc, Eligible = True, Total = INR 4,800,000.0
+
+=== Full Tool Call Trace ===
+1. tool=compute_budget | reason="Faculty submitted 4 budget lines; calculating total direct cost and statutory overhead"
+   input: {'lines': [{'category': 'personnel', 'item': 'Research Associate (3 yrs)', 'amount': 1728000}, {'category': 'equipment', 'item': 'GPU Workstation', 'amount': 1800000}, {'category': 'consumables', 'item': 'Data Storage & APIs', 'amount': 600000}, {'category': 'travel', 'item': 'Clinic Visits', 'amount': 400000}], 'rules': {'overheadPct': 15, 'contingencyPct': 5}}
+   output: {'result': {'categories': {'personnel': 1728000.0, 'equipment': 1800000.0, 'consumables': 600000.0, 'travel': 400000.0}, 'direct': 4528000.0, 'overhead': 679200, 'overheadPct': 15.0, 'contingency': 226400, 'contingencyPct': 5.0, 'total': 5433600.0, 'lineCount': 4}}
+2. tool=read_funding_call | reason="Looking up published guidelines and ceilings for SERB CRG call"
+   input: {'call_id': 'call-serb-crg'}
+   output: {'result': {'id': 'call-serb-crg', 'agency': 'SERB', 'agencyFull': 'Science and Engineering Research Board, DST', 'program': 'Core Research Grant (CRG)', 'title': 'SERB Core Research Grant 2026 -- Individual Investigator', 'fundingType': 'government', 'domains': ['ai-ml', 'energy', 'materials', 'health', 'climate'], 'tags': ['artificial intelligence', 'machine learning', 'federated learning', 'sustainable energy', 'materials science', 'medical imaging'], 'deadline': '2026-12-15', 'budgetMin': 3000000, 'budgetMax': 7500000, 'durationMonths': 36, 'pageLimit': 25, 'verified': True, 'status': 'open', 'eligibility': {'careerStages': ['assistant', 'associate', 'professor'], 'institutionTypes': ['university', 'institute'], 'consortiumRequired': False, 'minPartners': 0, 'coFundingRequired': False}, 'budgetRules': {'overheadPct': 15, 'salaryCapPct': 45, 'equipmentCapPct': 40, 'travelCapPct': 10, 'contingencyPct': 5}, 'guidelines': [{'id': 'call-serb-crg#g1', 'section': 'submission', 'text': 'Proposals must be routed through the institutional research office; individual submissions are not accepted.'}, {'id': 'call-serb-crg#g2', 'section': 'budget', 'text': 'The total request may not exceed INR 75,00,000 for a duration of up to 36 months.'}, {'id': 'call-serb-crg#g3', 'section': 'budget', 'text': 'Equipment may not exceed 40% of the total requested budget; requests above this ceiling require a written justification from the Head of Institution.'}, {'id': 'call-serb-crg#g4', 'section': 'budget', 'text': 'Overheads are payable at 15% of total direct costs.'}, {'id': 'call-serb-crg#g5', 'section': 'documents', 'text': 'A Data Management Plan and a conflict-of-interest declaration are mandatory at submission.'}, {'id': 'call-serb-crg#g6', 'section': 'format', 'text': 'The narrative may not exceed 25 pages excluding references and the budget annexure.'}]}}
+3. tool=read_funding_call | reason="Attempting lookup of unverified agency identifier"
+   input: {'call_id': 'call-fake-999'}
+   output: {'error': "Funding call 'call-fake-999' not found in verified registry"}
+4. tool=cap_report | reason="Evaluating category percentages against SERB CRG limits"
+   input: {'lines': [{'category': 'personnel', 'item': 'RA', 'amount': 1000000}, {'category': 'equipment', 'item': 'Supercomputer Cluster', 'amount': 4500000}, {'category': 'consumables', 'item': 'Reagents', 'amount': 500000}], 'rules': {'salaryCapPct': 45, 'equipmentCapPct': 40, 'travelCapPct': 10}}
+   output: {'result': {'caps': [{'key': 'salary', 'label': 'Manpower', 'amount': 1000000.0, 'actualPct': 13.9, 'capPct': 45.0, 'limitAmount': 3240000, 'status': 'ok'}, {'key': 'equipment', 'label': 'Equipment', 'amount': 4500000.0, 'actualPct': 62.5, 'capPct': 40.0, 'limitAmount': 2880000, 'status': 'over'}, {'key': 'travel', 'label': 'Travel', 'amount': 0, 'actualPct': 0.0, 'capPct': 10.0, 'limitAmount': 720000, 'status': 'ok'}], 'anyBreach': True}}
+5. tool=send_notification | reason="Equipment allocation (62.5%) exceeds 40.0% ceiling; drafting warning for PI"
+   input: {'recipient': 'suneeta.v.budihal@mist.edu.in', 'alert_message': 'Equipment cost of INR 4,500,000.0 exceeds agency ceiling.'}
+   output: {'result': {'draft_id': 'ALERT-001', 'to': 'suneeta.v.budihal@mist.edu.in', 'message': 'Equipment cost of INR 4,500,000.0 exceeds agency ceiling.', 'status': 'DRAFTED_NOT_SENT'}}
+6. tool=read_funding_call | reason="Step 1: Fetching ICMR Ad-hoc call parameters"
+   input: {'call_id': 'call-icmr-adhoc'}
+   output: {'result': {'id': 'call-icmr-adhoc', 'agency': 'ICMR', 'agencyFull': 'Indian Council of Medical Research', 'program': 'Ad-hoc Research Project', 'title': 'ICMR Ad-hoc Research Project 2026 -- Diagnostics & Public Health', 'fundingType': 'government', 'domains': ['health', 'ai-ml', 'public-health'], 'tags': ['diabetic retinopathy', 'medical imaging', 'rural health', 'screening', 'federated learning', 'digital health', 'primary care'], 'deadline': '2026-12-05', 'budgetMin': 2000000, 'budgetMax': 6000000, 'durationMonths': 36, 'pageLimit': 25, 'verified': True, 'status': 'open', 'eligibility': {'careerStages': ['assistant', 'associate', 'professor'], 'institutionTypes': ['university', 'institute', 'hospital'], 'consortiumRequired': False, 'minPartners': 0, 'coFundingRequired': False}, 'budgetRules': {'overheadPct': 15, 'salaryCapPct': 50, 'equipmentCapPct': 30, 'travelCapPct': 10, 'contingencyPct': 5}, 'guidelines': [{'id': 'call-icmr-adhoc#g1', 'section': 'eligibility', 'text': 'Applicants must hold a regular position in a recognised institution or hospital and demonstrate access to the study population.'}, {'id': 'call-icmr-adhoc#g2', 'section': 'budget', 'text': 'The total request must fall between INR 20,00,000 and INR 60,00,000; equipment is capped at 30%.'}, {'id': 'call-icmr-adhoc#g3', 'section': 'ethics', 'text': 'Institutional Ethics Committee approval is mandatory for any study involving human participants or their data.'}, {'id': 'call-icmr-adhoc#g4', 'section': 'data', 'text': 'A Data Management Plan describing de-identification and retention is required; identifiable health data may not leave the institution without a documented risk assessment.'}, {'id': 'call-icmr-adhoc#g5', 'section': 'deliverables', 'text': 'The proposal must state measurable clinical or public-health outcomes for the funding period.'}]}}
+7. tool=check_eligibility | reason="Step 2: Checking associate professor eligibility against ICMR requirements"
+   input: {'call_id': 'call-icmr-adhoc', 'profile': {'careerStage': 'associate', 'institutionType': 'university'}}
+   output: {'result': {'eligible': True, 'checks': [{'field': 'careerStage', 'candidate': 'associate', 'allowed': ['assistant', 'associate', 'professor'], 'pass': True}, {'field': 'institutionType', 'candidate': 'university', 'allowed': ['university', 'institute', 'hospital'], 'pass': True}]}}
+8. tool=compute_budget | reason="Step 3: Calculating total cost using call's 15% overhead rule"
+   input: {'lines': [{'category': 'personnel', 'amount': 2000000}, {'category': 'equipment', 'amount': 1500000}, {'category': 'consumables', 'amount': 500000}], 'rules': {'overheadPct': 15, 'salaryCapPct': 50, 'equipmentCapPct': 30, 'travelCapPct': 10, 'contingencyPct': 5}}
+   output: {'result': {'categories': {'personnel': 2000000.0, 'equipment': 1500000.0, 'consumables': 500000.0, 'travel': 0}, 'direct': 4000000.0, 'overhead': 600000, 'overheadPct': 15.0, 'contingency': 200000, 'contingencyPct': 5.0, 'total': 4800000.0, 'lineCount': 3}}

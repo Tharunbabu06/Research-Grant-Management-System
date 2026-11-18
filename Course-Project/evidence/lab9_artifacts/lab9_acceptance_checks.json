@@ -1,0 +1,77 @@
+{
+  "lab": 9,
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 1213,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Evidence coverage is measured per claim",
+      "pattern": "Evidence Coverage: [\\d.]+% \\(2/3 grounded\\)",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Hallucinated source is rejected as out of scope",
+      "pattern": "REJECTED \\(OUT-OF-SCOPE\\)",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Ungrounded claim is removed, not softened",
+      "pattern": "Rejected Ungrounded Claims Count: 1",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Synthesis reports a literature gap",
+      "pattern": "\\[gap\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "A directly contradicting source is surfaced",
+      "pattern": "CONTRADICTION",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Lower-tier source is down-weighted and disclosed",
+      "pattern": "down-weighted",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

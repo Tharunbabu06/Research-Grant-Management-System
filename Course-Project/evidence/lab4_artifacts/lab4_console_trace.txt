@@ -1,0 +1,26 @@
+======================================================================
+Lab 4: Memory and Retrieval -- State vs Stored
+======================================================================
+
+=== Initial Policy Retrieval ===
+[memory, dated 2026-07-03] Per institutional decision on 'data_residency': Patient health data must remain inside participating hospital firewalls
+
+--- Conflict Detection: Faculty member proposes cloud migration ---
+CONFLICT DETECTED: Proposed fact 'Migrate all raw patient fundus images to public US cloud bucket' conflicts with existing decision from 2026-07-03 ('Patient health data must remain inside participating hospital firewalls'). Requires Dean approval to overwrite.
+
+--- Permission Gate: Unauthorized role attempting to write ---
+Blocked as expected: Role 'student' is not permitted to write to institutional memory.
+
+=== Literature Corpus Cosine Retrieval ===
+[lit-001] Score: 0.6186 | Federated learning for diabetic retinopathy screening across rural clinics
+[lit-002] Score: 0.4653 | Deep learning detection of referable diabetic retinopathy in primary care
+
+--- [Assignment 1] Isolated Topic Scoping Test ---
+Query 'overhead_rate': [memory, dated 2026-11-15] Per institutional decision on 'overhead_rate': Institutional overhead is set to 15% of direct costs
+Query 'ethics_policy': [memory, dated 2026-11-15] Per institutional decision on 'ethics_policy': Clinical trials must have Institutional Ethics Committee clearance
+Verification passed: Strict topic boundary enforced with zero leakage.
+
+--- [Assignment 2] Staleness & Retention Policy Test ---
+Fresh Record (under 365 days): [memory, dated 2026-11-15] Per institutional decision on 'salary_ceiling': JRF salary capped at 37,000 INR/month
+Stale Record (over 365 days): [STALENESS WARNING: decision is 730 days old and may be out of date] [memory, dated 2024-11-15] Per institutional decision on 'legacy_hardware_grant': Servers require local physical rack
+Verification passed: Staleness policy warned user about outdated record.

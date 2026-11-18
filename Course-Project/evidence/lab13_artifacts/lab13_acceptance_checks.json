@@ -1,0 +1,63 @@
+{
+  "lab": 13,
+  "passed": 8,
+  "total": 8,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 1191,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Government and Industry/CSR specialist contracts pass",
+      "pattern": "^Contract Passed: True",
+      "expected_min": 2,
+      "found": 2,
+      "passed": true
+    },
+    {
+      "check": "Domain transfer never auto-executes a risky action",
+      "pattern": "Auto-Executed: False",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "International (EU Horizon) specialist added and passes",
+      "pattern": "International Specialist Contract Check: True",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Trend-based escalation succeeds",
+      "pattern": "Verification passed: Trend-based escalation succeeded",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

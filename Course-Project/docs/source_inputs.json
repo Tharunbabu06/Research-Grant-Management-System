@@ -1,0 +1,12 @@
+[
+  {
+    "file": "Reasearch-grant-management-system-main (1).zip",
+    "sha256": "368a805b05fbde413e2303715d139016af230139f11a724deb0e3c54358886f2",
+    "role": "primary course source"
+  },
+  {
+    "file": "GrantOffice_Updated(2).zip",
+    "sha256": "25d6017b78a62974c7125e15c83ef4d357691f40c13e3d6d4be02cc69b74fe02",
+    "role": "GrantOffice UI and Python catalog source"
+  }
+]

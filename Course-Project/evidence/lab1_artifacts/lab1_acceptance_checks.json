@@ -1,0 +1,77 @@
+{
+  "lab": 1,
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 4022,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 2,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Vague request triggers the clarify step before any plan",
+      "pattern": "Step 1: Initial Run with Vague Inputs",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Feedback round 1 adds the Clinical Site Validation work package",
+      "pattern": "Work packages after Round 1: .*Clinical Site Validation",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Feedback round 2 shortens data curation to 3 months",
+      "pattern": "Data curation duration after Round 2: 3 months",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Both rounds mutate the same plan object (no regeneration)",
+      "pattern": "Verification passed: Both rounds mutated the same plan instance",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Budget/ceiling conflict is detected before plan lock",
+      "pattern": "CONFLICT DETECTED",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Iteration log records revisions without restarting the loop",
+      "pattern": "revision applied without restarting loop",
+      "expected_min": 2,
+      "found": 2,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

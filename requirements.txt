@@ -1,8 +1,7 @@
-# Shared entry point, Python 3.11-3.13 (3.12 recommended).
-# From repository root: python -m pip install -r requirements.txt
-# Reuse the supplied application lock and compatible app/lab ranges.
-# Current verification: Course-Project/docs/Verification.md.
-# Ollama and Qwen weights are installed separately.
--c Course-Project/code/GrantOffice/requirements-lock.txt
--r Course-Project/code/GrantOffice/requirements.txt
--r Course-Project/code/Lab_Support/requirements.txt
+# The lab notebooks and scripts use only the Python standard library (Python 3.10+).
+# These packages are needed only to open the notebooks locally and to rebuild /
+# re-execute them with Assignments/scripts/build_notebooks.py.
+jupyter>=1.0
+nbformat>=5.9
+nbclient>=0.9
+ipykernel>=6.25

@@ -1,0 +1,32 @@
+======================================================================
+Lab 10: Operations Resilience -- Validate, Diagnose, Fix
+======================================================================
+Initial State Injected with 4 Deliberate Faults:
+  - Missing methodology section
+  - Budget line vs stated total mismatch
+  - Equipment ceiling breach (60% > 40%)
+  - Ungrounded claim (CLM-02)
+
+=== Executing Self-Healing Validation Loop ===
+
+Self-Healing Outcome: SUCCESS
+Total Recovery Attempts Used: 2/3
+
+Diagnosis & Surgical Repair Log:
+  [Attempt 1] MISSING_SECTION (sections) -> Surgically regenerated missing 'methodology' section.
+  [Attempt 1] BUDGET_MISMATCH (budget_totals) -> Recomputed budget totals from lines: new total = INR 5,836,250.
+  [Attempt 1] EQUIPMENT_CAP_BREACH (budget_lines) -> Rebalanced excess equipment allocation into consumables category.
+  [Attempt 1] UNGROUNDED_CLAIMS (claims) -> Purged 1 ungrounded claim(s) from proposal.
+
+=== Repaired State Verification ===
+Methodology section present: True
+Active Claims remaining: ['CLM-01']
+Reconciled Budget Total: INR 5,836,250
+
+--- [Assignment 1] Expired Call Incident Diagnosis & Targeted Fix ---
+Call Check: 'call-serb-supra-expired' is EXPIRED.
+Targeted Repair: Swapped to active call 'call-serb-crg' while preserving draft.
+
+--- [Assignment 2] High-Risk Remediation Gate ---
+High-Risk Action Gated: {'status': 'AWAITING_DEAN_APPROVAL', 'proposed_action': 'descope_clinical_sites', 'impact': 'Budget exceeds agency ceiling by 40 Lakh INR; requires reducing sites from 4 to 2.', 'auto_executed': False}
+Verification passed: High-risk action halted at human approval gate.

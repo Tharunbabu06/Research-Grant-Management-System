@@ -1,0 +1,30 @@
+======================================================================
+Lab 13: Discipline-Specific Engineering Agents (Domain Specialisation)
+======================================================================
+=== 1. Government Funder Specialist Check ===
+Domain: Government Agency (SERB / DST / ICMR)
+Contract Passed: True
+  - At least 3 measurable objectives: satisfied
+  - Milestones with target dates defined: satisfied
+  - Measurable clinical/scientific targets: satisfied
+
+=== 2. Industry / CSR Funder Specialist Check ===
+Domain: Industry / CSR (Tata Trusts / Infosys Foundation)
+Contract Passed: True
+  - At least 2 outcome indicators: satisfied
+  - Post-grant sustainability plan: satisfied
+  - Companies Act Schedule VII compliance: satisfied
+
+=== 3. Engineering Sensor Domain Transfer ===
+Condition Detected: ALARM
+Recommended Action: recommend_shutdown_for_human_engineer_review
+Auto-Executed: False (Human sign-off required)
+
+--- [Assignment 1] Add International Domain Specialist (EU Horizon) ---
+International Specialist Contract Check: True
+  Consortium of at least 3 partners: satisfied
+  FAIR open-science plan: satisfied
+
+--- [Assignment 2] Trend-Based Multi-Reading Escalation ---
+Trend Detected: 3 consecutive warnings. Action escalated to: 'ESCALATED_SCHEDULE_IMMEDIATE_INSPECTION'
+Verification passed: Trend-based escalation succeeded.

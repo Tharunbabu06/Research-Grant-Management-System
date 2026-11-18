@@ -1,0 +1,77 @@
+{
+  "lab": 8,
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 1578,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Four specialists fan out in a real thread pool",
+      "pattern": "Launching 4 specialist agents in parallel via ThreadPoolExecutor",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Merge covers every unit required by the plan",
+      "pattern": "All Required Units Covered: True",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Cross-agent conflict is detected and resolved by rule",
+      "pattern": "Resolution applied",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Fifth role (data management) joins the swarm",
+      "pattern": "Unit 'data_management': covered",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Specialist critique raises a blocking finding",
+      "pattern": "\\(BLOCKING\\)",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Specialist critique raises an advisory finding",
+      "pattern": "\\(ADVISORY\\)",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

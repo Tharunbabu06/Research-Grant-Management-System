@@ -1,0 +1,40 @@
+======================================================================
+Lab 12: Safety, Evaluation, and Governance (Approval & Rollback)
+======================================================================
+=== Control 2: Pre-Flight Evaluation Gate ===
+Agent evaluated against benchmark test suite: True
+
+=== Attempt 1: Missing Rollback Plan (Must Reject) ===
+Result: {'rejected': True, 'reason': 'No rollback contingency plan defined; rejecting.'}
+
+=== Attempt 2: Unscrubbed Patient Data (Must Reject) ===
+Result: {'rejected': True, 'reason': 'Diagnostic input contains unscrubbed patient data; rejecting.'}
+
+=== Attempt 3: Valid Proposal Drafted ===
+Status: AWAITING_DEAN_APPROVAL (Run: RUN-2026-0001)
+
+=== Human Gate: PI Attempts Self-Approval (Must Reject) ===
+Blocked as expected: Access Denied: Actor 'Dr. Suneeta V Budihal' (pi) does not hold 'review:approve' permission.
+
+=== Human Gate: Dean R&D Authorizes Publication ===
+Published Version: v1 | Checksum: 052bfac47104fa94...
+
+=== One-Click Rollback Demonstration ===
+Rollback complete: {'status': 'rolled_back', 'restored_from_version': 1, 'new_published_version': 2, 'checksum': '052bfac47104fa946fac9da08df580f68ec31182d1ce4e580f40875f3e8e838f'}
+
+--- [Assignment 1] Cost-Category Financial Clearance Gate ---
+Adversarial Test (Missing Finance Clearance): {'rejected': True, 'reason': 'Grants exceeding 50 Lakh INR require explicit Finance Committee clearance.'}
+Verification passed: Financial threshold control strictly enforced.
+
+--- [Assignment 2] Mandatory Periodic Re-Evaluation Gate ---
+6th Proposal Attempt without re-evaluation: {'rejected': True, 'reason': '5 proposals processed since last evaluation; re-evaluation required.'}
+Re-evaluated readiness benchmark: gate passed.
+6th Proposal Attempt after re-evaluation: Status = AWAITING_DEAN_APPROVAL
+Verification passed: Periodic re-evaluation successfully enforced.
+
+=== Full Governance Audit Trail (Sample) ===
+  2026-11-15T12:50:58 | Step: evaluation_gate | Data: {'pass_rate': 0.9, 'gate_passed': True}
+  2026-11-15T12:50:58 | Step: propose_rejected | Data: {'reason': 'missing_rollback_plan'}
+  2026-11-15T12:50:58 | Step: propose_rejected | Data: {'reason': 'privacy_unscrubbed_patient_data'}
+  2026-11-15T12:50:58 | Step: approval_requested | Data: {'run_id': 'RUN-2026-0001', 'title': 'Diabetic Retinopathy Grant', 'budget_total': 4500000, 'rollback_plan': 'Revert to initial seed v1 on agency rejection', 'privacy_scrubbed': True, 'category': 'agency_grant_submission', 'requires_human_approval': True, 'status': 'AWAITING_DEAN_APPROVAL'}
+  2026-11-15T12:50:58 | Step: human_decision_received | Data: {'actor': 'Dr. Suneeta V Budihal', 'decision': 'approved'}

@@ -1,0 +1,84 @@
+{
+  "lab": 3,
+  "passed": 11,
+  "total": 11,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 1440,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Government plan is produced and locked",
+      "pattern": "Locked: True",
+      "expected_min": 1,
+      "found": 2,
+      "passed": true
+    },
+    {
+      "check": "Same plan skill serves the Industry/CSR domain",
+      "pattern": "Generated Industry Plan: PLAN-INDUSTRY",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Both domains share one output schema",
+      "pattern": "Identical Schema: True",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Each locked plan has its own integrity checksum",
+      "pattern": "Distinct Integrity Checksums: True",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Skill is declared reusable across domains",
+      "pattern": "SKILL IS REUSABLE ACROSS DOMAINS",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Format skill discloses AI-assisted drafting",
+      "pattern": "AI-assisted drafting",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Contract violation (missing objectives) is refused",
+      "pattern": "PASS: Contract violation caught as expected",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

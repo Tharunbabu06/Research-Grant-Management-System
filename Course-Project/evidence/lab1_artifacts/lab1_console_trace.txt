@@ -1,0 +1,178 @@
+======================================================================
+Lab 1: Agent vs Chatbot -- Research Grant Management System Planner
+======================================================================
+Stopping condition declared before loop runs:
+  goal['plan_generated'] is True
+
+=== Step 1: Initial Run with Vague Inputs ===
+Initial Plan Generated:
+{
+  "id": "PLAN-AURA-2026-001",
+  "title": "Grant Package -- AI for healthcare",
+  "funder_domain": "government",
+  "target_budget": 5800000,
+  "duration_months": 36,
+  "sections": [
+    {
+      "key": "abstract",
+      "title": "Abstract",
+      "min_words": 90
+    },
+    {
+      "key": "objectives",
+      "title": "Objectives & Specific Aims",
+      "min_words": 90
+    },
+    {
+      "key": "background",
+      "title": "Background & State of the Art",
+      "min_words": 130
+    },
+    {
+      "key": "methodology",
+      "title": "Methodology & Work Packages",
+      "min_words": 160
+    },
+    {
+      "key": "timeline",
+      "title": "Work Plan & Milestones",
+      "min_words": 100
+    },
+    {
+      "key": "data_management",
+      "title": "Data Management & Ethics",
+      "min_words": 110
+    },
+    {
+      "key": "budget_justification",
+      "title": "Budget Justification",
+      "min_words": 80
+    },
+    {
+      "key": "references",
+      "title": "References",
+      "min_words": 30
+    }
+  ],
+  "work_packages": [
+    {
+      "id": "WP1",
+      "name": "Data Curation & De-identification",
+      "duration_months": 6
+    },
+    {
+      "id": "WP2",
+      "name": "Federated Learning Model Architecture",
+      "duration_months": 18
+    },
+    {
+      "id": "WP3",
+      "name": "Multi-Clinic Evaluation & Dissemination",
+      "duration_months": 12
+    }
+  ],
+  "incorporated_lessons": [
+    "Clinical validation was out of scope in phase 1; must be explicit in follow-up proposals."
+  ]
+}
+
+--- [Assignment 1] Round 1 Feedback ---
+Work packages after Round 1: ['Data Curation & De-identification', 'Federated Learning Model Architecture', 'Multi-Clinic Evaluation & Dissemination', 'Clinical Site Validation']
+
+--- [Assignment 1] Round 2 Feedback ---
+Data curation duration after Round 2: 3 months
+Verification passed: Both rounds mutated the same plan instance.
+
+--- [Assignment 2] Detect Constraint Conflict ---
+Pre-flight Check: CONFLICT DETECTED: Requested budget INR 15,000,000 exceeds standard agency ceiling of INR 7,500,000. Flagging for budget de-scoping before plan lock.
+
+=== Full Agent Iteration Log ===
+{
+  "iteration": 1,
+  "planned": "clarify missing requirement 'research_area'",
+  "action": "asked user for research_area",
+  "observed": "AI for healthcare",
+  "stopped": false
+}
+{
+  "iteration": 2,
+  "planned": "clarify missing requirement 'funding_type'",
+  "action": "asked user for funding_type",
+  "observed": "government",
+  "stopped": false
+}
+{
+  "iteration": 3,
+  "planned": "clarify missing requirement 'requested_budget'",
+  "action": "asked user for requested_budget",
+  "observed": 5800000,
+  "stopped": false
+}
+{
+  "iteration": 4,
+  "planned": "clarify missing requirement 'duration_months'",
+  "action": "asked user for duration_months",
+  "observed": 36,
+  "stopped": false
+}
+{
+  "iteration": 5,
+  "planned": "clarify missing requirement 'consent'",
+  "action": "asked user for consent",
+  "observed": true,
+  "stopped": false
+}
+{
+  "iteration": 6,
+  "planned": "read institutional grant history before generating outline",
+  "action": "tool call: read_institutional_history()",
+  "observed": "Retrieved 1 past records",
+  "stopped": false
+}
+{
+  "iteration": 7,
+  "planned": "generate structured grant outline from gathered requirements",
+  "action": "built grant proposal and compliance plan",
+  "observed": "PLAN-AURA-2026-001",
+  "stopped": true,
+  "stop_reason": "goal.plan_generated is now True"
+}
+{
+  "iteration": 8,
+  "planned": "apply user feedback to existing plan",
+  "action": "feedback received: 'Include a dedicated Work Package for Clinical Site Validation in year 2.'",
+  "observed": null,
+  "stopped": false
+}
+{
+  "iteration": 9,
+  "planned": "confirm revised plan (added WP for Clinical Site Validation)",
+  "action": "mutated existing plan.work_packages (not regenerated from scratch)",
+  "observed": [
+    "Data Curation & De-identification",
+    "Federated Learning Model Architecture",
+    "Multi-Clinic Evaluation & Dissemination",
+    "Clinical Site Validation"
+  ],
+  "stopped": true,
+  "stop_reason": "revision applied without restarting loop"
+}
+{
+  "iteration": 10,
+  "planned": "apply user feedback to existing plan",
+  "action": "feedback received: 'Shorten the data curation phase from 6 months to 3 months.'",
+  "observed": null,
+  "stopped": false
+}
+{
+  "iteration": 11,
+  "planned": "confirm revised plan (shortened data curation duration)",
+  "action": "mutated existing plan.work_packages duration to 3 months",
+  "observed": {
+    "id": "WP1",
+    "name": "Data Curation & De-identification",
+    "duration_months": 3
+  },
+  "stopped": true,
+  "stop_reason": "revision applied without restarting loop"
+}

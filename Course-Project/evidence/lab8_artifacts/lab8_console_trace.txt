@@ -1,0 +1,34 @@
+======================================================================
+Lab 8: Parallel Swarm -- Multi-Agent Fan-Out & Alignment Merge
+======================================================================
+Launching 4 specialist agents in parallel via ThreadPoolExecutor...
+Execution complete. Wall-clock time: 0.061s
+  [literature] produced section 'background' (140 words)
+  [methodology] produced section 'methodology' (175 words)
+  [budget] produced section 'budget' (95 words)
+  [compliance] produced section 'compliance' (85 words)
+
+=== Plan Alignment Merge ===
+All Required Units Covered: True
+
+=== Cross-Agent Conflict Critique ===
+Detected: Equipment cost in methodology exceeds agency ceiling (between ['methodology_specialist', 'budget_planner'])
+  -> Resolution applied: Cap equipment at INR 2,500,000; direct methodology agent to utilize institutional shared cloud compute for remaining capacity.
+
+--- [Assignment 1] Add Fifth Role: Data Management ---
+5-Agent Swarm completed in 0.061 seconds.
+Coverage report across 5 units:
+  Unit 'background': covered (140 words)
+  Unit 'methodology': covered (175 words)
+  Unit 'budget': covered (95 words)
+  Unit 'compliance': covered (85 words)
+  Unit 'data_management': covered (115 words)
+
+--- [Assignment 2] Distributed Specialist Critique ---
+  [budget_planner] (BLOCKING): Methodology requested hardware of 35L exceeding budget cap of 2500000 INR.
+  [compliance_officer] (ADVISORY): Methodology involves human clinical fundus imaging; verified ethics document must be attached.
+
+=== Final Conflict Log (Swarm Report Artifact) ===
+Conflict: Equipment cost in methodology exceeds agency ceiling
+  Rule: agency_ceiling_over_spec
+  Action: Cap equipment at INR 2,500,000; direct methodology agent to utilize institutional shared cloud compute for remaining capacity.

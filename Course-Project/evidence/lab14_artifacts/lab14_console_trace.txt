@@ -1,0 +1,39 @@
+======================================================================
+Lab 14: Capstone Project Studio -- Integrated Research Grant System
+======================================================================
+=== Step 1: Launch End-to-End Pipeline Run with Injected Budget Fault ===
+Run ID: RUN-2026-0001
+Status after acceptance gate: awaiting_dean_review
+Integrity Checksum: cc56ff6c37de50ce5cb501ee9d52c19ebc1312d8ff514ed31912fbc64beeaef9
+
+=== Step 2: Dean R&D Authorizes Publication ===
+Publication Result: Status=published, Version=v1
+
+=== Step 3: Institutional Sanctioned Project Portfolio View ===
+Sanctioned Projects on Record (Sample from 30 Total):
+  [PRJ-2324-01] 2023-24 | SoECE | SERB-INAE | Digital Creation Gamification | INR 63.89 Lakh
+  [PRJ-2223-01] 2022-23 | SoECE | SERB Power | e Krushi Precision Agriculture | INR 15.68 Lakh
+  [PRJ-2021-01] 2020-21 | CSE | IISc Bangalore | Grading of Diabetic Retinopathy | INR 19.89 Lakh
+
+--- [Assignment 1] Second Reusable Skill: Executive Briefing Generator ---
+EXECUTIVE BRIEFING:
+Title: Grant Package -- Smart Agriculture Precision Irrigation
+Target Call: SERB Core Research Grant 2026 -- Individual Investigator
+Financials: Total INR 5,175,000 (Direct: INR 4,500,000, Overhead: INR 675,000)
+Verification: Hard acceptance gate 100% green. Checksum: cc56ff6c37de50ce...
+Verification passed: Second skill executed cleanly across pipeline state.
+
+--- [Assignment 2] Expanded Regression & Adversarial Evaluation Suite ---
+  [PASS] Case 'Standard Health Proposal': Result='awaiting_dean_review'
+  [PASS] Case 'Injected Budget Mismatch': Result='awaiting_dean_review'
+  [PASS] Case 'Adversarial Direct Submit Injection': Result='awaiting_dean_review'
+  Testing Adversarial Actor Self-Approval (PI attempting to approve):
+  [PASS] Blocked unauthorized approval as expected: Security Alert: Actor 'Dr. Suneeta V Budihal' is unauthorized to sign off.
+
+=== Stated Limitations & Next-Step Roadmap ===
+- Limitation 1: TF-IDF similarity matches keywords but lacks deep semantic chunk embeddings.
+- Limitation 2: Budget currently models 4 standard categories; does not dynamically parse multi-tier foreign exchange rates.
+- Next-Step Roadmap:
+  1. Integrate LangGraph state checkpoints with persistent PostgreSQL / MongoDB backend.
+  2. Connect to live agency portals via verified MCP connectors for automated deadline alerting.
+  3. Extend domain specialists to cover Defense (DRDO) and Space (ISRO) grant guidelines.

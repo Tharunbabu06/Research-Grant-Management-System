@@ -1,7 +1,20 @@
-# Supporting documentation
+# Technical documentation index
 
-[Repository submission](../../README.md) | [Architecture](ARCHITECTURE.md) | [Windows setup](WINDOWS_SETUP.md) | [Usage](USAGE_GUIDE.md) | [Operations](OPERATIONS.md) | [Ollama](OLLAMA.md) | [Upgrade](UPGRADE.md) | [College data audit](DATA_AUDIT.md) | [Application lab mapping](LAB_MAPPING.md) | [Current verification](Verification.md) | [Evidence provenance](evidence/README.md)
+Reviewed against current code on 18 November 2026. Main engine: JavaScript. Python/LangGraph: independent edition.
 
-The editable final report and original PDF are in [Final_Report](../Final_Report/); Chapter 13 and the specification are in [Problem_Statement](../Problem_Statement/). No separate worklet canvas or lab review sheet was found. Team details were already transcribed in the supplied README; the original evaluation sheet is unavailable here.
+| Document | Contents |
+| --- | --- |
+| [Architecture](ARCHITECTURE.md) | Components, stages, trust boundaries and stores |
+| [Setup](SETUP.md) | Commands, configuration and separate Python launch |
+| [Data and identities](DATA_AND_IDENTITIES.md) | Provenance, deduplication and counters |
+| [Correctness](CORRECTNESS.md) | Budgets, providers, review, exports and Restore |
+| [Demo guide](USER_GUIDE.md) | Reproducible practice walkthrough |
+| [Verification](VERIFICATION.md) | Fresh results and mocked/live/blocked scope |
+| [Scope mapping](SCOPE_MAPPING.md) | Original requirements and remaining gaps |
+| [Limitations](LIMITATIONS.md) | Unverified features and future work |
+| [Final report](../Final_Report/README.md) | Editable source and genuine formats |
+| [Repository audit](../../docs/REPOSITORY_UPDATE_REPORT.md) | Hygiene and delivery record |
 
-Application commands in inherited guides use `Course-Project/code/GrantOffice` as their working directory. Assignment commands start at the repository root. The root README provides exact commands for both.
+[Course originals](originals/) are byte-identical to the supplied reference ZIP. Review sheet/canvas are blank. The template heading says Belagavi; project identification follows the supplied requirement, Hubballi. Team details are supplied by the team, pending filled-document confirmation; division is unknown.
+
+[Historical reports](history/README.md), [older screenshots](screenshots/README.md), [supplied lab artifacts](../evidence/README.md), REFERENCE files and the Python release reports describe earlier states. They do not override fresh verification. Detailed operational audits stay local; [the public summary](CORRECTNESS.md) uses fixtures and source links.

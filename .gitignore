@@ -1,39 +1,41 @@
-# Environments and caches
-.venv/
-.lab-venv/
-venv/
-env/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage*
-htmlcov/
-.reorg-tools/
-# Credentials and local recovery files
+node_modules/
 .env
 .env.*
 !.env.example
-*password*.txt
-*password*.json
-*credentials*.json
-FIRST_LOGIN.txt
-*.key
-*.pem
-# Generated state (preserve locally)
-Course-Project/code/GrantOffice/runtime/
-Course-Project/code/Lab_Support/outputs/
-*.sqlite*
+backend/data/
+backend/.test-data/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+langgraph_edition/runtime/
+langgraph_edition/outputs/
+docs/data-merge-staging/*/
+
+# Build/cache output and private local audits
+dist/
+build/
+coverage/
+.npm-cache/
+.cache/
+venv/
+*.log
+*.tmp
+*.tsbuildinfo
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
 *.db
-*.db-*
-backups/
-# Downloaded models
-.ollama/
-models/
-*.gguf
-*.ggml
-*.safetensors
-*.pt
-*.pth
-*.onnx
+.repository-review
+.DS_Store
+Thumbs.db
+docs/*.json
+docs/data-merge-staging/
+docs/CORRECTNESS_AND_EXPORT_FIXES.md
+docs/FACULTY_PROJECT_INTEGRATION_FIX.md
+docs/PUBLICATION_SEARCH_FIX.md
+
+# Keep local merge/operational audits private; publish only the repository audit.
+/docs/*
+!/docs/REPOSITORY_UPDATE_REPORT.md

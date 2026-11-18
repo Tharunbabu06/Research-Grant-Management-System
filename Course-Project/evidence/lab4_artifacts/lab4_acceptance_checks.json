@@ -1,0 +1,63 @@
+{
+  "lab": 4,
+  "passed": 8,
+  "total": 8,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 1766,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Policy retrieval by tag returns stored reference",
+      "pattern": "Initial Policy Retrieval",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Literature retrieved by TF-IDF cosine similarity",
+      "pattern": "Literature Corpus Cosine Retrieval",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Topic scopes are isolated with zero leakage",
+      "pattern": "Verification passed: Strict topic boundary enforced with zero leakage",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Stale records raise a warning instead of being trusted",
+      "pattern": "Verification passed: Staleness policy warned user",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

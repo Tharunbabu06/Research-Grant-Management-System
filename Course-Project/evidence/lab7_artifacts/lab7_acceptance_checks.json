@@ -1,0 +1,77 @@
+{
+  "lab": 7,
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 1720,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Success path reaches the Dean human gate",
+      "pattern": "\\[NODE\\] dean_human_gate .*Success: True",
+      "expected_min": 1,
+      "found": 2,
+      "passed": true
+    },
+    {
+      "check": "Failed drafting node triggers the bounded retry back-edge",
+      "pattern": "\\[RECOVERY\\] Bounded Retry \\(1/2\\)",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "LangGraph StateGraph mapping is specified",
+      "pattern": "StateGraph",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Added ethics-screening node halts the pipeline",
+      "pattern": "Graph halted at node 'ethics_screening' as expected",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Retry limit on the budget node is enforced and recorded",
+      "pattern": "Retry events captured: 1",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Run stops at awaiting_dean_review, never auto-submits",
+      "pattern": "awaiting_dean_review",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

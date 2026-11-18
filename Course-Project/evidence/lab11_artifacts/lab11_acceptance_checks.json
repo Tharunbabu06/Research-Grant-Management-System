@@ -1,0 +1,70 @@
+{
+  "lab": 11,
+  "passed": 9,
+  "total": 9,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 1593,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Acceptance suite derived from the spec runs green",
+      "pattern": "\\[PASS\\] TC-\\d\\d",
+      "expected_min": 7,
+      "found": 7,
+      "passed": true
+    },
+    {
+      "check": "Hard gate passes and advances to the Dean",
+      "pattern": "Hard Acceptance Gate Outcome: PASSED",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Lineage is kept per concurrent user story",
+      "pattern": "Verification passed: Lineage correctly attributed",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Deliberate bug makes the suite fail",
+      "pattern": "Test Suite Passed: False",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "The independent test catches the defect",
+      "pattern": "\\[DEFECT CAUGHT\\] TC-03",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

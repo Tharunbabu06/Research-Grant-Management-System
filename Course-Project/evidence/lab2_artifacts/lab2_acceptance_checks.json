@@ -1,0 +1,77 @@
+{
+  "lab": 2,
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 7619,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Budget total is computed by a tool, not asserted",
+      "pattern": "Grand Total = INR 5,433,600",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Unknown call id fails gracefully through the tool layer",
+      "pattern": "Graceful failure reported",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Notification tool drafts but never sends",
+      "pattern": "DRAFTED_NOT_SENT",
+      "expected_min": 1,
+      "found": 2,
+      "passed": true
+    },
+    {
+      "check": "Three-tool chain completes with an eligibility verdict",
+      "pattern": "3-Tool Chain Result: .*Eligible = True",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Every tool call is traced with a reason",
+      "pattern": "^\\d+\\. tool=\\w+ \\| reason=",
+      "expected_min": 8,
+      "found": 8,
+      "passed": true
+    },
+    {
+      "check": "Eligibility is checked by its own typed tool",
+      "pattern": "tool=check_eligibility",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

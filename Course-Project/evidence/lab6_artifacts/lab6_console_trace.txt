@@ -1,0 +1,30 @@
+======================================================================
+Lab 6: Governed Agent Runtime (OpenCLA / OpenClaw Style)
+======================================================================
+=== Run 1: Summarize Literature Skill ===
+Result: Literature summary: Abstract has 10 words. Key finding: Federated screening preserves patient privacy.
+
+=== Run 2: Formulate Budget Skill (Calls 2 Tools) ===
+Result: {'direct': 4500000, 'overhead': 675000, 'total': 5175000, 'ceiling': 7500000}
+
+=== Run 3: Post-Hoc Registered Third Skill ===
+Result: Compliance check: Verified Institutional Ethics Clearance against institutional ethics policy.
+
+--- [Assignment 1] Per-User Session Rate Limiting ---
+Completed 3 valid tasks for prof_sharma.
+PASS: 4th task rejected as expected: 'User 'prof_sharma' session rate limit exceeded (maximum 3 tasks per session)'
+
+--- [Assignment 2] Escalate to Human After Two Failures ---
+Two consecutive failures recorded in audit log.
+Attempt 3 Result: [ESCALATED TO HUMAN AUTHORITY]: Skill 'formulate_budget' failed 2 times previously for user 'researcher_bob'.
+
+=== Scoped Memory for User 'suneeta' ===
+{'last_reviewed_words': 10, 'last_computed_total': 5175000}
+
+=== Runtime Checkpoints Captured ===
+  CKPT-001 | after_summarize_literature | Snapshot: {'last_reviewed_words': 10}
+  CKPT-002 | after_formulate_budget | Snapshot: {'last_reviewed_words': 10, 'last_computed_total': 5175000}
+  CKPT-003 | after_check_compliance | Snapshot: {'last_reviewed_words': 10, 'last_computed_total': 5175000}
+  CKPT-004 | after_summarize_literature | Snapshot: {'last_reviewed_words': 5}
+  CKPT-005 | after_summarize_literature | Snapshot: {'last_reviewed_words': 5}
+  CKPT-006 | after_summarize_literature | Snapshot: {'last_reviewed_words': 5}

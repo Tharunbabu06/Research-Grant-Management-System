@@ -1,0 +1,31 @@
+======================================================================
+Lab 3: Skill Creation -- Reusable Plan & Format Skills
+======================================================================
+Government Grant Plan:
+ID: PLAN-GOVERNMENT-1625, Checksum: e3d9ff97d59a06610b90ec93c28d60ed6cd176c30c9dd6d0dc8e76a7e0717d1a
+Units Count: 9, Locked: True
+
+--- [Assignment 1] Industry/CSR Plan Synthesis ---
+Generated Industry Plan: PLAN-INDUSTRY-5241
+Sections defined: ['executive-summary', 'need-assessment', 'objectives', 'methodology', 'sustainability', 'compliance', 'references']
+Plan Checksum: e396362fd2bb12ab1e719f399e89a88e2e3b8b1e23a5f9cb29e185bf2330a771
+
+=== Reusability Check Across Domains ===
+Identical Schema: True ({'units', 'domain', 'locked', 'id', 'version', 'title', 'callId', 'acceptance', 'phases', 'checksum'})
+Both Plans Cryptographically Locked: True
+Distinct Integrity Checksums: True
+Conclusion: SKILL IS REUSABLE ACROSS DOMAINS
+
+=== Formatted Proposal Narrative Sample ===
+# Grant Proposal Plan -- Federated Learning for Diabetic Retinopathy
+**Target Agency Call:** call-serb-crg
+**Executing Institution:** Meridian Institute of Science and Technology
+**Plan ID:** PLAN-GOVERNMENT-1625 (Checksum: e3d9ff97d59a...)
+
+> **Notice:** AI-assisted drafting was utilized for initial synthesis. All scientific claims, methodology, and budgets are reviewed and verified by faculty.
+
+...
+[Remaining sections rendered]
+
+--- [Assignment 2] Contract Violation Test (Missing Objectives) ---
+PASS: Contract violation caught as expected: 'Plan contract violation: mandatory unit 'objectives' missing'

@@ -1,0 +1,77 @@
+{
+  "lab": 5,
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 2110,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Capabilities are discovered from the manifest",
+      "pattern": "\\[TOOL\\] query_guidelines",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Funding calls are read through the connector",
+      "pattern": "Retrieved \\d+ government calls",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "A capability added later is discovered and invoked dynamically",
+      "pattern": "Invoked 'history\\.stats' dynamically",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "A bad agent token is refused",
+      "pattern": "Unauthorized: invalid agent token",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "An unpermitted caller cannot read HR records",
+      "pattern": "Permission denied: caller 'guest_agent'",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Every connector call lands in the server audit log",
+      "pattern": "\\| Caller: \\w+ \\| Endpoint: [\\w.]+ \\| Status: ok",
+      "expected_min": 4,
+      "found": 4,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

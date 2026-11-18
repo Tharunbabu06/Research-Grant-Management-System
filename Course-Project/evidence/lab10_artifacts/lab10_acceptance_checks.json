@@ -1,0 +1,84 @@
+{
+  "lab": 10,
+  "passed": 11,
+  "total": 11,
+  "checks": [
+    {
+      "check": "Run produced console output",
+      "pattern": "\\S",
+      "expected_min": 1,
+      "found": 1437,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 1 executed",
+      "pattern": "\\[Assignment 1\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Graded Assignment 2 executed",
+      "pattern": "\\[Assignment 2\\]",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Four deliberate faults are injected",
+      "pattern": "Initial State Injected with 4 Deliberate Faults",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Self-healing loop succeeds",
+      "pattern": "Self-Healing Outcome: SUCCESS",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Recovery stays inside the 3-attempt budget",
+      "pattern": "Total Recovery Attempts Used: [1-3]/3",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Each fault is diagnosed and repaired surgically",
+      "pattern": "\\[Attempt \\d\\] [A-Z_]+ \\(",
+      "expected_min": 4,
+      "found": 4,
+      "passed": true
+    },
+    {
+      "check": "Repaired state has the methodology section",
+      "pattern": "Methodology section present: True",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "Expired call is diagnosed and swapped",
+      "pattern": "is EXPIRED",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "High-risk remediation halts at the human gate",
+      "pattern": "AWAITING_DEAN_APPROVAL",
+      "expected_min": 1,
+      "found": 1,
+      "passed": true
+    },
+    {
+      "check": "No unhandled exception in the run",
+      "pattern": "Traceback",
+      "expected_min": 0,
+      "found": 0,
+      "passed": true
+    }
+  ]
+}

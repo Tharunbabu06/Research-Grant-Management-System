@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-11-08T09:13:51.938529+00:00",
+  "environment": "Linux \u00b7 Python 3.12.14",
+  "tests_passed": 53,
+  "tests_total": 53,
+  "summary": "53/53 automated tests passed. All fourteen software capabilities are mapped below; institutional dependencies are listed separately.",
+  "labs": [
+    {
+      "number": 1,
+      "title": "Planning and revision",
+      "behavior": "Clarify missing inputs, preview objectives and revise before locking.",
+      "software_passed": true,
+      "evidence": "test_clarifying_loop; test_two_reusable_plans",
+      "limit": ""
+    },
+    {
+      "number": 2,
+      "title": "Typed tool use",
+      "behavior": "Evidence queries and integer-INR calculations use governed tools.",
+      "software_passed": true,
+      "evidence": "test_import_provenance_and_normalization; test_schema_negative_cost",
+      "limit": ""
+    },
+    {
+      "number": 3,
+      "title": "Reusable skills",
+      "behavior": "Typed planning and package-formatting skills work across topics and reject invalid outputs.",
+      "software_passed": true,
+      "evidence": "test_two_reusable_plans; test_formatter_rejects_invalid_package_schema",
+      "limit": ""
+    },
+    {
+      "number": 4,
+      "title": "Memory and retrieval",
+      "behavior": "Checkpoint state is separate from tagged, similarity-ranked institutional history.",
+      "software_passed": true,
+      "evidence": "test_tag_and_similarity_retrieval; test_persistent_checkpoint_reloads",
+      "limit": "Similarity uses lexical hashing embeddings; full-text scientific review is still required."
+    },
+    {
+      "number": 5,
+      "title": "Governed connector",
+      "behavior": "Authenticated typed endpoints and scoped evidence access centralize source retrieval.",
+      "software_passed": true,
+      "evidence": "test_anonymous_cannot_read; test_cross_department_denied; test_attachment_and_scope; test_raw_grant_rows_require_office_role",
+      "limit": "MCP-style interface; not an MCP wire-protocol server."
+    },
+    {
+      "number": 6,
+      "title": "Runtime and recovery",
+      "behavior": "Persist execution state, audit actions and recover the checkpoint in a new process.",
+      "software_passed": true,
+      "evidence": "test_checkpoint_survives_new_process; test_audit_hash_chain",
+      "limit": ""
+    },
+    {
+      "number": 7,
+      "title": "Executable node graph",
+      "behavior": "Run discovery, literature, drafting, budget, compliance, validation and human review.",
+      "software_passed": true,
+      "evidence": "test_workflow_review_approval_export; test_full_graph_uses_structured_llm",
+      "limit": "LLM success here uses controlled HTTP response fixtures; verify an installed model using Check model response."
+    },
+    {
+      "number": 8,
+      "title": "Parallel work and merge",
+      "behavior": "Both graph branches execute concurrently and candidate ranking matches serial scoring.",
+      "software_passed": true,
+      "evidence": "test_both_parallel_stages_really_overlap; test_parallel_and_serial_candidate_quality",
+      "limit": "Concurrency is verified. The earlier seven-item CPU benchmark was slower with threads; production latency improvement is not asserted."
+    },
+    {
+      "number": 9,
+      "title": "Evidence grounding",
+      "behavior": "Retain citation provenance and reject unknown model-generated evidence IDs.",
+      "software_passed": true,
+      "evidence": "test_llm_hallucinated_citation_rejected_with_bounded_retry; test_real_evidence_workflow_and_immutable_registry; test_public_literature_uses_openalex_and_crossref; test_literature_outage_preserves_local_records",
+      "limit": "Citations are structurally checked; authenticity, scientific truth and novelty require named-human review."
+    },
+    {
+      "number": 10,
+      "title": "Diagnosis and bounded repair",
+      "behavior": "Repair a miscomputed total without changing original costs; escalate unrepairable evidence failures.",
+      "software_passed": true,
+      "evidence": "test_targeted_budget_repair; test_repair_is_bounded_and_only_total_fault_is_repairable; test_llm_malformed_json_then_repair",
+      "limit": ""
+    },
+    {
+      "number": 11,
+      "title": "Tested acceptance gate",
+      "behavior": "Reject plan drift and invalid budgets; build no package until every required check passes.",
+      "software_passed": true,
+      "evidence": "test_plan_drift_blocks_validation; test_budget_ceiling_blocks_review; test_no_real_data_no_real_release",
+      "limit": ""
+    },
+    {
+      "number": 12,
+      "title": "Governance and rollback",
+      "behavior": "Enforce reviewer roles, exact-package approval, revision invalidation and restored-version exports.",
+      "software_passed": true,
+      "evidence": "test_hash_bound_approval; test_changes_and_revision_invalidate; test_password_reset_preserves_records_and_revokes_sessions",
+      "limit": ""
+    },
+    {
+      "number": 13,
+      "title": "Funding-profile specialists",
+      "behavior": "Use government, industry and international framing with selected-call numerical requirements.",
+      "software_passed": true,
+      "evidence": "test_specialist_profiles[industry]; test_specialist_profiles[international]",
+      "limit": "Actual agency norms and required forms must be entered from official sources."
+    },
+    {
+      "number": 14,
+      "title": "Integrated office workflow",
+      "behavior": "Complete the authenticated create, validate, review and export cycle.",
+      "software_passed": true,
+      "evidence": "test_workflow_review_approval_export; test_real_evidence_workflow_and_immutable_registry; test_sample_package_never_claims_official_authorization",
+      "limit": "Software integration is tested. College acceptance on a genuine current call, live model quality, native Windows deployment and actual agency submission are not certified by automated tests."
+    }
+  ],
+  "live_llm_inference_verified_here": false
+}
