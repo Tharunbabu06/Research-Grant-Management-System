@@ -33,3 +33,11 @@ Target: https://github.com/Tharunbabu06/Research-Grant-Management-System ; branc
 Final document checks: genuine DOCX ZIP/XML passed with seven tables; PDF rendered/inspected without clipped text or broken tables. Relative-link check passed for 19 maintained documents and 287 file links. Staged/tracked secret/hygiene scan inspected 412 files with zero findings. Original application inputs, approved records, lab implementations and course originals remained unchanged. Six inherited Git whitespace findings were normalized in four source files without changing behavior or styles.
 
 Final rendered PDF: 10 pages; all pages inspected.
+
+## Verified publication receipt
+
+Source/documentation commit: **b3e67ebd681c85ec0ad8e2492cf98bd7bca013c5** (`Prepare current GrantOffice course repository, final report and offline verification`). Published successfully to **origin/main** at the authorized [GitHub repository](https://github.com/Tharunbabu06/Research-Grant-Management-System). `git ls-remote origin refs/heads/main` matched that exact commit after push.
+
+The first transfer failed with HTTP 408. A non-force retry using command-scoped HTTP/1.1 and a larger request buffer succeeded; no remote URL, history or ownership was rewritten. This small publication receipt is a separate documentation follow-up commit.
+
+The [observed Actions run](https://github.com/Tharunbabu06/Research-Grant-Management-System/actions/runs/44367311959) was queued at verification time. Remote CI success is not claimed. Local command results remain the verified evidence above. The final delivery message identifies the follow-up commit and final remote-head verification.
