@@ -15,6 +15,6 @@ Reviewed against current code on 18 November 2026. Main engine: JavaScript. Pyth
 | [Final report](../Final_Report/README.md) | Editable source and genuine formats |
 | [Repository audit](REPOSITORY_UPDATE_REPORT.md) | Hygiene and delivery record |
 
-[Course originals](originals/) are byte-identical to the supplied reference ZIP. Review sheet/canvas are blank. The template heading says Belagavi; project identification follows the supplied requirement, Hubballi. Team details are supplied by the team, pending filled-document confirmation; division is unknown.
+[Course originals](originals/) are byte-identical to the supplied reference ZIP. Review sheet/canvas are blank. The template heading says Belagavi; project identification follows the supplied requirement, Hubballi. Corrected team names/USNs and B-DIV are supplied by the team; filled course documents remain pending.
 
 [Historical reports](history/README.md), [older screenshots](screenshots/README.md), [supplied lab artifacts](../evidence/README.md), REFERENCE files and the Python release reports describe earlier states. They do not override fresh verification. Detailed operational audits stay local; [the public summary](CORRECTNESS.md) uses fixtures and source links.

@@ -11,7 +11,7 @@
 | Policy boundary | Practice calls/rates/quotations are synthetic. Legacy cap-helper compatibility is marked for policy review. |
 | Rendering boundary | Native Word COM rendering was blocked; DOCX structure and PDF rendering are separately checked. |
 | Dependency warning | Installed anyio pytest plugin emits PytestRemovedIn10Warning; assertions remain enabled. |
-| Course completion | Division and independent confirmation of team details need a filled document. Marks/signatures remain blank. |
+| Course completion | All four members are in B-DIV, as confirmed by the team. Filled course documents, marks and signatures remain pending. |
 | Attribution | No new license or broader source-data redistribution permission. |
 
 Future work: approved live-call ingestion; authentic agency/ethics policy/quotations; expert entailment/novelty review; campus SSO and production sessions/passwords; institutional security review, HTTPS, backups/recovery; agreed production engine/storage; pending identity/financial conflict review; live integration and genuine-call college acceptance. No measured speed improvement, external submission or production deployment is claimed.

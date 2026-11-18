@@ -4,18 +4,18 @@
 
 A research-grant workspace for faculty intake, funding-call discovery, literature search, proposal drafting, budget validation and human review. **Agents draft and flag; the Dean R&D / Research Office approves.**
 
-![GrantOffice](Course-Project/docs/screenshots/current/login-brand-2026-11-18.png)
+![GrantOffice faculty research dashboard](Course-Project/docs/screenshots/current/faculty-dashboard-2026-11-19.png)
 
 ## 1. Team
 
 **Team 13**
 
-| Name | USN |
-| --- | --- |
-| Soujanya Tikare | 01FE23BCI064 |
-| K. Tharun Babu | 01FE23BCI078 |
-| NT Basavaraj | 01FE23BCI113 |
-| K. Rohith | 01FE23BCI031 |
+| Name | USN | Division |
+| --- | --- | --- |
+| Soujanya Tikare | 01FE23BCI064 | B-DIV |
+| K. Tharun Babu | 01FE23BCI078 | B-DIV |
+| NT Basavaraj | 01FE23BCI113 | B-DIV |
+| K. Rohith | 01FE23BCI031 | B-DIV |
 
 ## 2. Quick links
 

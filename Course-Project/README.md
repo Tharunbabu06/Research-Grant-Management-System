@@ -21,4 +21,4 @@ Copy backend/.env.example to backend/.env only for a new installation; preserve 
 - [Fresh verification](docs/VERIFICATION.md)
 - [Historical evidence](evidence/README.md)
 
-The root README contains the team's corrected names/USNs. Division remains unspecified. Blank course originals and immutable saved history remain unchanged.
+The root README contains the team's corrected names/USNs and B-DIV for all four members. Blank course originals and immutable saved history remain unchanged.

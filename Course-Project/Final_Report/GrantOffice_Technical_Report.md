@@ -8,14 +8,14 @@ Agentic AI (26ECAC401) | Chapter / Worklet 13 | 18 November 2026
 
 Team 13 (team-supplied; independent filled-document confirmation pending)
 
-| Member | USN |
-| --- | --- |
-| Soujanya Tikare | 01FE23BCI064 |
-| K. Tharun Babu | 01FE23BCI078 |
-| NT Basavaraj | 01FE23BCI113 |
-| K. Rohith | 01FE23BCI031 |
+| Member | USN | Division |
+| --- | --- | --- |
+| Soujanya Tikare | 01FE23BCI064 | B-DIV |
+| K. Tharun Babu | 01FE23BCI078 | B-DIV |
+| NT Basavaraj | 01FE23BCI113 | B-DIV |
+| K. Rohith | 01FE23BCI031 | B-DIV |
 
-Division: to be completed by the team. Names/USNs follow the team's corrected details. Available review sheet/canvas are blank. No reviewer marks, faculty signatures or institutional approvals are asserted.
+Division: B-DIV, confirmed by the team. Names/USNs follow the team's corrected details. Available review sheet/canvas are blank. No reviewer marks, faculty signatures or institutional approvals are asserted.
 
 ## Abstract
 
@@ -275,7 +275,7 @@ The crop intentionally excludes account details and proposal text. It documents 
 | Policy boundary | Practice calls/rates/quotations are synthetic. Legacy cap-helper compatibility is marked for policy review. |
 | Rendering boundary | Native Word COM rendering was blocked; DOCX structure and PDF rendering are separately checked. |
 | Dependency warning | Installed anyio pytest plugin emits PytestRemovedIn10Warning; assertions remain enabled. |
-| Course completion | Division and independent confirmation of team details need a filled document. Marks/signatures remain blank. |
+| Course completion | Team members are in B-DIV, as confirmed by the team. Filled course documents, marks and signatures remain pending. |
 | Attribution | No new license or broader source-data redistribution permission. |
 
 Future work: approved live-call ingestion; authentic agency/ethics policy/quotations; expert entailment/novelty review; campus SSO and production sessions/passwords; institutional security review, HTTPS, backups/recovery; agreed production engine/storage; pending identity/financial conflict review; live integration and genuine-call college acceptance. No measured speed improvement, external submission or production deployment is claimed.
