@@ -12,10 +12,10 @@ Team 13 (team-supplied; independent filled-document confirmation pending)
 | --- | --- |
 | Soujanya Tikare | 01FE23BCI064 |
 | K. Tharun Babu | 01FE23BCI078 |
-| NT Basavaraj | 01FE23BCI031 |
-| K. Rohith | 01FE23BCI113 |
+| NT Basavaraj | 01FE23BCI113 |
+| K. Rohith | 01FE23BCI031 |
 
-Division: to be completed by the team. Names/USNs follow the supplied transcription. Available review sheet/canvas are blank. No reviewer marks, faculty signatures or institutional approvals are asserted.
+Division: to be completed by the team. Names/USNs follow the team's corrected details. Available review sheet/canvas are blank. No reviewer marks, faculty signatures or institutional approvals are asserted.
 
 ## Abstract
 

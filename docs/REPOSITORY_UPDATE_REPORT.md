@@ -43,3 +43,7 @@ The first transfer failed with HTTP 408. A non-force retry using command-scoped 
 The [initial Actions run](https://github.com/Tharunbabu06/Research-Grant-Management-System/actions/runs/44367311959) subsequently failed: 49 backend tests passed and one failed because the workflow selected template-only mode while an existing mocked local-model test temporarily enabled model calls. No test assertion was weakened. The workflow now uses GRANT_LLM=ollama with AURA_LLM=off by default; the model test enables requests only around its mock. The exact corrected CI environment passed all 50 backend tests locally, with no live model required.
 
 Action definitions were checked against the official v6 action.yml files: checkout, setup-node and setup-python use Node 24. These versions replace the deprecated Node 20 action runtime versions. Ubuntu is pinned to 24.04 to avoid the moving ubuntu-latest image migration warning. Remote rerun results and final commit are reported in the delivery message; local and remote evidence remain separate.
+
+## README presentation and team correction
+
+Simplified the root README to match the requested numbered course-project structure with compact tables and direct links. The team explicitly corrected the USNs: NT Basavaraj is 01FE23BCI113 and K. Rohith is 01FE23BCI031; Soujanya Tikare and K. Tharun Babu remain unchanged. Updated the editable report and regenerated its DOCX/PDF to keep the current deliverables consistent. Historical originals remain unchanged.
