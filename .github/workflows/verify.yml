@@ -7,10 +7,11 @@ permissions:
   contents: read
 jobs:
   application-and-labs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       AURA_LLM: 'off'
-      GRANT_LLM: template
+      # Tests enable AURA_LLM only around mocked local-model requests.
+      GRANT_LLM: ollama
       MONGODB_URI: ''
       MONGO_URI: ''
       OPENALEX_API_KEY: ''
@@ -18,15 +19,15 @@ jobs:
       PYTHONUTF8: '1'
       PYTHONIOENCODING: utf-8
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: '24'
           cache: npm
           cache-dependency-path: |
             backend/package-lock.json
             frontend/package-lock.json
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: pip

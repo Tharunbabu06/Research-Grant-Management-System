@@ -53,4 +53,6 @@ The fresh 50-test Node suite also verifies real current/historical proposal DOCX
 
 ## CI
 
+The first remote run passed dependency installation but failed one mocked model-adapter test (49 passed, 1 failed): the CI-only GRANT_LLM=template setting disabled the adapter despite the test enabling AURA_LLM around its fetch mock. The corrected workflow uses GRANT_LLM=ollama and defaults AURA_LLM=off. The exact corrected environment passes all 50 tests locally without a live model. Assertions were preserved. Node 24-compatible v6 actions and a pinned Ubuntu 24.04 runner replace deprecated action runtimes and the moving image label. See the repository audit for the initial failed run; the final delivery records the subsequent remote result.
+
 [Offline GitHub Actions](../../.github/workflows/verify.yml) installs locked dependencies on Node 24/Python 3.12 and runs the corresponding suites, lab traces and current documentation/hygiene checks. No live API credentials, MongoDB Atlas or Ollama are required. Locally validated commands are documented above. Remote CI success is not claimed until its run is observed; Ubuntu execution itself is not a local Windows result.
