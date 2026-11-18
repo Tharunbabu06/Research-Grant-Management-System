@@ -1,6 +1,6 @@
 # Assignments: fourteen supplied labs
 
-These standard-library scripts and their original notebooks are preserved. No notebook output was fabricated or re-executed for this update. Scripts are the executable source; existing evidence is historical. Fresh `python tools/verify_labs.py` executes every script in an isolated temporary directory and applies its notebook terminal acceptance cell to captured output. These are trace assertions, not independent end-to-end application tests.
+These standard-library scripts and their original notebooks are preserved. No notebook output was fabricated or re-executed for this update. Scripts are the executable source; existing evidence is historical. Fresh `python Course-Project/tools/verify_labs.py` executes every script in an isolated temporary directory and applies its notebook terminal acceptance cell to captured output. These are trace assertions, not independent end-to-end application tests.
 
 | Lab | Purpose / demonstrated behavior | Script | Notebook | Supporting historical evidence | Fresh assertions |
 | --- | --- | --- | --- | --- | --- |
@@ -21,7 +21,7 @@ These standard-library scripts and their original notebooks are preserved. No no
 
 ## Run and interpret
 
-From repository root: `python tools/verify_labs.py` (Python 3.10+). Result: 140/140 trace assertions across 14 labs. Do not add these to backend or Python-app test totals. The Windows runner restores its working directory before temporary-directory cleanup.
+From repository root: `python Course-Project/tools/verify_labs.py` (Python 3.10+). Result: 140/140 trace assertions across 14 labs. Do not add these to backend or Python-app test totals. The Windows runner restores its working directory before temporary-directory cleanup.
 
 Individual example: `python Assignments/scripts/lab01_agent_vs_chatbot.py`. Use a disposable current directory when a script emits artifacts. Optional notebook regeneration requires root requirements.txt and intentionally rewrites notebooks/evidence; it was not used here.
 

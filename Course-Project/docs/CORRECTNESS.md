@@ -4,14 +4,14 @@ Public summary of current code and reproducible tests. Detailed operational audi
 
 | Concern | Implemented behavior | Source evidence |
 | --- | --- | --- |
-| Budget preservation | Immutable inputs, categories; no silent scaling/minimum inflation | [Engine](../../backend/src/engine.js), [agents](../../backend/src/agents.js) |
-| Monetary arithmetic | Whole INR, rational percentages/half-up rounding, explicit charge permissions and bases | [Budget rules](../../backend/src/budget-rules.js) |
-| Financial alternatives | Separate proposals; confirmed acceptance; stale fingerprint rejection; approval invalidation | [API](../../backend/src/api.js) |
-| Identity/counts | Stable IDs, retained duplicate sources/conflicts; distinct activity | [Directory](../../backend/src/researcher-directory.js), [activity](../../backend/src/proposal-activity.js) |
-| Persistence | Unique atomic writes, bounded Windows retries, surfaced failure | [Writer](../../backend/src/atomic-store.js), [core](../../backend/src/core.js) |
-| Providers | Safe missing/rejected/rate/timeout/network/malformed diagnostics and Retry-After | [HTTP adapter](../../backend/src/provider-http.js), [sources](../../backend/src/research-sources.js) |
-| Exports | Genuine saved-version DOCX/PDF, auth, MIME and immutable hashes | [Renderer](../../backend/src/exports.js) |
-| Restore | Authorized confirmed deep-copy snapshot; missing context stays unavailable | [Engine](../../backend/src/engine.js), [UI](../../frontend/src/pages/aura-rundetail.jsx) |
+| Budget preservation | Immutable inputs, categories; no silent scaling/minimum inflation | [Engine](../backend/src/engine.js), [agents](../backend/src/agents.js) |
+| Monetary arithmetic | Whole INR, rational percentages/half-up rounding, explicit charge permissions and bases | [Budget rules](../backend/src/budget-rules.js) |
+| Financial alternatives | Separate proposals; confirmed acceptance; stale fingerprint rejection; approval invalidation | [API](../backend/src/api.js) |
+| Identity/counts | Stable IDs, retained duplicate sources/conflicts; distinct activity | [Directory](../backend/src/researcher-directory.js), [activity](../backend/src/proposal-activity.js) |
+| Persistence | Unique atomic writes, bounded Windows retries, surfaced failure | [Writer](../backend/src/atomic-store.js), [core](../backend/src/core.js) |
+| Providers | Safe missing/rejected/rate/timeout/network/malformed diagnostics and Retry-After | [HTTP adapter](../backend/src/provider-http.js), [sources](../backend/src/research-sources.js) |
+| Exports | Genuine saved-version DOCX/PDF, auth, MIME and immutable hashes | [Renderer](../backend/src/exports.js) |
+| Restore | Authorized confirmed deep-copy snapshot; missing context stays unavailable | [Engine](../backend/src/engine.js), [UI](../frontend/src/pages/aura-rundetail.jsx) |
 
 ## Budget fixture and policy boundaries
 
@@ -27,4 +27,4 @@ Backend identifiers stay compatible; labels say internally approved proposals. A
 
 Restore requires version:rollback authority, rejects active execution, and explains selected version, scope and missing fields before confirmation. Deep copies protect original versions. Exact historical approval provenance is retained as history, never a new review. Subsequent edits clear current approval.
 
-[Correctness regressions](../../backend/tests/correctness.test.js) cover all these paths as part of the fresh 50-test suite, including private-profile visibility, restart and persistent-write HTTP failure. Prior live OpenAlex checks returned 401/503; MongoDB is locally absent. No successful live provider, institutional acceptance or scientific truth claim follows from mocks. See [verification](VERIFICATION.md).
+[Correctness regressions](../backend/tests/correctness.test.js) cover all these paths as part of the fresh 50-test suite, including private-profile visibility, restart and persistent-write HTTP failure. Prior live OpenAlex checks returned 401/503; MongoDB is locally absent. No successful live provider, institutional acceptance or scientific truth claim follows from mocks. See [verification](VERIFICATION.md).

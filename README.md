@@ -22,7 +22,7 @@ A research-grant workspace for faculty intake, funding-call discovery, literatur
 | Resource | Location |
 | --- | --- |
 | All 14 assignments | [Assignments](Assignments/README.md) |
-| Application source | [Backend](backend/) / [Frontend](frontend/) |
+| Application source | [Backend](Course-Project/backend/) / [Frontend](Course-Project/frontend/) |
 | Problem statement | [Original document](Course-Project/Problem_Statement/Research_Grant_Management_System.docx) |
 | Technical documentation | [Documentation index](Course-Project/docs/README.md) |
 | Final report | [Markdown](Course-Project/Final_Report/GrantOffice_Technical_Report.md) / [DOCX](Course-Project/Final_Report/Final_Report_Research_Grant_Management_System.docx) / [PDF](Course-Project/Final_Report/Final_Report_Research_Grant_Management_System.pdf) |
@@ -31,17 +31,23 @@ A research-grant workspace for faculty intake, funding-call discovery, literatur
 ## 3. Repository structure
 
 ```text
-Assignments/                    # Lab scripts and notebooks
-backend/                        # Express API, workflow and tests
-frontend/                       # React/Vite interface
-langgraph_edition/              # Independent Python/LangGraph edition
-Course-Project/
-  Problem_Statement/            # Original course documents
-  Final_Report/                 # Markdown, DOCX and PDF
-  docs/                         # Technical guides and screenshots
-  evidence/                     # Supplied lab evidence
-  code/Lab_Support/             # Earlier lab implementations
+Research-Grant-Management-System/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── Assignments/                 # Lab 1–14 notebooks with retained outputs
+│   └── scripts/                 # Python scripts, seed data and notebook builder
+└── Course-Project/
+    ├── README.md                # Technical overview and setup
+    ├── Problem_Statement/       # Original worklet problem statement
+    ├── Final_Report/            # Markdown, DOCX and PDF report
+    ├── backend/                 # Express API, agents, engine and tests
+    ├── frontend/                # React/Vite interface
+    ├── evidence/                # Supplied lab artifacts
+    └── docs/                    # Guides, screenshots and course originals
 ```
+
+The independent Python edition, earlier lab support, verification tools and Windows launchers are also retained inside `Course-Project/`. GitHub automation remains in `.github/`.
 
 ## 4. Assignments overview
 
@@ -67,7 +73,7 @@ Each supplied lab includes a standalone Python script and notebook. The verifier
 **Verified:** 140/140 trace assertions across 14 labs. [Purposes, per-lab results and evidence](Assignments/README.md).
 
 ```sh
-python tools/verify_labs.py
+python Course-Project/tools/verify_labs.py
 ```
 
 ## 5. Course project
@@ -111,23 +117,23 @@ The Node workflow and Python/LangGraph edition run independently. Practice calls
 Use Node 24. From the repository root:
 
 ```sh
-npm --prefix backend ci
-npm --prefix frontend ci
-npm --prefix frontend run build
+npm --prefix Course-Project/backend ci
+npm --prefix Course-Project/frontend ci
+npm --prefix Course-Project/frontend run build
 ```
 
-Copy [backend/.env.example](backend/.env.example) to backend/.env, preserving existing configuration. For offline drafting, set `AURA_LLM=off`. Then:
+Copy [Course-Project/backend/.env.example](Course-Project/backend/.env.example) to Course-Project/backend/.env, preserving existing configuration. For offline drafting, set `AURA_LLM=off`. Then:
 
 ```sh
-cd backend
+cd Course-Project/backend
 npm start
 ```
 
-Open **http://localhost:3000**. Classroom demo password: `password123`. Windows users can use setup.bat and start.bat. [Configuration and Python setup](Course-Project/docs/SETUP.md).
+Open **http://localhost:3000**. Classroom demo password: `password123`. Windows users can use [setup.bat](Course-Project/setup.bat) and [start.bat](Course-Project/start.bat). [Configuration and Python setup](Course-Project/docs/SETUP.md).
 
 ### Verification
 
-Recorded on 18 November 2026; counts describe separate scopes.
+Recorded on 19 November 2026; counts describe separate scopes.
 
 | Check | Result |
 | --- | --- |

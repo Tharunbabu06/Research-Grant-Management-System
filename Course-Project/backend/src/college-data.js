@@ -94,7 +94,7 @@ function metrics() {
     receivedInr:awards.reduce((sum, g) => sum + amount(g.received_inr), 0),
     receivedUnknown:awards.filter((g) => g.received_inr == null).length,
     requestedInr:applications.reduce((sum, g) => sum + amount(g.amount_inr), 0),
-    source:'langgraph_edition/data/catalog.json',
+    source:'Course-Project/langgraph_edition/data/catalog.json',
     amountBasis:'Sanctioned amount_inr from detailed Historical award rows only. Received amounts are separate; null means unknown. Applications, legacy summaries, register rows and mocks are excluded.',
     provenanceReferences:publications.reduce((sum, p) => sum + p.sources.length, 0),
     publicationReviews,

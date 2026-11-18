@@ -25,33 +25,33 @@ jobs:
           node-version: '24'
           cache: npm
           cache-dependency-path: |
-            backend/package-lock.json
-            frontend/package-lock.json
+            Course-Project/backend/package-lock.json
+            Course-Project/frontend/package-lock.json
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: pip
-          cache-dependency-path: langgraph_edition/requirements-lock.txt
+          cache-dependency-path: Course-Project/langgraph_edition/requirements-lock.txt
       - name: Install locked dependencies
         run: |
-          npm --prefix backend ci
-          npm --prefix frontend ci
-          python -m pip install -r langgraph_edition/requirements-lock.txt
+          npm --prefix Course-Project/backend ci
+          npm --prefix Course-Project/frontend ci
+          python -m pip install -r Course-Project/langgraph_edition/requirements-lock.txt
       - name: Main backend tests
-        run: npm --prefix backend test
+        run: npm --prefix Course-Project/backend test
       - name: Frontend lint and build
         run: |
-          npm --prefix frontend run lint -- --max-warnings 0
-          npm --prefix frontend run build
+          npm --prefix Course-Project/frontend run lint -- --max-warnings 0
+          npm --prefix Course-Project/frontend run build
       - name: Supplied lab trace checks
-        run: python tools/verify_labs.py
+        run: python Course-Project/tools/verify_labs.py
       - name: Independent Python application
-        working-directory: langgraph_edition
+        working-directory: Course-Project/langgraph_edition
         run: python -m pytest -q
       - name: Retained lab-support suite
         working-directory: Course-Project/code/Lab_Support
         run: python -m pytest -q
       - name: Documentation and repository hygiene
         run: |
-          python tools/check_docs.py
-          python tools/check_repository.py
+          python Course-Project/tools/check_docs.py
+          python Course-Project/tools/check_repository.py

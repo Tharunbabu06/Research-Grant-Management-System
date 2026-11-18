@@ -8,7 +8,7 @@ import runpy
 import sys
 import tempfile
 
-root = Path(__file__).resolve().parents[1]/'Assignments'
+root = Path(__file__).resolve().parents[2]/'Assignments'
 sys.path.insert(0,str(root/'scripts'))
 results=[]
 for script in sorted((root/'scripts').glob('lab[0-9][0-9]_*.py')):
@@ -35,5 +35,5 @@ for script in sorted((root/'scripts').glob('lab[0-9][0-9]_*.py')):
         os.chdir(original)
     print(results[-1],flush=True)
 print('TOTAL',sum(x['passed'] for x in results),'/',sum(x['total'] for x in results))
-Path(__file__).resolve().parents[1].joinpath('Course-Project/docs/lab_checks.json').write_text(json.dumps(results,indent=2))
+Path(__file__).resolve().parents[1].joinpath('docs/lab_checks.json').write_text(json.dumps(results,indent=2))
 assert all(item['passed']==item['total'] for item in results)

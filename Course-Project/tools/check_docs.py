@@ -4,7 +4,7 @@ import json
 import re
 from urllib.parse import unquote, urlsplit
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 CURRENT = [
     ROOT / 'README.md', ROOT / 'Assignments/README.md',
     ROOT / 'Assignments/LEGACY_LABS.md', ROOT / 'Course-Project/README.md',
@@ -13,7 +13,7 @@ CURRENT = [
     ROOT / 'Course-Project/evidence/README.md',
     ROOT / 'Course-Project/docs/screenshots/README.md',
     ROOT / 'Course-Project/docs/history/README.md',
-    ROOT / 'docs/REPOSITORY_UPDATE_REPORT.md',
+    ROOT / 'Course-Project/docs/REPOSITORY_UPDATE_REPORT.md',
 ] + [ROOT / 'Course-Project/docs' / name for name in [
     'README.md', 'ARCHITECTURE.md', 'SETUP.md', 'DATA_AND_IDENTITIES.md',
     'CORRECTNESS.md', 'USER_GUIDE.md', 'VERIFICATION.md', 'SCOPE_MAPPING.md',

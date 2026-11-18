@@ -9,11 +9,11 @@ Executed 18 November 2026 on Windows. Main runtime: Node 24.11.1, npm 11.6.2, Gi
 | `npm test` in backend | 50 passed; 0 failed, skipped or cancelled | Main Node API/engine; includes 15 correctness regressions |
 | `npm run lint -- --max-warnings 0` in frontend | 0 errors; 0 warnings | Existing ESLint rules unchanged |
 | `npm run build` in frontend | Passed, 43 transformed modules | Production compilation, not a browser test |
-| `python tools/verify_labs.py` from root | 140/140 assertions across 14 labs | Script traces checked by notebook acceptance cells |
+| `python Course-Project/tools/verify_labs.py` from root | 140/140 assertions across 14 labs | Script traces checked by notebook acceptance cells |
 | `python -m pytest -q` in langgraph_edition, clean Python 3.12 | 66 passed, no warnings | Independent Python app; temporary state |
 | `python -m pytest -q` in Course-Project/code/Lab_Support, clean Python 3.12 | 70 passed, no warnings | Earlier distinct lab-support implementation |
-| `python tools/check_docs.py` from root | Passed after documentation completion | Current relative file links; historical internal links/URL fetches excluded |
-| `python tools/check_repository.py` after explicit staging | Recorded in repository audit | Index hygiene and safe secret scan, no values printed |
+| `python Course-Project/tools/check_docs.py` from root | Passed after documentation completion | Current relative file links; historical internal links/URL fetches excluded |
+| `python Course-Project/tools/check_repository.py` after explicit staging | Recorded in repository audit | Index hygiene and safe secret scan, no values printed |
 
 Counts are separate, not summed. Repeated runs and the Python edition's mapping of existing tests are not additional unique cases. All original test assertions and lint rules remain enabled.
 
@@ -45,7 +45,7 @@ No fresh persistent-state warning appeared in the passing Node run. Lock ownersh
 
 ## Final report and export checks
 
-The editable [report source](../Final_Report/GrantOffice_Technical_Report.md) is approximately 3500 words. `node tools/render_report.js` creates genuine DOCX OOXML and PDF from that source, separately from application saved-proposal exports. Backend docx/PDFKit dependencies and an installed Unicode TTF are required; no model, Office or Python is required at generation runtime.
+The editable [report source](../Final_Report/GrantOffice_Technical_Report.md) is approximately 3500 words. `node Course-Project/tools/render_report.js` creates genuine DOCX OOXML and PDF from that source, separately from application saved-proposal exports. Backend docx/PDFKit dependencies and an installed Unicode TTF are required; no model, Office or Python is required at generation runtime.
 
 DOCX ZIP integrity, all XML parsing, budget/governance tables and repeated-header metadata were checked. The report PDF was opened with temporary PyMuPDF, text/source/team/fixture values extracted, all pages rendered into a contact sheet and inspected for clipping/tables/page breaks. No text bounding box lies outside a page. Document page count and final review outcome are recorded in the repository audit. Native Word rendering remains blocked/unverified as stated above. The temporary PDF inspection tool is not an application dependency.
 
@@ -56,3 +56,9 @@ The fresh 50-test Node suite also verifies real current/historical proposal DOCX
 The first remote run passed dependency installation but failed one mocked model-adapter test (49 passed, 1 failed): the CI-only GRANT_LLM=template setting disabled the adapter despite the test enabling AURA_LLM around its fetch mock. The corrected workflow uses GRANT_LLM=ollama and defaults AURA_LLM=off. The exact corrected environment passes all 50 tests locally without a live model. Assertions were preserved. Node 24-compatible v6 actions and a pinned Ubuntu 24.04 runner replace deprecated action runtimes and the moving image label. See the repository audit for the initial failed run; the final delivery records the subsequent remote result.
 
 [Offline GitHub Actions](../../.github/workflows/verify.yml) installs locked dependencies on Node 24/Python 3.12 and runs the corresponding suites, lab traces and current documentation/hygiene checks. No live API credentials, MongoDB Atlas or Ollama are required. Locally validated commands are documented above. Remote CI success is not claimed until its run is observed; Ubuntu execution itself is not a local Windows result.
+
+## Academic-layout relocation verification - 19 November 2026
+
+The real backend/frontend now live under Course-Project, alongside the independent Python edition, tools and launcher scripts. Updated CI, links, tooling roots and startup instructions use the new locations. Root Assignments and its notebooks are unchanged.
+
+Fresh relocated checks: backend 50 passed/0 failed/skipped; frontend lint 0 errors/warnings; production build passed; all fourteen supplied scripts passed 140/140 trace assertions. Private state and .env were moved intact, verified by before/after hashes without displaying their contents. The existing backend and Vite were stopped only to release Windows directory locks, then restarted on their original ports. Sign-in sessions expire on restart. Independent Python and browser/batch checks are recorded in the relocation audit. Earlier dated results remain historical rather than being added to these totals.

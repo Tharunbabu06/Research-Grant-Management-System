@@ -1,6 +1,6 @@
 # Repository update audit
 
-Prepared 18 November 2026 against the actual working GrantOffice project. Current verification: [course verification](../Course-Project/docs/VERIFICATION.md); [documentation index](../Course-Project/docs/README.md); [final report](../Course-Project/Final_Report/README.md).
+Prepared 18 November 2026 against the actual working GrantOffice project. Current verification: [course verification](VERIFICATION.md); [documentation index](README.md); [final report](../Final_Report/README.md).
 
 ## Initial repository and source audit
 
@@ -10,7 +10,7 @@ Reference audit found Reasearch-grant-management-system-main (1).zip and its alr
 
 ## Intended publication changes
 
-- Root README, Assignments and Course-Project are direct GitHub-root entries. Existing backend/frontend paths remain intact; the independent Python edition is langgraph_edition.
+- Root README, Assignments and Course-Project are direct GitHub-root entries. Existing Course-Project/backend/frontend paths remain intact; the independent Python edition is langgraph_edition.
 - Updated professional README, current architecture/setup/data/identity/demo/scope/verification/limitations docs and index; added a substantive editable report and real DOCX/PDF.
 - Current branding screenshot is genuine and cropped to exclude personal/private content. Older screenshots/reports are explicitly historical.
 - Preserved all supplied fourteen scripts/notebooks and their original outputs. Preserved the earlier repository's fourteen independent programs plus Lab_Support code/tests. Retained older reports/evidence under labeled history.
@@ -20,7 +20,7 @@ Reference audit found Reasearch-grant-management-system-main (1).zip and its alr
 
 ## Verification and remaining details
 
-Fresh: Node 50 passed; lint 0 errors/0 warnings; build passed; 140/140 lab trace assertions; clean Python 3.12 application 66 passed and earlier support 70 passed without warnings. Node dependency dry-runs passed. Fresh Edge public-login capture had zero page errors. Full authenticated browser/provider checks remain prior/unexecuted as distinguished in [verification](../Course-Project/docs/VERIFICATION.md).
+Fresh: Node 50 passed; lint 0 errors/0 warnings; build passed; 140/140 lab trace assertions; clean Python 3.12 application 66 passed and earlier support 70 passed without warnings. Node dependency dry-runs passed. Fresh Edge public-login capture had zero page errors. Full authenticated browser/provider checks remain prior/unexecuted as distinguished in [verification](VERIFICATION.md).
 
 Team 13 and names/USNs follow the supplied transcription. Available originals are blank; independent confirmation and division remain pending. Course reviewer marks/signatures are not fabricated. The original template campus text is preserved unchanged.
 
@@ -47,3 +47,13 @@ Action definitions were checked against the official v6 action.yml files: checko
 ## README presentation and team correction
 
 Simplified the root README to match the requested numbered course-project structure with compact tables and direct links. The team explicitly corrected the USNs: NT Basavaraj is 01FE23BCI113 and K. Rohith is 01FE23BCI031; Soujanya Tikare and K. Tharun Babu remain unchanged. Updated the editable report and regenerated its DOCX/PDF to keep the current deliverables consistent. Historical originals remain unchanged.
+
+## Requested academic layout - 19 November 2026
+
+Moved the real backend and frontend into Course-Project, matching the requested top-level README.md / requirements.txt / .gitignore / Assignments / Course-Project layout. The independent Python edition, existing launchers and tools also moved inside Course-Project; earlier lab support remains there. GitHub automation and Git attributes remain necessary hidden root entries. No application copy or nested Git repository was created.
+
+Updated current Markdown links, CI working directories/cache paths, verification/tool roots, source-location display metadata and report binaries. Course-issued originals, notebooks, backend/frontend dependency locks and operational records are retained. Detailed local audits moved into ignored docs/local-audits; secrets, node_modules and runtime/test data remain excluded.
+
+The old backend/Vite and prior isolated verification process were stopped to release Windows folder locks, then the main backend and Vite restarted from the new paths. Whole-file hashes confirmed all three existing private state/config files were unchanged. Local checks after relocation: 50 backend tests; frontend lint zero findings; production build; 140/140 lab trace assertions. Further actual browser/Python/batch results and push receipt are reported below.
+
+Relocation completion checks: the separate Python application passed all 66 tests and earlier lab support passed all 70 tests in the clean Python 3.12 environment. The moved Windows verify.bat completed successfully from repository root, including Node tests, frontend lint/build, labs and documentation links; this rerun is not added as a separate test total. Edge loaded both the built app on port 3000 and Vite on port 5173 with HTTP 200, visible branding and zero page runtime errors. Health reported healthy/local_json. All 289 current relative links resolve. The current report binaries were regenerated after path updates and structurally checked.

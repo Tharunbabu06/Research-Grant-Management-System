@@ -5,7 +5,7 @@ import subprocess
 import zipfile
 import io
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 GIT = ['git', '-c', 'safe.directory=' + ROOT.as_posix(), '-C', str(ROOT)]
 paths = subprocess.check_output(GIT + ['ls-files', '-z']).decode().split('\0')
 patterns = {
@@ -15,7 +15,7 @@ patterns = {
     'credentialed MongoDB URI': rb'mongodb(?:\+srv)?://[^\s<>:@]+:[^\s<>@]+@',
 }
 local_secrets = []
-env = ROOT / 'backend/.env'
+env = ROOT / 'Course-Project/backend/.env'
 if env.exists():
     for line in env.read_text(encoding='utf-8-sig').splitlines():
         if '=' not in line or line.lstrip().startswith('#'):
@@ -27,7 +27,7 @@ if env.exists():
 failures = []
 for name in filter(None, paths):
     parts = Path(name).parts
-    if (Path(name).name.startswith('.env') and Path(name).name != '.env.example') or any(p in parts for p in ['node_modules', '.venv', '.npm-cache', '__pycache__']) or name.startswith(('backend/data/', 'langgraph_edition/runtime/')):
+    if (Path(name).name.startswith('.env') and Path(name).name != '.env.example') or any(p in parts for p in ['node_modules', '.venv', '.npm-cache', '__pycache__']) or name.startswith(('backend/data/', 'langgraph_edition/runtime/', 'Course-Project/backend/data/', 'Course-Project/langgraph_edition/runtime/', 'Course-Project/docs/local-audits/')):
         failures.append((name, 'private/generated path'))
     blob = subprocess.check_output(GIT + ['show', ':' + name])
     # Inspect XML/text inside office files as well as ordinary staged text.

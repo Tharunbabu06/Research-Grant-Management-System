@@ -7,7 +7,7 @@ const { Document, Packer, Paragraph, TextRun, HeadingLevel, Table, TableRow,
   TableCell, WidthType, ImageRun, Footer, PageNumber } = backendRequire('docx');
 const PDFDocument = backendRequire('pdfkit');
 const root = path.resolve(__dirname, '..');
-const folder = path.join(root, 'Course-Project/Final_Report');
+const folder = path.join(root, 'Final_Report');
 const source = path.join(folder, 'GrantOffice_Technical_Report.md');
 const output = path.join(folder, 'Final_Report_Research_Grant_Management_System');
 const clean = text => text.replace(/!?\[([^\]]+)\]\(([^)]+)\)/g,

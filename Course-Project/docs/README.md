@@ -13,7 +13,7 @@ Reviewed against current code on 18 November 2026. Main engine: JavaScript. Pyth
 | [Scope mapping](SCOPE_MAPPING.md) | Original requirements and remaining gaps |
 | [Limitations](LIMITATIONS.md) | Unverified features and future work |
 | [Final report](../Final_Report/README.md) | Editable source and genuine formats |
-| [Repository audit](../../docs/REPOSITORY_UPDATE_REPORT.md) | Hygiene and delivery record |
+| [Repository audit](REPOSITORY_UPDATE_REPORT.md) | Hygiene and delivery record |
 
 [Course originals](originals/) are byte-identical to the supplied reference ZIP. Review sheet/canvas are blank. The template heading says Belagavi; project identification follows the supplied requirement, Hubballi. Team details are supplied by the team, pending filled-document confirmation; division is unknown.
 

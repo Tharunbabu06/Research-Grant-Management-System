@@ -10,6 +10,7 @@ import zipfile
 import openpyxl
 
 ROOT = Path(__file__).resolve().parents[1]
+(ROOT/'docs/local-audits').mkdir(parents=True, exist_ok=True)
 DATA = ROOT/'langgraph_edition/data'
 
 
@@ -61,13 +62,13 @@ def inspect():
             item['document_headings'] = [line for line in path.read_text(encoding='utf-8').splitlines() if line.startswith('#')]
             item['classification'] = 'Source evidence only; document instructions were not followed.'
         inventory.append(item)
-    (ROOT/'docs/data-inventory.json').write_text(json.dumps(inventory,ensure_ascii=False,indent=2),encoding='utf-8')
+    (ROOT/'docs/local-audits/data-inventory.json').write_text(json.dumps(inventory,ensure_ascii=False,indent=2),encoding='utf-8')
     return inventory
 
 
 def sidecar():
     current = json.loads((DATA/'catalog.json').read_text(encoding='utf-8'))
-    candidate = json.loads((ROOT/'docs/catalog-rebuild-review.json').read_text(encoding='utf-8'))
+    candidate = json.loads((ROOT/'docs/local-audits/catalog-rebuild-review.json').read_text(encoding='utf-8'))
     established = {p['id']:p for p in current['publications']}
     provenance, conflicts, pending = {}, {}, []
     for record in candidate['publications']:

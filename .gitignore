@@ -39,3 +39,11 @@ docs/PUBLICATION_SEARCH_FIX.md
 # Keep local merge/operational audits private; publish only the repository audit.
 /docs/*
 !/docs/REPOSITORY_UPDATE_REPORT.md
+
+# Academic layout: local state/config and private historical audits remain private.
+/Course-Project/backend/data/
+/Course-Project/backend/.test-data/
+/Course-Project/langgraph_edition/runtime/
+/Course-Project/langgraph_edition/outputs/
+/Course-Project/docs/local-audits/
+/Course-Project/.layout-review

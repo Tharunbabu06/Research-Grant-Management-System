@@ -32,7 +32,8 @@ const college = require('../backend/src/college-data');
   } finally {
     if (client) await client.close();
   }
-  const file = path.resolve(__dirname, '../docs/live-store-inspection.json');
+  const file = path.resolve(__dirname, '../docs/local-audits/live-store-inspection.json');
+  fs.mkdirSync(path.dirname(file), { recursive:true });
   fs.writeFileSync(file, JSON.stringify(result, null, 2));
   console.log(JSON.stringify({ configured:result.configured, connected:result.connected,
     projectCount:result.projectCount, failureCategory:result.failureCategory }));

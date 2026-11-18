@@ -27,7 +27,7 @@ Faculty grant preparation involves fragmented call notices, literature metadata,
 
 GrantOffice implements this direction as a locally hosted classroom application. The objective is traceable coordination rather than automatic submission. Faculty/PIs own inputs and revisions; HoDs, Dean R&D and Research Office roles review within their configured permissions. The original problem statement requires a real-case compliant package with human sign-off. This release verifies a practice workflow and authentic source browsing, not a genuine-current-call institutional acceptance study.
 
-The current working implementation is authoritative. Older reference README files, reports and screenshots supply course structure and historical evidence only. Existing backend/frontend paths were retained; the Python edition is independent and no second copy of the main application was introduced. The detailed requirement mapping identifies what remains before the original real-case definition of done can be claimed.
+The current working implementation is authoritative. Older reference README files, reports and screenshots supply course structure and historical evidence only. Existing Course-Project/backend/frontend paths were retained; the Python edition is independent and no second copy of the main application was introduced. The detailed requirement mapping identifies what remains before the original real-case definition of done can be claimed.
 
 ## 2. Objectives and requirements
 
@@ -38,19 +38,19 @@ The system must also tell the truth about failure: an absent database is local s
 
 ## 3. Requirement-to-implementation mapping
 
-[Original problem statement](../docs/../Problem_Statement/Research_Grant_Management_System.docx), [extracted original](../docs/../Problem_Statement/Problem_Statement.md) and [build book](../docs/originals/Agentic_AI_15_Worklets_14Lab_Build_Book.docx) remain unchanged. This mapping separately describes current scope.
+[Original problem statement](../Problem_Statement/Research_Grant_Management_System.docx), [extracted original](../Problem_Statement/Problem_Statement.md) and [build book](../docs/originals/Agentic_AI_15_Worklets_14Lab_Build_Book.docx) remain unchanged. This mapping separately describes current scope.
 
 | Original direction | Implemented behavior | Evidence | Remaining gap |
 | --- | --- | --- | --- |
-| Clarify request/lock plan | Consent, contracts, input snapshot | [Engine](../../backend/src/engine.js) | Genuine user study |
-| Discover authentic calls | Ranked guarded practice discovery | [Agents](../../backend/src/agents.js) | Office-approved live ingestion |
-| Evidence/novelty framing | Archive/public metadata/source coverage | [Sources](../../backend/src/research-sources.js) | Expert entailment/novelty assessment |
-| Draft objectives/methods/timeline | Structured provider contracts/fallback | [Drafting](../../backend/src/llm-drafting.js) | Live quality and authentic forms |
-| Agency-compliant budget | Exact INR/categories/caps/alternatives | [Rules](../../backend/src/budget-rules.js) | Authentic policy verification |
-| Validate before review | Blocking checks and bounded repair | [Tests](../../backend/tests/pipeline.test.js) | Ambiguous ethics evidence needs humans |
-| Dean/office approval | Permission/checksum-bound review/audit | [API](../../backend/src/api.js) | Campus identity/security approval |
-| Package/rollback | Genuine formats/confirmed Restore | [Exports](../../backend/src/exports.js) | Word rendering/legacy context gaps |
-| Human-controlled actions | No external transmission | [Governance](../../backend/src/api.js) | Agency submission not implemented |
+| Clarify request/lock plan | Consent, contracts, input snapshot | [Engine](../backend/src/engine.js) | Genuine user study |
+| Discover authentic calls | Ranked guarded practice discovery | [Agents](../backend/src/agents.js) | Office-approved live ingestion |
+| Evidence/novelty framing | Archive/public metadata/source coverage | [Sources](../backend/src/research-sources.js) | Expert entailment/novelty assessment |
+| Draft objectives/methods/timeline | Structured provider contracts/fallback | [Drafting](../backend/src/llm-drafting.js) | Live quality and authentic forms |
+| Agency-compliant budget | Exact INR/categories/caps/alternatives | [Rules](../backend/src/budget-rules.js) | Authentic policy verification |
+| Validate before review | Blocking checks and bounded repair | [Tests](../backend/tests/pipeline.test.js) | Ambiguous ethics evidence needs humans |
+| Dean/office approval | Permission/checksum-bound review/audit | [API](../backend/src/api.js) | Campus identity/security approval |
+| Package/rollback | Genuine formats/confirmed Restore | [Exports](../backend/src/exports.js) | Word rendering/legacy context gaps |
+| Human-controlled actions | No external transmission | [Governance](../backend/src/api.js) | Agency submission not implemented |
 | Real-case capstone | Practice integration/preserved labs | [Verification](../docs/VERIFICATION.md) | Genuine-current-call human acceptance |
 
 A green synthetic suite does not prove the real-case definition of done. No external approval form or reviewer assessment was completed.
@@ -59,15 +59,15 @@ A green synthetic suite does not prove the real-case definition of done. No exte
 
 ### Source inventory
 
-[Catalog](../../langgraph_edition/data/catalog.json) has 527 established scholarly records, 19 detailed historical awards, two applications and retained legacy sources. [Historical register](../../backend/src/projects.js) has 30 rows. Sources overlap; counts/amounts cannot simply be added.
+[Catalog](../langgraph_edition/data/catalog.json) has 527 established scholarly records, 19 detailed historical awards, two applications and retained legacy sources. [Historical register](../backend/src/projects.js) has 30 rows. Sources overlap; counts/amounts cannot simply be added.
 
-[Original inputs](../../langgraph_edition/data/originals/) and [CSV supplements](../../langgraph_edition/data/supplement/) contain annual college publication workbooks 2022–26, External_Funded_Project_List.xlsx, Applied_Sanctioned_Grants_2025-26-Format.xlsx and the legacy sanctioned-project document/CSV. Filenames, sheets and rows remain inspectable. These materials were already supplied with the repository; no new open-data license or broader redistribution permission is implied.
+[Original inputs](../langgraph_edition/data/originals/) and [CSV supplements](../langgraph_edition/data/supplement/) contain annual college publication workbooks 2022–26, External_Funded_Project_List.xlsx, Applied_Sanctioned_Grants_2025-26-Format.xlsx and the legacy sanctioned-project document/CSV. Filenames, sheets and rows remain inspectable. These materials were already supplied with the repository; no new open-data license or broader redistribution permission is implied.
 
-[Importer](../../langgraph_edition/scripts/import_data.py), [supplement merger](../../langgraph_edition/scripts/merge_supplement.py) and [audit](../../tools/audit_data.py) normalize whitespace, authors, DOI identities and financial fields. The catalog-bound [sidecar](../../langgraph_edition/data/reconciliation.json) retains provenance/conflict candidates without silently promoting them. Its SHA-256 must match the catalog. Originals remain unchanged. Null amounts mean unknown; sanctioned, received and requested amounts differ. Legacy summaries, applications and mocks are excluded from detailed sanctioned-award financial totals.
+[Importer](../langgraph_edition/scripts/import_data.py), [supplement merger](../langgraph_edition/scripts/merge_supplement.py) and [audit](../tools/audit_data.py) normalize whitespace, authors, DOI identities and financial fields. The catalog-bound [sidecar](../langgraph_edition/data/reconciliation.json) retains provenance/conflict candidates without silently promoting them. Its SHA-256 must match the catalog. Originals remain unchanged. Null amounts mean unknown; sanctioned, received and requested amounts differ. Legacy summaries, applications and mocks are excluded from detailed sanctioned-award financial totals.
 
 ### Identity and overlapping awards
 
-[Directory](../../backend/src/researcher-directory.js) derives researchers separately from accounts; [explicit aliases](../../backend/src/faculty.js) support known variants. Authors, home_authors, PI/co-PI evidence and original rows are considered. A first-name match is insufficient; homonyms stay ambiguous.
+[Directory](../backend/src/researcher-directory.js) derives researchers separately from accounts; [explicit aliases](../backend/src/faculty.js) support known variants. Authors, home_authors, PI/co-PI evidence and original rows are considered. A first-name match is insufficient; homonyms stay ambiguous.
 
 Saroja Siddamal / Dr. Saroja V Siddamal resolve together on supported evidence. Saroja S Bhusare remains separate, without invented papers. Two source-specific reviewed overlaps connect e-Krushi and MATOMAC register/catalog rows after title, investigator and source-year checks. Both records remain; e-Krushi's INR 600 discrepancy is visible. Other fuzzy candidates remain unresolved. Scholarly attribution does not establish verified campus authentication.
 
@@ -82,23 +82,23 @@ Saroja Siddamal / Dr. Saroja V Siddamal resolve together on supported evidence. 
 | Funded awards | Supported sanctioned source groups, excluding applications/internal approvals |
 | Versions | Saved entries; several versions remain one proposal |
 
-[Activity](../../backend/src/proposal-activity.js) filters by viewer permissions before returning details/counts. Edits invalidate current approval but retain history. [Tests](../../backend/tests/correctness.test.js) derive 1 approved proposal / 0 papers / 0 awards and unique counts across versions.
+[Activity](../backend/src/proposal-activity.js) filters by viewer permissions before returning details/counts. Edits invalidate current approval but retain history. [Tests](../backend/tests/correctness.test.js) derive 1 approved proposal / 0 papers / 0 awards and unique counts across versions.
 
 ### Search and practice fixtures
 
-[Archive search](../../backend/src/research-sources.js) is offline, searches supported normalized fields and returns total/page/displayed/totalPages. Default page size 20; maximum 100. OpenAlex topic search and Crossref enrichment have separate labels/outcomes; college fallback is never OpenAlex success.
+[Archive search](../backend/src/research-sources.js) is offline, searches supported normalized fields and returns total/page/displayed/totalPages. Default page size 20; maximum 100. OpenAlex topic search and Crossref enrichment have separate labels/outcomes; college fallback is never OpenAlex success.
 
-[Seed corpus](../../backend/src/seed.js), [Python mocks](../../langgraph_edition/data/mock/) and lab seeds contain practice calls, policies, costs, quotations and literature. These are not official agency rules. Authentic metadata does not prove scientific entailment or novelty. Private workflow/account databases are excluded from Git.
+[Seed corpus](../backend/src/seed.js), [Python mocks](../langgraph_edition/data/mock/) and lab seeds contain practice calls, policies, costs, quotations and literature. These are not official agency rules. Authentic metadata does not prove scientific entailment or novelty. Private workflow/account databases are excluded from Git.
 
 ## 5. Architecture and data flow
 
 ### Main application
 
-[React entry](../../frontend/src/App.jsx) calls authenticated [API helpers](../../frontend/src/lib/api.js). Vite proxies `/api` to port 3000 in development. [Express startup](../../backend/index.js) serves the built console on loopback and only reports readiness after successful binding.
+[React entry](../frontend/src/App.jsx) calls authenticated [API helpers](../frontend/src/lib/api.js). Vite proxies `/api` to port 3000 in development. [Express startup](../backend/index.js) serves the built console on loopback and only reports readiness after successful binding.
 
-[API routes](../../backend/src/api.js) enforce opaque expiring bearer sessions, role permissions and ownership. Sessions are memory-only. Seed identities support classroom login, not verified campus identity. Researcher profiles do not confer authentication permissions.
+[API routes](../backend/src/api.js) enforce opaque expiring bearer sessions, role permissions and ownership. Sessions are memory-only. Seed identities support classroom login, not verified campus identity. Researcher profiles do not confer authentication permissions.
 
-[Engine](../../backend/src/engine.js), [agents](../../backend/src/agents.js) and [runtime](../../backend/src/core.js) implement a JavaScript stage graph. Eight visible roles comprise coordinator, funding discovery, literature, drafting, budget, compliance, packaging and human review. The last role is a person.
+[Engine](../backend/src/engine.js), [agents](../backend/src/agents.js) and [runtime](../backend/src/core.js) implement a JavaScript stage graph. Eight visible roles comprise coordinator, funding discovery, literature, drafting, budget, compliance, packaging and human review. The last role is a person.
 
 1. Capture request, consent and immutable input snapshot; construct/lock the plan.
 2. Discover eligible practice calls and retrieve literature, retaining provider/source labels.
@@ -110,19 +110,19 @@ Saroja Siddamal / Dr. Saroja V Siddamal resolve together on supported evidence. 
 
 ### Storage and integrations
 
-Primary workflow state is local JSON (`AURA_DATA_DIR`, default backend/data). [Atomic writer](../../backend/src/atomic-store.js) flushes unique same-directory temporary files and retries transient Windows locks. Persistent failure is surfaced; corrupt JSON refuses startup. Audit and project-budget edits persist locally. One backend writer per directory is assumed.
+Primary workflow state is local JSON (`AURA_DATA_DIR`, default Course-Project/backend/data). [Atomic writer](../backend/src/atomic-store.js) flushes unique same-directory temporary files and retries transient Windows locks. Persistent failure is surfaced; corrupt JSON refuses startup. Audit and project-budget edits persist locally. One backend writer per directory is assumed.
 
-[MongoDB](../../backend/src/database.js) optionally supports account/project administration and asynchronous workflow mirroring. [Persistence diagnostics](../../backend/src/persistence.js) distinguish absent configuration and safe connection failure categories. A connected mirror does not replace an acknowledged JSON write. Runtime-created fallback accounts are not durable.
+[MongoDB](../backend/src/database.js) optionally supports account/project administration and asynchronous workflow mirroring. [Persistence diagnostics](../backend/src/persistence.js) distinguish absent configuration and safe connection failure categories. A connected mirror does not replace an acknowledged JSON write. Runtime-created fallback accounts are not durable.
 
-[College adapter](../../backend/src/college-data.js) reads the Python edition's catalog in place; operational stores are separate. [Research sources](../../backend/src/research-sources.js) separate offline archive browsing from OpenAlex public-topic search and Crossref DOI metadata. [HTTP policy](../../backend/src/provider-http.js) implements bounded transient retries and Retry-After.
+[College adapter](../backend/src/college-data.js) reads the Python edition's catalog in place; operational stores are separate. [Research sources](../backend/src/research-sources.js) separate offline archive browsing from OpenAlex public-topic search and Crossref DOI metadata. [HTTP policy](../backend/src/provider-http.js) implements bounded transient retries and Retry-After.
 
-[Model gateway](../../backend/src/model.js) selects local Ollama/Qwen or explicit Groq. Structured/source-ID checks do not prove truth, entailment or novelty. Public search terms and optional cloud drafting context have different disclosure boundaries.
+[Model gateway](../backend/src/model.js) selects local Ollama/Qwen or explicit Groq. Structured/source-ID checks do not prove truth, entailment or novelty. Public search terms and optional cloud drafting context have different disclosure boundaries.
 
 ### Independent edition and labs
 
-[Python app](../../langgraph_edition/app/) uses FastAPI, real LangGraph stages and SQLite state/checkpoints under `GRANT_DATA_DIR`. It serves its own static UI on port 8000, not the React UI. No operational synchronization is implemented.
+[Python app](../langgraph_edition/app/) uses FastAPI, real LangGraph stages and SQLite state/checkpoints under `GRANT_DATA_DIR`. It serves its own static UI on port 8000, not the React UI. No operational synchronization is implemented.
 
-[Supplied labs](../../Assignments/scripts/) are standard-library demonstrations. [Earlier lab support](../docs/../code/Lab_Support/) supports retained earlier assignment programs. Neither establishes MCP wire compatibility or an installed OpenClaw runtime. Their checks have separate scope.
+[Supplied labs](../../Assignments/scripts/) are standard-library demonstrations. [Earlier lab support](../code/Lab_Support/) supports retained earlier assignment programs. Neither establishes MCP wire compatibility or an installed OpenClaw runtime. Their checks have separate scope.
 
 ## 6. Correctness and governance evidence
 
@@ -130,14 +130,14 @@ Public summary of current code and reproducible tests. Detailed operational audi
 
 | Concern | Implemented behavior | Source evidence |
 | --- | --- | --- |
-| Budget preservation | Immutable inputs, categories; no silent scaling/minimum inflation | [Engine](../../backend/src/engine.js), [agents](../../backend/src/agents.js) |
-| Monetary arithmetic | Whole INR, rational percentages/half-up rounding, explicit charge permissions and bases | [Budget rules](../../backend/src/budget-rules.js) |
-| Financial alternatives | Separate proposals; confirmed acceptance; stale fingerprint rejection; approval invalidation | [API](../../backend/src/api.js) |
-| Identity/counts | Stable IDs, retained duplicate sources/conflicts; distinct activity | [Directory](../../backend/src/researcher-directory.js), [activity](../../backend/src/proposal-activity.js) |
-| Persistence | Unique atomic writes, bounded Windows retries, surfaced failure | [Writer](../../backend/src/atomic-store.js), [core](../../backend/src/core.js) |
-| Providers | Safe missing/rejected/rate/timeout/network/malformed diagnostics and Retry-After | [HTTP adapter](../../backend/src/provider-http.js), [sources](../../backend/src/research-sources.js) |
-| Exports | Genuine saved-version DOCX/PDF, auth, MIME and immutable hashes | [Renderer](../../backend/src/exports.js) |
-| Restore | Authorized confirmed deep-copy snapshot; missing context stays unavailable | [Engine](../../backend/src/engine.js), [UI](../../frontend/src/pages/aura-rundetail.jsx) |
+| Budget preservation | Immutable inputs, categories; no silent scaling/minimum inflation | [Engine](../backend/src/engine.js), [agents](../backend/src/agents.js) |
+| Monetary arithmetic | Whole INR, rational percentages/half-up rounding, explicit charge permissions and bases | [Budget rules](../backend/src/budget-rules.js) |
+| Financial alternatives | Separate proposals; confirmed acceptance; stale fingerprint rejection; approval invalidation | [API](../backend/src/api.js) |
+| Identity/counts | Stable IDs, retained duplicate sources/conflicts; distinct activity | [Directory](../backend/src/researcher-directory.js), [activity](../backend/src/proposal-activity.js) |
+| Persistence | Unique atomic writes, bounded Windows retries, surfaced failure | [Writer](../backend/src/atomic-store.js), [core](../backend/src/core.js) |
+| Providers | Safe missing/rejected/rate/timeout/network/malformed diagnostics and Retry-After | [HTTP adapter](../backend/src/provider-http.js), [sources](../backend/src/research-sources.js) |
+| Exports | Genuine saved-version DOCX/PDF, auth, MIME and immutable hashes | [Renderer](../backend/src/exports.js) |
+| Restore | Authorized confirmed deep-copy snapshot; missing context stays unavailable | [Engine](../backend/src/engine.js), [UI](../frontend/src/pages/aura-rundetail.jsx) |
 
 ### Budget fixture and policy boundaries
 
@@ -153,7 +153,7 @@ Backend identifiers stay compatible; labels say internally approved proposals. A
 
 Restore requires version:rollback authority, rejects active execution, and explains selected version, scope and missing fields before confirmation. Deep copies protect original versions. Exact historical approval provenance is retained as history, never a new review. Subsequent edits clear current approval.
 
-[Correctness regressions](../../backend/tests/correctness.test.js) cover all these paths as part of the fresh 50-test suite, including private-profile visibility, restart and persistent-write HTTP failure. Prior live OpenAlex checks returned 401/503; MongoDB is locally absent. No successful live provider, institutional acceptance or scientific truth claim follows from mocks. See [verification](../docs/VERIFICATION.md).
+[Correctness regressions](../backend/tests/correctness.test.js) cover all these paths as part of the fresh 50-test suite, including private-profile visibility, restart and persistent-write HTTP failure. Prior live OpenAlex checks returned 401/503; MongoDB is locally absent. No successful live provider, institutional acceptance or scientific truth claim follows from mocks. See [verification](../docs/VERIFICATION.md).
 
 ## 7. Setup and configuration
 
@@ -162,26 +162,26 @@ Restore requires version:rollback authority, rejects active execution, and expla
 Use Node 24. The supplied scripts require Node 22.13+; fresh checks used Node 24.11.1/npm 11.6.2 on Windows. From root:
 
 ```sh
-npm --prefix backend ci
-npm --prefix frontend ci
-npm --prefix frontend run build
+npm --prefix Course-Project/backend ci
+npm --prefix Course-Project/frontend ci
+npm --prefix Course-Project/frontend run build
 ```
 
-Copy [the safe example](../../backend/.env.example) to backend/.env, preserving existing configuration. Start from backend so dotenv reads that file:
+Copy [the safe example](../backend/.env.example) to Course-Project/backend/.env, preserving existing configuration. Start from backend so dotenv reads that file:
 
 ```sh
-cd backend
+cd Course-Project/backend
 npm start
 ```
 
-Open http://localhost:3000. Windows setup.bat/start.bat provide the install/build/start path. Dependency installation needs network; offline workflow/tests need no keys, MongoDB Atlas or Ollama. A fresh clone ships no operational proposals.
+Open http://localhost:3000. Windows Course-Project/setup.bat and Course-Project/start.bat provide the install/build/start path. Dependency installation needs network; offline workflow/tests need no keys, MongoDB Atlas or Ollama. A fresh clone ships no operational proposals.
 
-Development: run `npm --prefix backend run dev` and `npm --prefix frontend run dev` in separate terminals; Vite uses http://localhost:5173 and proxies API port 3000. Rebuild before using the single-process console.
+Development: run `npm --prefix Course-Project/backend run dev` and `npm --prefix Course-Project/frontend run dev` in separate terminals; Vite uses http://localhost:5173 and proxies API port 3000. Rebuild before using the single-process console.
 
 | Variable | Behavior |
 | --- | --- |
 | `PORT` | Backend port, default 3000; adjust Vite proxy if changed |
-| `AURA_DATA_DIR` | Primary workflow directory; default backend/data |
+| `AURA_DATA_DIR` | Primary workflow directory; default Course-Project/backend/data |
 | `AURA_LLM=off` | Deterministic offline template drafting |
 | `GRANT_LLM` | ollama default; template disables model; groq explicitly selects cloud |
 | `OLLAMA_MODEL` | Default qwen2.5:3b |
@@ -201,11 +201,11 @@ DOCX needs no Office installation. PDF detects Segoe UI on Windows or DejaVu San
 ### Main verification
 
 ```sh
-npm --prefix backend test
-npm --prefix frontend run lint -- --max-warnings 0
-npm --prefix frontend run build
-python tools/verify_labs.py
-python tools/check_docs.py
+npm --prefix Course-Project/backend test
+npm --prefix Course-Project/frontend run lint -- --max-warnings 0
+npm --prefix Course-Project/frontend run build
+python Course-Project/tools/verify_labs.py
+python Course-Project/tools/check_docs.py
 ```
 
 Labs need Python 3.10+ standard library. Set `PYTHONUTF8=1` and `PYTHONIOENCODING=utf-8` on Windows. verify.bat runs the checks above; it does not install/run the independent Python environment. Notebook rebuilding is optional; supplied outputs were not overwritten.
@@ -284,10 +284,10 @@ Future work: approved live-call ingestion; authentic agency/ethics policy/quotat
 
 1. [Original course problem statement](../Problem_Statement/Research_Grant_Management_System.docx), supplied project document, preserved unchanged.
 2. [Agentic AI 15 Worklets / 14-Lab Build Book](../docs/originals/Agentic_AI_15_Worklets_14Lab_Build_Book.docx) and [lab guide](../docs/originals/Agentic_AI_Lab_Guide.docx), supplied course originals.
-3. [Current backend source](../../backend/src/) and [backend tests](../../backend/tests/), implementation evidence, inspected 18 November 2026.
-4. [College catalog](../../langgraph_edition/data/catalog.json), [provenance reconciliation](../../langgraph_edition/data/reconciliation.json) and retained original workbooks/CSVs, supplied institutional records.
+3. [Current backend source](../backend/src/) and [backend tests](../backend/tests/), implementation evidence, inspected 18 November 2026.
+4. [College catalog](../langgraph_edition/data/catalog.json), [provenance reconciliation](../langgraph_edition/data/reconciliation.json) and retained original workbooks/CSVs, supplied institutional records.
 5. [OpenAlex authentication documentation](https://help.openalex.org/api/authentication/) and [error documentation](https://help.openalex.org/api/errors/), consulted during the earlier correctness diagnostic; no successful live retrieval inferred.
 6. [docx Packer](https://docx.js.org/api/classes/index.Packer.html) and [PDFKit tables](https://pdfkit.org/docs/table.html), library references for genuine binary exports.
-7. [Fresh verification record](../docs/VERIFICATION.md), [assignment index](../../Assignments/README.md) and [repository audit](../../docs/REPOSITORY_UPDATE_REPORT.md).
+7. [Fresh verification record](../docs/VERIFICATION.md), [assignment index](../../Assignments/README.md) and [repository audit](../docs/REPOSITORY_UPDATE_REPORT.md).
 
-No literature performance comparison, measured productivity improvement, completed faculty review or production deployment is invented. To regenerate report binaries after editing this Markdown, install backend dependencies and run `node tools/render_report.js` from repository root. The report renderer is separate from the application's saved-proposal export path.
+No literature performance comparison, measured productivity improvement, completed faculty review or production deployment is invented. To regenerate report binaries after editing this Markdown, install backend dependencies and run `node Course-Project/tools/render_report.js` from repository root. The report renderer is separate from the application's saved-proposal export path.

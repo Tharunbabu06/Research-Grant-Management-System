@@ -67,7 +67,7 @@ function buildDirectory({ confirmed = FACULTY, publications = college.publicatio
   }
   // Existing institutional records take precedence and retain their stable IDs.
   for (const faculty of confirmed) {
-    add(faculty.Name, { kind:'confirmed_faculty', source:faculty.directorySource || 'backend/src/faculty.js', id:faculty.id },
+    add(faculty.Name, { kind:'confirmed_faculty', source:faculty.directorySource || 'Course-Project/backend/src/faculty.js', id:faculty.id },
       { id:faculty.id, department:faculty.Dept, email:faculty.email, aliases:faculty.aliases || [], confirmedFaculty:true });
   }
   for (const publication of publications.filter((p) => !p.mock)) {
