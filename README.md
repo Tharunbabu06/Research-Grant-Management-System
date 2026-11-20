@@ -47,7 +47,7 @@ Research-Grant-Management-System/
     └── docs/                    # Guides, screenshots and course originals
 ```
 
-The independent Python edition, earlier lab support, verification tools and Windows launchers are also retained inside `Course-Project/`. GitHub automation remains in `.github/`.
+The independent Python edition, earlier lab support, verification tools and Windows launchers are also retained inside `Course-Project/`. The preserved workflow definition and Git attributes are also stored inside `Course-Project/`, keeping the repository root to the five entries shown above.
 
 ## 4. Assignments overview
 
@@ -250,7 +250,7 @@ Local AI requires an installed Ollama service and `ollama pull qwen2.5:3b`; use 
 
 ### 5.6 Results and verification
 
-The following results were recorded during the completed verification on **19 November 2026**. These are separate scopes; repeated/subset runs are not added to the totals. GitHub Actions reruns the corresponding offline commands on each push.
+The following results were recorded during the completed verification on **19 November 2026**. These are separate scopes; repeated/subset runs are not added to the totals. The same offline checks remain available through [verify.bat](Course-Project/verify.bat).
 
 | Verification scope | Recorded result | Evidence |
 | --- | --- | --- |
@@ -274,7 +274,7 @@ Implemented behavior demonstrated by the regressions includes:
 7. **Governed recovery:** unauthorized Restore is refused and subsequent working edits do not mutate the source approved version.
 8. **Honest provider outcomes:** controlled tests distinguish retrieval success, empty results and error categories while preserving independent Crossref/college behavior.
 
-[Full verification record and limitations](Course-Project/docs/VERIFICATION.md) / [Current GitHub Actions runs](https://github.com/Tharunbabu06/Research-Grant-Management-System/actions).
+[Full verification record and limitations](Course-Project/docs/VERIFICATION.md) / [Previous GitHub Actions runs](https://github.com/Tharunbabu06/Research-Grant-Management-System/actions).
 
 Reproduce the main checks from repository root:
 
@@ -327,3 +327,11 @@ Future work includes office-approved live-call/policy ingestion, verified quotat
 ## 8. Attribution
 
 The supplied reference project, GrantOffice/Python edition, college source records and earlier lab implementations retain their attribution. Course-issued originals and historical evidence remain unchanged. No new license, completed review sheet, faculty signature or institutional approval has been invented.
+
+## 9. Documentation Links
+
+| Resource | Link |
+| --- | --- |
+| Assignment folder | [Assignments](Assignments/) |
+| Project documentation | [Project documentation folder](Course-Project/docs/) |
+| Final report | [Final report folder](Course-Project/Final_Report/) - [Markdown](Course-Project/Final_Report/GrantOffice_Technical_Report.md), [DOCX](Course-Project/Final_Report/Final_Report_Research_Grant_Management_System.docx), [PDF](Course-Project/Final_Report/Final_Report_Research_Grant_Management_System.pdf) |

@@ -61,3 +61,9 @@ Relocation completion checks: the separate Python application passed all 66 test
 ## Dashboard image and confirmed division - 19 November 2026
 
 Replaced the root README branding strip with a genuine matching faculty-dashboard capture from the running app, since the pasted screenshot was not exposed as a local asset. The screenshot contains only the requested faculty identity/dashboard aggregates, without credentials, tokens or proposal narrative. Added a separate Division column showing B-DIV for all four members and synchronized the current report and team-status documentation. Blank originals remain unchanged.
+
+## Exactly five root entries - 20 November 2026
+
+Added a final Documentation Links table to the README with relative links to Assignments, project documentation and the final report in its folder/formats. Moved root .github and .gitattributes into Course-Project, preserving their contents. The tracked root now consists only of Assignments, Course-Project, .gitignore, README.md and requirements.txt; GitHub's default directories-first/name ordering matches the requested screenshot. Local .git metadata remains necessary and is not a published repository entry.
+
+Automatic GitHub Actions is disabled because GitHub requires workflow definitions at repository-root .github/workflows. The definition is retained under Course-Project/.github/workflows, local verification scripts remain working, and current documentation now states this limitation. Previous successful CI runs are retained as historical results. Application code, operational data and course originals are unchanged.
